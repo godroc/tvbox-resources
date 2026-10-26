@@ -1,0 +1,18 @@
+{
+  "version": "rc29",
+  "tag": "mirror-20261027-rc29-webhome",
+  "feature": "self-hosted-webhome",
+  "device_keys_required": true,
+  "backend_moved": false,
+  "tv_tested": false,
+  "homePage": "https://godroc.github.io/tvbox-resources/webhome/rc29-e1dce553f0d8/index.html",
+  "static_sha256": {
+    "index.html": "9d449565b99fe684796f9b0328cd16725fb081e53e0fbb4bcf7d089e61f3f8c8",
+    "styles.css": "42a130d7b7b930b64d6b9125e30f5e6042120b775cb57bccae5f4058875d3c2f",
+    "core.js": "f20b80ef1ed42329703dceda028ba81bd802ba8e4f977ba1743e71402afd239e",
+    "providers.js": "2edca18f5e2885a06b7089f5bf868a47845a43f1e4cd29590a34ec4816263244",
+    "catalog.js": "fcb800290ad5f7337bd594ef61cf3237912cb8190a95b71a799511b2ea0caf1f",
+    "catalog.css": "80941e89c54afb08b5080c6000e593a69b5eac6c7a1bfc8576098bba345033d8",
+    "app.js": "779e1741d4445466ee9cc2c90ddc5a4bc09215cfec762ef4385dac0df01bb82b"
+  }
+}
