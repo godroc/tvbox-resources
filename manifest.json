@@ -1,5 +1,5 @@
 {
-  "version": "mirror-20261026-rc18-2",
+  "version": "mirror-20261026-rc19",
   "device_keys_required": true,
   "tv_tested": false,
   "files": {
@@ -4344,80 +4344,80 @@
       "sha256": "3dec79b48f892c8c320d73bef11034ab93aef0232be5abc77d1b9bcf07bed2c9"
     },
     "fast/main.json": {
-      "bytes": 82683,
-      "sha256": "6a2e3a2215fbbe491d2a9211d09fc102f0d43cc087610166ae0e1fb5df008c18"
+      "bytes": 82533,
+      "sha256": "65eeeb4a706a84f56c40b8e95f145e7b5cc42bef5f86809ca1740b7ca53468b6"
     },
     "fast/manifest.json": {
-      "bytes": 171540,
-      "sha256": "18a8d36a69d76dad9d92286fbed39715c42e2836a5998c35761f9ccce688c312"
+      "bytes": 176315,
+      "sha256": "9af640cad4c25c4c6e2c1efb02d4294c2060ce68cb742c1b457466b091cb8d0c"
     },
-    "fast/releases/v0.1.0-rc18/godnext.jar": {
-      "bytes": 28026,
-      "sha256": "039837c15d155e7a69a74510291157a0f3e5d0039eb0f3b61b0f3ee5165f8046"
+    "fast/releases/v0.1.0-rc19/godnext.jar": {
+      "bytes": 28076,
+      "sha256": "f2085b52b71846e566aeb04c7bc6dda7b95bed22399354903c8859854dd4047e"
     },
-    "fast/releases/v0.1.0-rc18/group-icons/115.png": {
+    "fast/releases/v0.1.0-rc19/group-icons/115.png": {
       "bytes": 6132,
       "sha256": "ee606ac9187e450aeee9e92f52ea833f93186d27b14699a8b48ac1c35d815aa4"
     },
-    "fast/releases/v0.1.0-rc18/group-icons/123.png": {
+    "fast/releases/v0.1.0-rc19/group-icons/123.png": {
       "bytes": 7556,
       "sha256": "b094e0d053aa391566683ffeb0411614bede3280ac97f6d8b88a66e4c402e701"
     },
-    "fast/releases/v0.1.0-rc18/group-icons/aliyun.png": {
+    "fast/releases/v0.1.0-rc19/group-icons/aliyun.png": {
       "bytes": 6300,
       "sha256": "b097f79b2c0d13a989fdc974444ff16230ff73910b4a4d46c5854df1548159df"
     },
-    "fast/releases/v0.1.0-rc18/group-icons/baidu.png": {
+    "fast/releases/v0.1.0-rc19/group-icons/baidu.png": {
       "bytes": 7217,
       "sha256": "dbd0da2dda94a486594af63521d7b45230d7ef855c28ac47c80fa8c97c5030ff"
     },
-    "fast/releases/v0.1.0-rc18/group-icons/ed2k.png": {
+    "fast/releases/v0.1.0-rc19/group-icons/ed2k.png": {
       "bytes": 7344,
       "sha256": "82f03afe45d213497d6e9986cb4af99d5b073e14f4847eb58c41f40eced0aa9f"
     },
-    "fast/releases/v0.1.0-rc18/group-icons/guangya.png": {
+    "fast/releases/v0.1.0-rc19/group-icons/guangya.png": {
       "bytes": 7883,
       "sha256": "fa59eb92bc1d4ff761b57b3e97c75ad9136df01762010d2221563d2ca7509880"
     },
-    "fast/releases/v0.1.0-rc18/group-icons/magnet.png": {
+    "fast/releases/v0.1.0-rc19/group-icons/magnet.png": {
       "bytes": 9936,
       "sha256": "a7a1cb963d396d6e9926e963d9090a38cb96bf19cb0dae26bb4c9b1e8cf71dc5"
     },
-    "fast/releases/v0.1.0-rc18/group-icons/mobile.png": {
+    "fast/releases/v0.1.0-rc19/group-icons/mobile.png": {
       "bytes": 10608,
       "sha256": "667bf13d203597059b29218531509fd224a28ce97f7b6d0b4b78ed21df6fc883"
     },
-    "fast/releases/v0.1.0-rc18/group-icons/other.png": {
+    "fast/releases/v0.1.0-rc19/group-icons/other.png": {
       "bytes": 8047,
       "sha256": "fd0c52294be75c5109190df1f0731a2b91edfd1dc9a0fd2a1cd05b8dedae8c24"
     },
-    "fast/releases/v0.1.0-rc18/group-icons/pikpak.png": {
+    "fast/releases/v0.1.0-rc19/group-icons/pikpak.png": {
       "bytes": 6899,
       "sha256": "27ddc1ee8d7423912cc073bffc25cbdd95ddab72b753a1bdf5c00eeab87e6d44"
     },
-    "fast/releases/v0.1.0-rc18/group-icons/quark.png": {
+    "fast/releases/v0.1.0-rc19/group-icons/quark.png": {
       "bytes": 7878,
       "sha256": "d81c5540bedda2360fb237acef1a2658d978e1f4d4c064950f617e5f9ea282fa"
     },
-    "fast/releases/v0.1.0-rc18/group-icons/tianyi.png": {
+    "fast/releases/v0.1.0-rc19/group-icons/tianyi.png": {
       "bytes": 8685,
       "sha256": "a91364385870bb985c1438fd79fe15aace6d348c84b64e716f4ec0115a51403b"
     },
-    "fast/releases/v0.1.0-rc18/group-icons/uc.png": {
+    "fast/releases/v0.1.0-rc19/group-icons/uc.png": {
       "bytes": 6605,
       "sha256": "b3e327e7c63885f713a8561b4bdf7e49def1e6664807581436230990031d168f"
     },
-    "fast/releases/v0.1.0-rc18/group-icons/xunlei.png": {
+    "fast/releases/v0.1.0-rc19/group-icons/xunlei.png": {
       "bytes": 7133,
       "sha256": "d8526f2e70ad9ea4c367119c08b4a13e0381cc802a3fd2f1912a26e3f71048d0"
     },
-    "fast/releases/v0.1.0-rc18/main.json": {
-      "bytes": 82683,
-      "sha256": "6a2e3a2215fbbe491d2a9211d09fc102f0d43cc087610166ae0e1fb5df008c18"
+    "fast/releases/v0.1.0-rc19/main.json": {
+      "bytes": 82533,
+      "sha256": "65eeeb4a706a84f56c40b8e95f145e7b5cc42bef5f86809ca1740b7ca53468b6"
     },
     "main.json": {
-      "bytes": 82683,
-      "sha256": "6a2e3a2215fbbe491d2a9211d09fc102f0d43cc087610166ae0e1fb5df008c18"
+      "bytes": 82533,
+      "sha256": "65eeeb4a706a84f56c40b8e95f145e7b5cc42bef5f86809ca1740b7ca53468b6"
     },
     "raw/assets/s0/biliext/Bili.json": {
       "bytes": 40083,
@@ -8756,88 +8756,96 @@
       "sha256": "3dec79b48f892c8c320d73bef11034ab93aef0232be5abc77d1b9bcf07bed2c9"
     },
     "raw/main.json": {
-      "bytes": 81033,
-      "sha256": "0587b3a497f239a494b22f8bcd0560c94562f388365fda45179cb95fc1c7f8a8"
+      "bytes": 80883,
+      "sha256": "1184c3a55083b86395fd2bd89b31256ede4b09e93a547faaae49b3aa65a16016"
     },
     "raw/manifest.json": {
-      "bytes": 171518,
-      "sha256": "f51ebbc3d22f9f80de3be33790ab2cc69709213b570a09aa84192a558b5821bc"
+      "bytes": 176293,
+      "sha256": "73c5116af863ff07062979c1addd82b86ad6c0539b2fc84d4f2457763850e318"
     },
-    "raw/releases/v0.1.0-rc18/godnext.jar": {
-      "bytes": 28026,
-      "sha256": "039837c15d155e7a69a74510291157a0f3e5d0039eb0f3b61b0f3ee5165f8046"
+    "raw/releases/v0.1.0-rc19/godnext.jar": {
+      "bytes": 28076,
+      "sha256": "f2085b52b71846e566aeb04c7bc6dda7b95bed22399354903c8859854dd4047e"
     },
-    "raw/releases/v0.1.0-rc18/group-icons/115.png": {
+    "raw/releases/v0.1.0-rc19/group-icons/115.png": {
       "bytes": 6132,
       "sha256": "ee606ac9187e450aeee9e92f52ea833f93186d27b14699a8b48ac1c35d815aa4"
     },
-    "raw/releases/v0.1.0-rc18/group-icons/123.png": {
+    "raw/releases/v0.1.0-rc19/group-icons/123.png": {
       "bytes": 7556,
       "sha256": "b094e0d053aa391566683ffeb0411614bede3280ac97f6d8b88a66e4c402e701"
     },
-    "raw/releases/v0.1.0-rc18/group-icons/aliyun.png": {
+    "raw/releases/v0.1.0-rc19/group-icons/aliyun.png": {
       "bytes": 6300,
       "sha256": "b097f79b2c0d13a989fdc974444ff16230ff73910b4a4d46c5854df1548159df"
     },
-    "raw/releases/v0.1.0-rc18/group-icons/baidu.png": {
+    "raw/releases/v0.1.0-rc19/group-icons/baidu.png": {
       "bytes": 7217,
       "sha256": "dbd0da2dda94a486594af63521d7b45230d7ef855c28ac47c80fa8c97c5030ff"
     },
-    "raw/releases/v0.1.0-rc18/group-icons/ed2k.png": {
+    "raw/releases/v0.1.0-rc19/group-icons/ed2k.png": {
       "bytes": 7344,
       "sha256": "82f03afe45d213497d6e9986cb4af99d5b073e14f4847eb58c41f40eced0aa9f"
     },
-    "raw/releases/v0.1.0-rc18/group-icons/guangya.png": {
+    "raw/releases/v0.1.0-rc19/group-icons/guangya.png": {
       "bytes": 7883,
       "sha256": "fa59eb92bc1d4ff761b57b3e97c75ad9136df01762010d2221563d2ca7509880"
     },
-    "raw/releases/v0.1.0-rc18/group-icons/magnet.png": {
+    "raw/releases/v0.1.0-rc19/group-icons/magnet.png": {
       "bytes": 9936,
       "sha256": "a7a1cb963d396d6e9926e963d9090a38cb96bf19cb0dae26bb4c9b1e8cf71dc5"
     },
-    "raw/releases/v0.1.0-rc18/group-icons/mobile.png": {
+    "raw/releases/v0.1.0-rc19/group-icons/mobile.png": {
       "bytes": 10608,
       "sha256": "667bf13d203597059b29218531509fd224a28ce97f7b6d0b4b78ed21df6fc883"
     },
-    "raw/releases/v0.1.0-rc18/group-icons/other.png": {
+    "raw/releases/v0.1.0-rc19/group-icons/other.png": {
       "bytes": 8047,
       "sha256": "fd0c52294be75c5109190df1f0731a2b91edfd1dc9a0fd2a1cd05b8dedae8c24"
     },
-    "raw/releases/v0.1.0-rc18/group-icons/pikpak.png": {
+    "raw/releases/v0.1.0-rc19/group-icons/pikpak.png": {
       "bytes": 6899,
       "sha256": "27ddc1ee8d7423912cc073bffc25cbdd95ddab72b753a1bdf5c00eeab87e6d44"
     },
-    "raw/releases/v0.1.0-rc18/group-icons/quark.png": {
+    "raw/releases/v0.1.0-rc19/group-icons/quark.png": {
       "bytes": 7878,
       "sha256": "d81c5540bedda2360fb237acef1a2658d978e1f4d4c064950f617e5f9ea282fa"
     },
-    "raw/releases/v0.1.0-rc18/group-icons/tianyi.png": {
+    "raw/releases/v0.1.0-rc19/group-icons/tianyi.png": {
       "bytes": 8685,
       "sha256": "a91364385870bb985c1438fd79fe15aace6d348c84b64e716f4ec0115a51403b"
     },
-    "raw/releases/v0.1.0-rc18/group-icons/uc.png": {
+    "raw/releases/v0.1.0-rc19/group-icons/uc.png": {
       "bytes": 6605,
       "sha256": "b3e327e7c63885f713a8561b4bdf7e49def1e6664807581436230990031d168f"
     },
-    "raw/releases/v0.1.0-rc18/group-icons/xunlei.png": {
+    "raw/releases/v0.1.0-rc19/group-icons/xunlei.png": {
       "bytes": 7133,
       "sha256": "d8526f2e70ad9ea4c367119c08b4a13e0381cc802a3fd2f1912a26e3f71048d0"
     },
-    "raw/releases/v0.1.0-rc18/main.json": {
-      "bytes": 81033,
-      "sha256": "0587b3a497f239a494b22f8bcd0560c94562f388365fda45179cb95fc1c7f8a8"
+    "raw/releases/v0.1.0-rc19/main.json": {
+      "bytes": 80883,
+      "sha256": "1184c3a55083b86395fd2bd89b31256ede4b09e93a547faaae49b3aa65a16016"
     },
     "raw-main.json": {
-      "bytes": 81033,
-      "sha256": "0587b3a497f239a494b22f8bcd0560c94562f388365fda45179cb95fc1c7f8a8"
+      "bytes": 80883,
+      "sha256": "1184c3a55083b86395fd2bd89b31256ede4b09e93a547faaae49b3aa65a16016"
+    },
+    "raw-stable.json": {
+      "bytes": 80883,
+      "sha256": "1184c3a55083b86395fd2bd89b31256ede4b09e93a547faaae49b3aa65a16016"
     },
     "README.md": {
-      "bytes": 795,
-      "sha256": "bd3fa7391e1fd6c715f08363b5d1bbaf8b67fc1470208adae9c45bf45b208081"
+      "bytes": 602,
+      "sha256": "8c6de296cb1bfa7c590badd8f4c9e7a84f49a0af3ce349eb54445e5dbcad5e7c"
+    },
+    "stable.json": {
+      "bytes": 82533,
+      "sha256": "65eeeb4a706a84f56c40b8e95f145e7b5cc42bef5f86809ca1740b7ca53468b6"
     },
     "THIRD_PARTY.md": {
-      "bytes": 363,
-      "sha256": "ae37117bc72f4d4d2e08c641218b6c6e567e8976b4d382865f002584d50131f2"
+      "bytes": 264,
+      "sha256": "122f56db96e715de3484313c14c814d5d25deb613ee9873d4b6c12c8f32015f4"
     }
   }
 }
