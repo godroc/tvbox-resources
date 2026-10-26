@@ -1,8 +1,8 @@
 # Godroc TV static delivery
 
-Stable accelerated entry: https://gh-proxy.com/https://raw.githubusercontent.com/godroc/tvbox-resources/main/main.json
+Stable accelerated entry: https://gh-proxy.com/https://raw.githubusercontent.com/godroc/tvbox-resources/refs/heads/main/main.json
 
-Direct entry: https://raw.githubusercontent.com/godroc/tvbox-resources/main/raw-main.json
+Direct entry: https://raw.githubusercontent.com/godroc/tvbox-resources/refs/heads/main/raw-main.json
 
 Server entry: https://tv.godroc.dpdns.org/next/stable/main.json
 
