@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "version": "mirror-20261026-rc18",
+  "version": "mirror-20261026-rc18-1",
   "redacted_fields": [
-    "assets\\s0\\XBPQ\\\u96ea\u82b1.json.\u641c\u7d22url [query credential omitted]",
-    "assets\\s0\\xiaosa\\XBPQ\\\u96ea\u82b1.json.\u641c\u7d22url [query credential omitted]",
-    "assets\\s0\\XYQHiker\\\u4e91\u76d8\u8d44\u6e90.json.\u641c\u7d22\u94fe\u63a5 [query credential omitted]",
-    "assets\\s0\\XYQHiker\\\u5154\u5c0f\u8d1d.json.\u641c\u7d22\u94fe\u63a5 [query credential omitted]",
-    "assets\\s0\\XYQHiker\\\u5154\u5c0f\u8d1d2.json.\u641c\u7d22\u94fe\u63a5 [query credential omitted]"
+    "assets\\s0\\XBPQ\\雪花.json.搜索url [query credential omitted]",
+    "assets\\s0\\xiaosa\\XBPQ\\雪花.json.搜索url [query credential omitted]",
+    "assets\\s0\\XYQHiker\\云盘资源.json.搜索链接 [query credential omitted]",
+    "assets\\s0\\XYQHiker\\兔小贝.json.搜索链接 [query credential omitted]",
+    "assets\\s0\\XYQHiker\\兔小贝2.json.搜索链接 [query credential omitted]"
   ],
   "source_url": "https://tv.godroc.dpdns.org/next/releases/v0.1.0-rc18/main.json",
-  "mirror_base": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/",
+  "mirror_base": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/",
   "sites": 156,
   "backend_moved": false,
   "files": {
@@ -17,27 +17,27 @@
       "bytes": 40083,
       "sha256": "af6e1cfba9a82536c289c1589ff724dfc422582cc48abd39eb1a3c2569cd9257"
     },
-    "assets/s0/biliext/Bili\u77ed\u5267.json": {
+    "assets/s0/biliext/Bili短剧.json": {
       "bytes": 1303,
       "sha256": "f8d26d44e08d3595b86081021ebcbaa11f6636bf8ca1ad4e3fec26612ae97b79"
     },
-    "assets/s0/biliext/\u521d\u4e2d\u8bfe\u5802.json": {
+    "assets/s0/biliext/初中课堂.json": {
       "bytes": 25211,
       "sha256": "b775d39ab72a1456f0eabe426d7909c9f52c797d194f44cb897e3914b706606b"
     },
-    "assets/s0/biliext/\u5c0f\u5b66\u8bfe\u5802.json": {
+    "assets/s0/biliext/小学课堂.json": {
       "bytes": 21987,
       "sha256": "f9d4c47fac3c0571f2b511a3a3c0acab908dc371674bb845262f03b4f6a7d448"
     },
-    "assets/s0/biliext/\u5c11\u513f\u6559\u80b2.json": {
+    "assets/s0/biliext/少儿教育.json": {
       "bytes": 856,
       "sha256": "bcd8103b231695bda91fb7559d6a1bc8950b7294be5c96b4cef7609adb268979"
     },
-    "assets/s0/biliext/\u5e7c\u513f\u4e50\u56ed.json": {
+    "assets/s0/biliext/幼儿乐园.json": {
       "bytes": 1249,
       "sha256": "56b1f6c83089258ac68fb748038acf9448015fbc064de3a46c8aebf041a625b9"
     },
-    "assets/s0/biliext/\u9ad8\u4e2d\u8bfe\u5802.json": {
+    "assets/s0/biliext/高中课堂.json": {
       "bytes": 33078,
       "sha256": "95a3eb2ac2b05f2b92c82786cba8f6f1607cf2de59c08891266baec533e41181"
     },
@@ -1293,7 +1293,7 @@
       "bytes": 33741,
       "sha256": "66fc78ad32b9a0067ff2158fec824d319e0e23408da382a72e9f33f9debdcf8e"
     },
-    "assets/s0/FTY/310\u76f4\u64ad.js": {
+    "assets/s0/FTY/310直播.js": {
       "bytes": 526,
       "sha256": "c9b289d4f4309390558cdbbc341c20999595b12f1a2ab35d18df36919005ea9b"
     },
@@ -1301,7 +1301,7 @@
       "bytes": 4559,
       "sha256": "d652531d558bda382096d482e5cfa17b0097d654be4c7da8eeee6202d76eff08"
     },
-    "assets/s0/FTY/88\u770b\u7403.js": {
+    "assets/s0/FTY/88看球.js": {
       "bytes": 1958,
       "sha256": "ed80b602235a87d2ed10debe916755c83dbbcf37d8df043f51d7c7771f695a49"
     },
@@ -1401,67 +1401,67 @@
       "bytes": 6011,
       "sha256": "8c6e2c0220eb2264b7d47f792c6ae89fce0a89fcc50cd8fe2decaaf0c3493ce7"
     },
-    "assets/s0/FTY/\u4e0a\u5934\u77ed\u5267.js": {
+    "assets/s0/FTY/上头短剧.js": {
       "bytes": 1079,
       "sha256": "a93007fa8a2133079161e4410e69a7c3f88e45d5b901e114be6c3d4aad53146a"
     },
-    "assets/s0/FTY/\u5154\u5c0f\u8d1d.js": {
+    "assets/s0/FTY/兔小贝.js": {
       "bytes": 1009,
       "sha256": "7173a949be786609d3c16cd02d9797889c6086a485aeff2f29bc77c602dc4676"
     },
-    "assets/s0/FTY/\u521d\u4e2d\u8bfe\u5802.json": {
+    "assets/s0/FTY/初中课堂.json": {
       "bytes": 76854,
       "sha256": "e3ddf04169aed6e92aa67abb52cb1bc4272e2d31ef0666c083dc11fcd0d859dc"
     },
-    "assets/s0/FTY/\u540d\u5e08\u8bfe\u5802.json": {
+    "assets/s0/FTY/名师课堂.json": {
       "bytes": 7951,
       "sha256": "f8552711f8268b3e21215715d0423449b7ad9b34bcf3bd4311e15470d9a05706"
     },
-    "assets/s0/FTY/\u5c0f\u5b66\u8bfe\u5802.json": {
+    "assets/s0/FTY/小学课堂.json": {
       "bytes": 22653,
       "sha256": "63de2d394902b739a8dd618792edcd50da0def0c769b3f0646345618e22ba621"
     },
-    "assets/s0/FTY/\u5c11\u513f\u6559\u80b2.json": {
+    "assets/s0/FTY/少儿教育.json": {
       "bytes": 8974,
       "sha256": "9e636456591ca41e1d9cea6465c54f26ee5e865fc800beae09287ed8243c1462"
     },
-    "assets/s0/FTY/\u620f\u66f2\u5927\u5168.json": {
+    "assets/s0/FTY/戏曲大全.json": {
       "bytes": 38857,
       "sha256": "5e2005f3762ba76990326e2e002f4bbee851210ea86afc736b4f2d2d23ec0cc6"
     },
-    "assets/s0/FTY/\u6597\u9c7c.js": {
+    "assets/s0/FTY/斗鱼.js": {
       "bytes": 78757,
       "sha256": "339e4f1d480705b52bbc724796ecfc4f5d3f41557c9d96baa9a127865b1d9976"
     },
-    "assets/s0/FTY/\u6597\u9c7c\u76f4\u64ad.js": {
+    "assets/s0/FTY/斗鱼直播.js": {
       "bytes": 32258,
       "sha256": "114a5ec86e6d48545ce0a99b1a5552380d735998737166e8fa3887479e04d64d"
     },
-    "assets/s0/FTY/\u6709\u58f0\u5c0f\u8bf4\u5427.js": {
+    "assets/s0/FTY/有声小说吧.js": {
       "bytes": 1867,
       "sha256": "6186b9a3177dcbb106a90ef4b34f9cc84630fab52ac8c558eb7d714d71e83c9c"
     },
-    "assets/s0/FTY/\u6a21\u677f.js": {
+    "assets/s0/FTY/模板.js": {
       "bytes": 15300,
       "sha256": "1da00bdcb30ab1a7875a84ee6fc82256e705330b6cc9d84144f163df68b665cb"
     },
-    "assets/s0/FTY/\u76d8\u4ed6.js": {
+    "assets/s0/FTY/盘他.js": {
       "bytes": 1538,
       "sha256": "796a7f8ba0a43dbe1563f203a62ba7cd6bff4c6fd8b315b4e975fff5fa90513b"
     },
-    "assets/s0/FTY/\u77ed\u89c6\u9891.js": {
+    "assets/s0/FTY/短视频.js": {
       "bytes": 1845,
       "sha256": "28211af6703d08b8ed4a668f58fa5879ea568de8f2749d79ca04981b726a2076"
     },
-    "assets/s0/FTY/\u864e\u7259.js": {
+    "assets/s0/FTY/虎牙.js": {
       "bytes": 46047,
       "sha256": "efe1013ec759d66767d356f6769d79a697cb9ecdac44deb682a38b32f83e01fc"
     },
-    "assets/s0/FTY/\u9177\u5947MV.js": {
+    "assets/s0/FTY/酷奇MV.js": {
       "bytes": 1122,
       "sha256": "457d6bcb215ef20531e38fcd7813282f12239f282f84077977a87569d6a1ef50"
     },
-    "assets/s0/FTY/\u9ad8\u4e2d\u8bfe\u5802.json": {
+    "assets/s0/FTY/高中课堂.json": {
       "bytes": 77286,
       "sha256": "7ab4cb7eb6df73595d8217bfb58b635fe08d968cced8c775da8cf03e453680f8"
     },
@@ -1517,11 +1517,11 @@
       "bytes": 12611,
       "sha256": "397f3e4436b567c193013ac260a0c14648e8ceb21147881aa7208356497b93dd"
     },
-    "assets/s0/js/139\u5f71\u89c6.js": {
+    "assets/s0/js/139影视.js": {
       "bytes": 13306,
       "sha256": "e871ef372a3c3eedbe9f0cfcaeac4f112bfd8ba60d698abd48b1c1deafdfb817"
     },
-    "assets/s0/js/188\u5f71\u89c6.js": {
+    "assets/s0/js/188影视.js": {
       "bytes": 7299,
       "sha256": "4dc9c7077a637c3578462a7e7532b56153a70876dc3a329a97a21bb5190ca7ee"
     },
@@ -1529,27 +1529,27 @@
       "bytes": 477,
       "sha256": "ec4f64f4e8555f47072ae7af32bf55827fb84243f943aede4f6b720b36db5be6"
     },
-    "assets/s0/js/18\u54c8.js": {
+    "assets/s0/js/18哈.js": {
       "bytes": 793,
       "sha256": "4bc176acc094da88182fe921b24704dab6a7e05b6a8183c5fbd71de0fe62de23"
     },
-    "assets/s0/js/310\u76f4\u64ad.js": {
+    "assets/s0/js/310直播.js": {
       "bytes": 503,
       "sha256": "2112b9345ed2e794586a1ced96203b44478c676c9cd7866ad590e31c3886d6a4"
     },
-    "assets/s0/js/333\u5f71\u89c6.js": {
+    "assets/s0/js/333影视.js": {
       "bytes": 12932,
       "sha256": "e7bb7448fb8bf523d213406934ef07e9abcb2ef42ddd51605d960ffcc8a0110d"
     },
-    "assets/s0/js/348\u7535\u5f71\u7f51.js": {
+    "assets/s0/js/348电影网.js": {
       "bytes": 8071,
       "sha256": "20a0a590b8a34256607c1fa5438ff5db0722ea81886388164d282ab05b1b8673"
     },
-    "assets/s0/js/360\u5f71\u89c6.js": {
+    "assets/s0/js/360影视.js": {
       "bytes": 23845,
       "sha256": "20d4aff0157ef7ec3793b7e717dfcf0160b5b2f4fbc0c5c8767c81ebf3fdcdd7"
     },
-    "assets/s0/js/369\u5f71\u89c6.js": {
+    "assets/s0/js/369影视.js": {
       "bytes": 1434,
       "sha256": "faae51b6506ef7ac7e3c7bc5581574f5234f98659a8c7110a88430185baa195e"
     },
@@ -1557,31 +1557,31 @@
       "bytes": 5232,
       "sha256": "1fb9ee1f955a87adc768d81b39305a3b12fe8a735d605021b0f9202aa56cd100"
     },
-    "assets/s0/js/4k\u5267\u9662.js": {
+    "assets/s0/js/4k剧院.js": {
       "bytes": 12380,
       "sha256": "162d43dffc9d06e88d3fb3440ae15d4f8a517a2d630052477e27f80bfa51dded"
     },
-    "assets/s0/js/4K\u7535\u5f71\u7f51.js": {
+    "assets/s0/js/4K电影网.js": {
       "bytes": 15822,
       "sha256": "4721e7f67726d217c22c7a77d280f707e848a383e66f4b4dadc2131f47dea8d0"
     },
-    "assets/s0/js/539\u5f71\u89c6.js": {
+    "assets/s0/js/539影视.js": {
       "bytes": 12321,
       "sha256": "58fc24afdcdbecd2f8cb77e1b188ceb5f535a6caedd6868b781f3c1937a7beef"
     },
-    "assets/s0/js/555\u5f71\u89c6[\u98de].js": {
+    "assets/s0/js/555影视[飞].js": {
       "bytes": 13536,
       "sha256": "9b033b70966cef7ba755689b317b56358a18b20092023ebaef3fdce10b024794"
     },
-    "assets/s0/js/555\u7535\u5f71[V2].js": {
+    "assets/s0/js/555电影[V2].js": {
       "bytes": 20920,
       "sha256": "9fa579c0a214e46d5d91457b49bb203da92c593ff985d18c645ea9b7d1ba727d"
     },
-    "assets/s0/js/567\u7535\u5f71\u9662.js": {
+    "assets/s0/js/567电影院.js": {
       "bytes": 8393,
       "sha256": "4c93ed9d9157a6b6d5f2a82d64dbc9ccbec40ac80303d3035761e0a30f25f742"
     },
-    "assets/s0/js/58\u52a8\u6f2b.js": {
+    "assets/s0/js/58动漫.js": {
       "bytes": 4003,
       "sha256": "315673b0b8717aa9eb52c7d4a352a487113cf28cafb329e86a10a2a9210bbb05"
     },
@@ -1589,27 +1589,27 @@
       "bytes": 1455,
       "sha256": "d5ba644e26a5ca1e43e53ae35038d3ecfcab7968dc3aea8aff9344e190ec0b6c"
     },
-    "assets/s0/js/69\u7f8e\u5267.js": {
+    "assets/s0/js/69美剧.js": {
       "bytes": 15842,
       "sha256": "4ad4991d6cc6d2ec5a976efad1b08f62e4f757c8cd277654f63a76d775772413"
     },
-    "assets/s0/js/69\u7f8e\u5267[V2].js": {
+    "assets/s0/js/69美剧[V2].js": {
       "bytes": 8507,
       "sha256": "ea15adf03af8cf1c6108b7a368cd52b509f7442b9398c976bdf9364792257427"
     },
-    "assets/s0/js/6V\u65b0\u7248[\u78c1].js": {
+    "assets/s0/js/6V新版[磁].js": {
       "bytes": 2152,
       "sha256": "a2556bbd67fbbb8aa63c43c74cd15a599da3527eb506d70f942d9cf3c3477768"
     },
-    "assets/s0/js/7\u559c\u5f71\u9662.js": {
+    "assets/s0/js/7喜影院.js": {
       "bytes": 1024,
       "sha256": "9e67bac88bd3abebbb3b3f5e6618c19a408f190865d6cf943af2250642885d11"
     },
-    "assets/s0/js/88\u770b\u7403.js": {
+    "assets/s0/js/88看球.js": {
       "bytes": 1958,
       "sha256": "ed80b602235a87d2ed10debe916755c83dbbcf37d8df043f51d7c7771f695a49"
     },
-    "assets/s0/js/8\u53f7\u5f71\u9662.js": {
+    "assets/s0/js/8号影院.js": {
       "bytes": 1195,
       "sha256": "7573fbdca87042eff1c2d86e426fcf57bf0ca8101e5cb9a3bac54a5af4ef89c6"
     },
@@ -1617,15 +1617,15 @@
       "bytes": 5479,
       "sha256": "7801107e91323130b7a35b596c9492569f50956bd12eefb3637cabf2d0a18194"
     },
-    "assets/s0/js/996\u5f71\u89c6.js": {
+    "assets/s0/js/996影视.js": {
       "bytes": 18596,
       "sha256": "86d2fb918e91481fe9fed69a0ec2580515ee410a416d37a8957168fd2a739798"
     },
-    "assets/s0/js/A8\u97f3\u4e50.js": {
+    "assets/s0/js/A8音乐.js": {
       "bytes": 668,
       "sha256": "82c2f0b4ffbd7a7969e4cc8b1817f120ba753a28de732fef741757e0c06d0733"
     },
-    "assets/s0/js/AGE\u52a8\u6f2b.js": {
+    "assets/s0/js/AGE动漫.js": {
       "bytes": 16750,
       "sha256": "c7bd0fa182f540b9c242bfa39fa6a522c57ce687e04bfde7b0b103a8d0b653aa"
     },
@@ -1645,7 +1645,7 @@
       "bytes": 6560,
       "sha256": "f4864dcd27668ffced6464a9bf34afdb06fb4e89bf1bcf4547163040085fe269"
     },
-    "assets/s0/js/Anime1\u52a8\u756b.js": {
+    "assets/s0/js/Anime1动畫.js": {
       "bytes": 4910,
       "sha256": "3a298841c94d0dbd8c1f5a9f73c1a6c2e74957f30e50e6047b034e14a819df65"
     },
@@ -1657,7 +1657,7 @@
       "bytes": 538,
       "sha256": "872cbbbba041af7e0913afa49873f0926398103420d1bd74fae96192739cf630"
     },
-    "assets/s0/js/B\u7ad9\u5f71\u89c6.js": {
+    "assets/s0/js/B站影视.js": {
       "bytes": 10742,
       "sha256": "e2eb8e7b361288626775a1643af7f020a667ce8f881f50c001666ce592b12a49"
     },
@@ -1689,7 +1689,7 @@
       "bytes": 6294,
       "sha256": "553c61ccc5b0d347846497a240e1f7b3d3cc7fadc3e09a14c638364f6c829285"
     },
-    "assets/s0/js/DJ\u97f3\u4e50.js": {
+    "assets/s0/js/DJ音乐.js": {
       "bytes": 2225,
       "sha256": "594536cb6545cae9a4d936bfdf0193f2e40fd5fdc4046583fe3cf65708cba5ad"
     },
@@ -1721,11 +1721,11 @@
       "bytes": 29719,
       "sha256": "73eb1b4f0f4ba76eab65b9a910f7880cb1052774d12fc5713a6669f601279870"
     },
-    "assets/s0/js/i275\u542c\u4e66.js": {
+    "assets/s0/js/i275听书.js": {
       "bytes": 2612,
       "sha256": "336fc586d868f75a2579795d03b34b862c5f20b162316540b65ba99e546f7732"
     },
-    "assets/s0/js/if101[\u98de].js": {
+    "assets/s0/js/if101[飞].js": {
       "bytes": 19407,
       "sha256": "ee8893a107e59f3640dd7bcc81a0f429be6fcd0faa009d51d3962b84942a3ae4"
     },
@@ -1761,7 +1761,7 @@
       "bytes": 1769,
       "sha256": "9f75ea1353f93ac8158f6c115c4814cd370a492a145dc68caf843352a9d0da73"
     },
-    "assets/s0/js/JRKAN\u76f4\u64ad.js": {
+    "assets/s0/js/JRKAN直播.js": {
       "bytes": 2512,
       "sha256": "e8d6c7183de9beb639cee43678cf9d0e6af68e21c29d55bc43811985214c6ae2"
     },
@@ -1785,7 +1785,7 @@
       "bytes": 4748,
       "sha256": "405a57c467ed87cb2e2d3a396aed1f5e7a468f219f1068f0204ae3b02940f2ea"
     },
-    "assets/s0/js/KOK\u5f71\u9662.js": {
+    "assets/s0/js/KOK影院.js": {
       "bytes": 15406,
       "sha256": "3afa28936123788e2c62dc19b8332d1b8301623b65d20df189719bee74802e5f"
     },
@@ -1793,7 +1793,7 @@
       "bytes": 5131,
       "sha256": "cd9aca5d4181ccbcef0da913dc85851b55a0444291acb35db23f3aa26b62452c"
     },
-    "assets/s0/js/KUBO\u5f71\u89c6[\u98de].js": {
+    "assets/s0/js/KUBO影视[飞].js": {
       "bytes": 16884,
       "sha256": "a438deb57e20ecd92fa62fed145be6948c117aa3c8df853c8068a8245f9cdfa5"
     },
@@ -1841,7 +1841,7 @@
       "bytes": 4937,
       "sha256": "8af296c5b88be33b1841bac4094a4f6745737c3f3671c28be23a19bf9dd3f479"
     },
-    "assets/s0/js/NT\u52a8\u6f2b.js": {
+    "assets/s0/js/NT动漫.js": {
       "bytes": 25827,
       "sha256": "a610fd6a854829434553d08214d89e8fa8210c4e62d210632ef873f40d608bbd"
     },
@@ -1849,7 +1849,7 @@
       "bytes": 469,
       "sha256": "fca230073f335401dac3c04d7d1dd0467a4bf6ae30e20803ec7c2fdf812a1a07"
     },
-    "assets/s0/js/NY\u5f71\u9662.js": {
+    "assets/s0/js/NY影院.js": {
       "bytes": 14794,
       "sha256": "13ca872b2f33b511f6dbacbae090637b3a9aa40b5ace99cbcf978e16246fd159"
     },
@@ -1865,7 +1865,7 @@
       "bytes": 4426,
       "sha256": "7e544f3df60eb4d21784d36c4a035bc4a862bbc780437b74bc6c727d9faf9b3d"
     },
-    "assets/s0/js/ss\u76f4\u64ad.js": {
+    "assets/s0/js/ss直播.js": {
       "bytes": 631,
       "sha256": "ae14078f3e355a0a42ca884c288ff8337ef4f839c71c8a3052a63efad7b67b46"
     },
@@ -1877,7 +1877,7 @@
       "bytes": 15636,
       "sha256": "cff0dd789bfb7ad09380464fa63271a47a81dadbf6e1835054c8c54a8fcf5f61"
     },
-    "assets/s0/js/TVB\u4e91\u64ad.js": {
+    "assets/s0/js/TVB云播.js": {
       "bytes": 12854,
       "sha256": "2d37029daada177004918fa7e01693ee69fbcae81dc935e9d4d2b1427716d356"
     },
@@ -1885,11 +1885,11 @@
       "bytes": 3443,
       "sha256": "bb4ed701fdfa6c57086fa1bfb561b8a3bce0ed1d5a40fed18617f87bcdf7d7ac"
     },
-    "assets/s0/js/UM\u7535\u5f71[V2].js": {
+    "assets/s0/js/UM电影[V2].js": {
       "bytes": 19455,
       "sha256": "23718536da0071661e623152d7633354cbec8f3a68b38e4dc206d2e21723add7"
     },
-    "assets/s0/js/UrleBird[\u98de].js": {
+    "assets/s0/js/UrleBird[飞].js": {
       "bytes": 1003,
       "sha256": "c52fe57a306561637447e34a76d3b9ffd0c13014831694024f0b3957e960d8db"
     },
@@ -1913,695 +1913,695 @@
       "bytes": 2836,
       "sha256": "0ab2b3e77b7b724b64ed819f7ce5ff90c960f7a2fd7fc29c6da4540d66f8606a"
     },
-    "assets/s0/js/\u4e0a\u5934\u77ed\u5267.js": {
+    "assets/s0/js/上头短剧.js": {
       "bytes": 1079,
       "sha256": "a93007fa8a2133079161e4410e69a7c3f88e45d5b901e114be6c3d4aad53146a"
     },
-    "assets/s0/js/\u4e24\u4e2aBT.js": {
+    "assets/s0/js/两个BT.js": {
       "bytes": 8495,
       "sha256": "dd66ec00d7fbfb0579b4533803de4b4619e110833a18398cbbc1fd14af958552"
     },
-    "assets/s0/js/\u4e2d\u56fd\u4eba.js": {
+    "assets/s0/js/中国人.js": {
       "bytes": 972,
       "sha256": "8daed499446b90ec103a1511be7650f284403437e8df71b6af2a7ca45f711e0a"
     },
-    "assets/s0/js/\u4e2d\u56fd\u4eba\u7ebf\u4e0a\u770b.js": {
+    "assets/s0/js/中国人线上看.js": {
       "bytes": 850,
       "sha256": "343415089c7232efb6750a4a2dfc2a35186908c018ce461e19a74a0e7393ebcf"
     },
-    "assets/s0/js/\u4e50\u9c7c\u5f71\u89c6.js": {
+    "assets/s0/js/乐鱼影视.js": {
       "bytes": 11647,
       "sha256": "43d0cffba639f444ad78c878fed21f767aaef938697afbe654d8ec173b242170"
     },
-    "assets/s0/js/\u4eba\u4eba\u5f71\u89c6.js": {
+    "assets/s0/js/人人影视.js": {
       "bytes": 10130,
       "sha256": "eb24bce075cd7cc14be392402480ec73d684362cbfbd35773fef1116435a15d9"
     },
-    "assets/s0/js/\u4f18\u9177.js": {
+    "assets/s0/js/优酷.js": {
       "bytes": 73804,
       "sha256": "05e8938bcf068b835795332e0e8e1171f4e4e6ff27021ecfdd874f8ec4cfb04e"
     },
-    "assets/s0/js/\u5144\u5f1f\u5f71\u89c6.js": {
+    "assets/s0/js/兄弟影视.js": {
       "bytes": 13664,
       "sha256": "a7b8ee3a5a218c7ba8b50dbe7887cf74fe89b5aa54a3f9c82d42045ab3ecc24f"
     },
-    "assets/s0/js/\u514d\u8d39\u770b.js": {
+    "assets/s0/js/免费看.js": {
       "bytes": 24735,
       "sha256": "582f03f40cc8b58bc8b8db424d4b35d6cd421581a269a4024acddcbb56343311"
     },
-    "assets/s0/js/\u5154\u5c0f\u8d1d.js": {
+    "assets/s0/js/兔小贝.js": {
       "bytes": 1009,
       "sha256": "7173a949be786609d3c16cd02d9797889c6086a485aeff2f29bc77c602dc4676"
     },
-    "assets/s0/js/\u516d\u6708\u542c\u4e66.js": {
+    "assets/s0/js/六月听书.js": {
       "bytes": 1649,
       "sha256": "b5ea03e0636897e3a78d0eeba85e3fe3093d9f4a431560bb66dd3ebebd0d208b"
     },
-    "assets/s0/js/\u5170\u82b1\u5f71\u9662.js": {
+    "assets/s0/js/兰花影院.js": {
       "bytes": 17556,
       "sha256": "f9a4d0bc018a0270d4f1dcaa1691d2fc3bdd8c85d01a0c503c8bc8aab9712082"
     },
-    "assets/s0/js/\u517b\u7aef.js": {
+    "assets/s0/js/养端.js": {
       "bytes": 460,
       "sha256": "96b1d849dba43c1cc72f6140cdca9fb0c5efe1ee16c58f17a5df2870ec28d97e"
     },
-    "assets/s0/js/\u519c\u6c11\u5f71\u89c6.js": {
+    "assets/s0/js/农民影视.js": {
       "bytes": 16923,
       "sha256": "37c993f9fcf39d4ba842dc5aee876e454fcb9c159a4b4b0f271bb57230b2f7d8"
     },
-    "assets/s0/js/\u51cc\u4e91\u5f71\u89c6.js": {
+    "assets/s0/js/凌云影视.js": {
       "bytes": 14792,
       "sha256": "279cc3c545a99567750e12f3b0fce640a9689d9aadd07fc3c244999c38a9864b"
     },
-    "assets/s0/js/\u523a\u6850[V2].js": {
+    "assets/s0/js/刺桐[V2].js": {
       "bytes": 17597,
       "sha256": "bc9c6f09d03c0deed805e1344343185c1fdb764fe7f8085abb7745443ec9928e"
     },
-    "assets/s0/js/\u5267\u8ff7su.js": {
+    "assets/s0/js/剧迷su.js": {
       "bytes": 5678,
       "sha256": "86c31280b36ff63bc2adeee164107e412fd1464b4d3abe734939b2870d8d6a9c"
     },
-    "assets/s0/js/\u52a8\u6f2b\u5c9b.js": {
+    "assets/s0/js/动漫岛.js": {
       "bytes": 11462,
       "sha256": "cb3cb1d74dea8f202bced259369a7c1384dc83c8c2b71604a651cceee6277f86"
     },
-    "assets/s0/js/\u5317\u5ddd\u5f71\u89c6.js": {
+    "assets/s0/js/北川影视.js": {
       "bytes": 12368,
       "sha256": "bf8955017fe17d03c1359d6c89e215bc4c579c455cec36050a71e9f7023b726f"
     },
-    "assets/s0/js/\u5317\u6781\u72d0[V2].js": {
+    "assets/s0/js/北极狐[V2].js": {
       "bytes": 28582,
       "sha256": "b9e7e270d44f697e62d63c8c09fbc7cec5e110630aa9f73d159fbc8f7d9ee206"
     },
-    "assets/s0/js/\u534e\u4e50\u5f71\u9662[\u98de].js": {
+    "assets/s0/js/华乐影院[飞].js": {
       "bytes": 15219,
       "sha256": "34daa1eb59699405ee659556d3fd3384730e859ad39e2a9e13474320c097289d"
     },
-    "assets/s0/js/\u5357\u74dc\u5f71\u89c6.js": {
+    "assets/s0/js/南瓜影视.js": {
       "bytes": 12581,
       "sha256": "32ce2d890518315f73f8422b463543f641994dd5c00bb0f90057f520d248d487"
     },
-    "assets/s0/js/\u535a\u770b\u542c\u4e66.js": {
+    "assets/s0/js/博看听书.js": {
       "bytes": 2039,
       "sha256": "5f818fd317c5e2dae135bfa4e4024be0532f7478b8aebd81f971d16f2e059181"
     },
-    "assets/s0/js/\u5382\u957f\u8d44\u6e90.js": {
+    "assets/s0/js/厂长资源.js": {
       "bytes": 7108,
       "sha256": "931de6d02a560ebe116c94531208762a72db64b2f4659801e297f6c266186b00"
     },
-    "assets/s0/js/\u53bb\u770b\u5427.js": {
+    "assets/s0/js/去看吧.js": {
       "bytes": 31221,
       "sha256": "ba47e885e5fcc63850fe4aede1cb1d03d657e1079f32747cc6169cc09c25349e"
     },
-    "assets/s0/js/\u542c\u4e66\u7f51.js": {
+    "assets/s0/js/听书网.js": {
       "bytes": 997,
       "sha256": "0dbe458933360265571b009478605ad880824cf532ac1cfaf5a789b562eb1caa"
     },
-    "assets/s0/js/\u5438\u74dc.js": {
+    "assets/s0/js/吸瓜.js": {
       "bytes": 667,
       "sha256": "c73a5d4f9955284737765f9599da04b40304d8450030034af15a8420dc0414a3"
     },
-    "assets/s0/js/\u543c\u543c[V2].js": {
+    "assets/s0/js/吼吼[V2].js": {
       "bytes": 16970,
       "sha256": "b20876c0e14385bcd0baea0d00c8b771a7f6ac847f688e0cdaae574986912333"
     },
-    "assets/s0/js/\u5495\u565c[V2].js": {
+    "assets/s0/js/咕噜[V2].js": {
       "bytes": 18671,
       "sha256": "06c96fa850096db1e20521f8aface8747c9aedd360ef5becbc9470f7e81f980e"
     },
-    "assets/s0/js/\u54d4\u54e9\u5f71\u89c6.js": {
+    "assets/s0/js/哔哩影视.js": {
       "bytes": 10776,
       "sha256": "49a5ff50c67a861672ce0ea5fbd9db35bcb726519ac19f652fecd27fe75fae07"
     },
-    "assets/s0/js/\u54d4\u54e9\u76f4\u64ad.js": {
+    "assets/s0/js/哔哩直播.js": {
       "bytes": 17591,
       "sha256": "2c408998d6371179a6175e12cac98472c51bc73d2a70a9be3da66c6e273a4efb"
     },
-    "assets/s0/js/\u54d4\u5600\u5f71\u89c6.js": {
+    "assets/s0/js/哔嘀影视.js": {
       "bytes": 4478,
       "sha256": "0a93632a07449d5a49857dad4276613f40654be6d6b84b38190a3c1dc53aa599"
     },
-    "assets/s0/js/\u5566\u5566DJ.js": {
+    "assets/s0/js/啦啦DJ.js": {
       "bytes": 694,
       "sha256": "f90eb67d5881253a451f3666778586eec798e76fde0d97d1eac83af208e9c071"
     },
-    "assets/s0/js/\u559c\u9a6c\u62c9\u96c5.js": {
+    "assets/s0/js/喜马拉雅.js": {
       "bytes": 3614,
       "sha256": "456a5ca7fa9cb221df781a33dd13154df3635fa80bf7f9c96ea7f97774d26841"
     },
-    "assets/s0/js/\u55b5\u6b21\u5143.js": {
+    "assets/s0/js/喵次元.js": {
       "bytes": 7503,
       "sha256": "0c3524d633b2b4207edeaf1d87167ad23a53865be00ae938a4ffc5580468e953"
     },
-    "assets/s0/js/\u56db\u4e2a\u5708\u5f71\u89c6.js": {
+    "assets/s0/js/四个圈影视.js": {
       "bytes": 17472,
       "sha256": "aa55e94d0723675c96e0bc06e31b9dc50ee1b4cf2d71059d8779ec82b10d95aa"
     },
-    "assets/s0/js/\u5728\u7ebf\u4e4b\u5bb6.js": {
+    "assets/s0/js/在线之家.js": {
       "bytes": 8786,
       "sha256": "5485a0810f21ea01265438ef73d1a1ea0a5a87dd4a2a921654d62560534859ce"
     },
-    "assets/s0/js/\u591a\u7459\u5f71\u89c6.js": {
+    "assets/s0/js/多瑙影视.js": {
       "bytes": 17129,
       "sha256": "8b730e86711ced72dbe285d8b3b9ec842ea4fbc88909441b75a3e15e26cb8577"
     },
-    "assets/s0/js/\u5927\u5e08\u5144\u5f71\u89c6.js": {
+    "assets/s0/js/大师兄影视.js": {
       "bytes": 14369,
       "sha256": "dcd5daeb85f502f3d6f7c2cb34510b97035106dc8fc4e34fc639a3d812e5538a"
     },
-    "assets/s0/js/\u5927\u7c73\u661f\u7403.js": {
+    "assets/s0/js/大米星球.js": {
       "bytes": 14268,
       "sha256": "4cad5b129a183b2357c9e2c5f4fd15cdeb48ef9ae030e11dc740acb130492301"
     },
-    "assets/s0/js/\u5927\u7c73\u661f\u7403[V2].js": {
+    "assets/s0/js/大米星球[V2].js": {
       "bytes": 21394,
       "sha256": "2f2f2804afdbfd25238d20b3b20f8f09d7626f0d2eac6e2e4473ab44023907d7"
     },
-    "assets/s0/js/\u5929\u5929\u89c6\u9891[\u98de].js": {
+    "assets/s0/js/天天视频[飞].js": {
       "bytes": 10171,
       "sha256": "7317423bb53b3d0df23c9b1474ab47c66c9d5d9731867fce6d26b54d771c703f"
     },
-    "assets/s0/js/\u5947\u4f18\u5f71\u9662.js": {
+    "assets/s0/js/奇优影院.js": {
       "bytes": 1991,
       "sha256": "427e0688ba97d69bb3129e1b34da967a753b6ec52dd9b840e77ebe67049857a0"
     },
-    "assets/s0/js/\u5947\u73cd\u5f02\u517d.js": {
+    "assets/s0/js/奇珍异兽.js": {
       "bytes": 28088,
       "sha256": "707e5ab5a88b7171fdfc62d67673cd92cb292f292f6e552ab32fa8819430cf5d"
     },
-    "assets/s0/js/\u5947\u7c73\u52a8\u6f2b.js": {
+    "assets/s0/js/奇米动漫.js": {
       "bytes": 14645,
       "sha256": "22d4a881dbc6d25d35f1050d456ed67851e3cf85473f5ba4a44be27e0c1cf56c"
     },
-    "assets/s0/js/\u5948\u98de\u4e2d\u6587.js": {
+    "assets/s0/js/奈飞中文.js": {
       "bytes": 21547,
       "sha256": "ea9ca3a305fbac43b933f592362d9f7a963e42246bc073860383781449274d28"
     },
-    "assets/s0/js/\u5948\u98de\u72d7[V2].js": {
+    "assets/s0/js/奈飞狗[V2].js": {
       "bytes": 17828,
       "sha256": "def5c838d02cc3071054c98c8232d5d3328b8d4e0d27f56ed59e88ff5d30060b"
     },
-    "assets/s0/js/\u597d\u8da3\u7f51.js": {
+    "assets/s0/js/好趣网.js": {
       "bytes": 2330,
       "sha256": "abb5bda30fb4504ebf5e013a95b8dda8af7ddec5fc98de9ca4ffef262f9523d1"
     },
-    "assets/s0/js/\u59ae\u53ef\u52a8\u6f2b.js": {
+    "assets/s0/js/妮可动漫.js": {
       "bytes": 3058,
       "sha256": "003214f6ef1c6796a3238cbf1d0d1816d55cc646d9b15bb6278488c69ba834af"
     },
-    "assets/s0/js/\u5b50\u5b50\u5f71\u89c6.js": {
+    "assets/s0/js/子子影视.js": {
       "bytes": 2202,
       "sha256": "70faaeb7879c23aeb0f061a348b06372ea8f7df28924af0a5e7571706acb9e5e"
     },
-    "assets/s0/js/\u5b5c\u7136\u5f71\u89c6.js": {
+    "assets/s0/js/孜然影视.js": {
       "bytes": 11096,
       "sha256": "f5c54ba6a7940b57f1f7b0bf9e0a7a61f55af5ac561b853a47ed423006c5fdb4"
     },
-    "assets/s0/js/\u5b9d\u7247[V2].js": {
+    "assets/s0/js/宝片[V2].js": {
       "bytes": 24077,
       "sha256": "4566a7db01e52aef93665f5733dce0a53c2f8d57fda5a5b1f3c43016e30a15b4"
     },
-    "assets/s0/js/\u5c0f\u54c1\u7f51.js": {
+    "assets/s0/js/小品网.js": {
       "bytes": 601,
       "sha256": "bbddf0426c9a3a2c72225f839be4292b39196cbdfe3a14bf8c8f612068caec42"
     },
-    "assets/s0/js/\u5c0f\u5b9d\u5f71\u9662[\u98de].js": {
+    "assets/s0/js/小宝影院[飞].js": {
       "bytes": 16841,
       "sha256": "3cb18aca10cab824c2da7bb979b13e6a58cf108bdb9bfe31bb3ab5cce206ecea"
     },
-    "assets/s0/js/\u5c0f\u72d7\u5f71\u9662.js": {
+    "assets/s0/js/小狗影院.js": {
       "bytes": 14904,
       "sha256": "88daa327c7517e38b16b6fbc735018f6b834517a152d03f5380c683b5668c08d"
     },
-    "assets/s0/js/\u5c0f\u767d\u83dc\u7535\u5f71.js": {
+    "assets/s0/js/小白菜电影.js": {
       "bytes": 19462,
       "sha256": "9ad9003dc7b535752dd133a8c9953f3e51129b85a2d7f7c4fdff65ca8184fdd1"
     },
-    "assets/s0/js/\u5c18\u843d\u5f71\u89c6.js": {
+    "assets/s0/js/尘落影视.js": {
       "bytes": 7564,
       "sha256": "32f67d147ee4c85dec6526fc3be0bf0a297a17ca2d2c3252df195298d831614c"
     },
-    "assets/s0/js/\u5e72\u996d\u5f71\u89c6.js": {
+    "assets/s0/js/干饭影视.js": {
       "bytes": 10510,
       "sha256": "661778b0511cdddd5d6274ab0b4e4c5b5dc74eb6c85ad1bc63289d11dd06ce6a"
     },
-    "assets/s0/js/\u5e7f\u64ad\u8ff7FM.js": {
+    "assets/s0/js/广播迷FM.js": {
       "bytes": 2691,
       "sha256": "deb01182ea89c756d130017695f7ed101c71618ef8fb8dde6cb6ec67fb35eb38"
     },
-    "assets/s0/js/\u5f00\u773c\u89c6\u9891.js": {
+    "assets/s0/js/开眼视频.js": {
       "bytes": 1280,
       "sha256": "9f89bbc39405a69d328593973a9d4bbf371f7239c837abb89c1d9084125d4008"
     },
-    "assets/s0/js/\u5f02\u4e16\u754c\u52a8\u6f2b.js": {
+    "assets/s0/js/异世界动漫.js": {
       "bytes": 5126,
       "sha256": "147223664937da9c7c843289c683eb0eb7f2b5e34f73bbbf8a32ebd60c2a253a"
     },
-    "assets/s0/js/\u5f71\u63a2[V2].js": {
+    "assets/s0/js/影探[V2].js": {
       "bytes": 36106,
       "sha256": "c44dcd2234284103d78782b92ec7901131cbae07bed2599aaec3aee376f6b222"
     },
-    "assets/s0/js/\u5f71\u6e23\u6e23.js": {
+    "assets/s0/js/影渣渣.js": {
       "bytes": 22272,
       "sha256": "a4daa7f8e06e30920e5b90dc078ec3fdcc77cb01971627aa954787d2fc0e5764"
     },
-    "assets/s0/js/\u5f71\u89c6\u4e4b\u5bb6[V2].js": {
+    "assets/s0/js/影视之家[V2].js": {
       "bytes": 17941,
       "sha256": "99409b45627dfde8a6690f8f72f8a5f9fcf0c938fb9d87c6c7659d26fe2afeca"
     },
-    "assets/s0/js/\u5f71\u89c6\u5de5\u5382.js": {
+    "assets/s0/js/影视工厂.js": {
       "bytes": 93,
       "sha256": "df39f9d2f3912424231ee2262a52b2fc95ac13b065d7f6d77fcfc47d89bf3749"
     },
-    "assets/s0/js/\u5f71\u89c6\u5de5\u573a.js": {
+    "assets/s0/js/影视工场.js": {
       "bytes": 9493,
       "sha256": "9f5feb53a1c81b77efe859ee756b76ca2be03b8728fee998986cecf5b1a6d1a5"
     },
-    "assets/s0/js/\u5f95\u7c73TV.js": {
+    "assets/s0/js/徕米TV.js": {
       "bytes": 14335,
       "sha256": "a43885db7a299e8d28a028e5183e3f63e14c863cb1e1010bd89501ad747c7f50"
     },
-    "assets/s0/js/\u5feb\u770b.js": {
+    "assets/s0/js/快看.js": {
       "bytes": 2229,
       "sha256": "abeb6feb58cd32bc4cedfb30b356cc8877f7c09ae028e42d34fb1e7234078ee8"
     },
-    "assets/s0/js/\u601d\u53e4\u5f71\u89c6.js": {
+    "assets/s0/js/思古影视.js": {
       "bytes": 14559,
       "sha256": "e09e4ddabd3eb68d9cd74465a2a48bcddf63c43d04edc914967b74702d48cbbc"
     },
-    "assets/s0/js/\u601d\u53e4\u5f71\u89c6[V2].js": {
+    "assets/s0/js/思古影视[V2].js": {
       "bytes": 14605,
       "sha256": "0411802240f9105914496531eb06c0d81c723a95430ebf66944ab9198e685c32"
     },
-    "assets/s0/js/\u6021\u8431\u52a8\u6f2b.js": {
+    "assets/s0/js/怡萱动漫.js": {
       "bytes": 9730,
       "sha256": "41412cb84519a013e38a95e67bdf9b6665d4fd751543f6238d4931b148324475"
     },
-    "assets/s0/js/\u60a0\u4e45\u5f71\u9662.js": {
+    "assets/s0/js/悠久影院.js": {
       "bytes": 8575,
       "sha256": "7736a334ec69c259f1edea9245a377440ad108e4bf0dfba171a7af26c7cb0123"
     },
-    "assets/s0/js/\u6211\u7231\u8ddf\u5267.js": {
+    "assets/s0/js/我爱跟剧.js": {
       "bytes": 18748,
       "sha256": "6cef2550097bee07686c3b2053b4507a122a6ecbf8cb57bbe14066d2891c6896"
     },
-    "assets/s0/js/\u6211\u7684\u54d4\u54e9.js": {
+    "assets/s0/js/我的哔哩.js": {
       "bytes": 79302,
       "sha256": "f0680378d6c39c04863a8c5af489098c751c24121964905cc33af60ba656ab21"
     },
-    "assets/s0/js/\u6293\u996d\u4f53\u80b2.js": {
+    "assets/s0/js/抓饭体育.js": {
       "bytes": 1234,
       "sha256": "5dc5037223432b1998b7661e11265a12a1a16792418e792b0911dd576a59e51f"
     },
-    "assets/s0/js/\u64ad\u5ba2.js": {
+    "assets/s0/js/播客.js": {
       "bytes": 2008,
       "sha256": "4e05039500cc83984703a9577823687c382c830fd4636f3f4fdb0b964813aa1c"
     },
-    "assets/s0/js/\u6597\u9c7c\u76f4\u64ad.js": {
+    "assets/s0/js/斗鱼直播.js": {
       "bytes": 40246,
       "sha256": "fdcac2ae73510fd9d058f4fdb9303f47f503c8ac56e311aa4551865b62623f0c"
     },
-    "assets/s0/js/\u65b0\u7247\u573a.js": {
+    "assets/s0/js/新片场.js": {
       "bytes": 13501,
       "sha256": "ef2b0031305216ca2836669ae9a61b0bb878cafd482be225fd4971ac1291fee7"
     },
-    "assets/s0/js/\u65b0\u89c6\u89c9\u5f71\u89c6.js": {
+    "assets/s0/js/新视觉影视.js": {
       "bytes": 12429,
       "sha256": "cb7bbd48f1a865866474734ae13103f2c4025945ae5e3938a43e7f4b07f2efa4"
     },
-    "assets/s0/js/\u65b0\u95ea\u96f7.js": {
+    "assets/s0/js/新闪雷.js": {
       "bytes": 2172,
       "sha256": "ebca8d9521ec92073a609734fa26be243c8df09d65f639a760a54d4719ad23d8"
     },
-    "assets/s0/js/\u65f6\u5149\u5f71\u89c6.js": {
+    "assets/s0/js/时光影视.js": {
       "bytes": 14099,
       "sha256": "51a103b00da9399af73292b099049e68fd8f842fbfbf7b893366aff1daf6c0dc"
     },
-    "assets/s0/js/\u661f\u8fb0.js": {
+    "assets/s0/js/星辰.js": {
       "bytes": 1364,
       "sha256": "ce98c27b69bd28c97bc0a2d6be319caf7241b60c731f19742467c1f868cfbbfc"
     },
-    "assets/s0/js/\u6620\u8ff7[V2].js": {
+    "assets/s0/js/映迷[V2].js": {
       "bytes": 18591,
       "sha256": "6091747d730826278fbd31d55faccaa4c987c59c66e46c93850f0fce20cfb3f9"
     },
-    "assets/s0/js/\u6620\u8ff7\u5f71\u9662.js": {
+    "assets/s0/js/映迷影院.js": {
       "bytes": 18324,
       "sha256": "f764b300cfc92eb8d9570307458744a3d8eef5031f152ba85ee311e15b537f9e"
     },
-    "assets/s0/js/\u66f2\u5947\u52a8\u6f2b.js": {
+    "assets/s0/js/曲奇动漫.js": {
       "bytes": 11864,
       "sha256": "946f4b193b93dd68fe26df051e2e3a86df2efb4498c8ae5c823b9297cfb9491d"
     },
-    "assets/s0/js/\u66f2\u5947\u5f71\u89c6[V2].js": {
+    "assets/s0/js/曲奇影视[V2].js": {
       "bytes": 16734,
       "sha256": "8db018299836aeb33eba48c31a69ae06586dff6fc76267e19970741993be2784"
     },
-    "assets/s0/js/\u6709\u58f0\u5c0f\u8bf4\u5427.js": {
+    "assets/s0/js/有声小说吧.js": {
       "bytes": 1830,
       "sha256": "e6a7d875aa9c8b85f5127fcd6668ca6a1d53e9238b42a96d69d4278b21050c36"
     },
-    "assets/s0/js/\u6709\u58f0\u7ed8\u672c\u7f51.js": {
+    "assets/s0/js/有声绘本网.js": {
       "bytes": 550,
       "sha256": "0d67dd8510da16d261e8f1076195581fb52cd5a4dd81c38629833fd6c0990f8c"
     },
-    "assets/s0/js/\u6731\u53e4\u529b.js": {
+    "assets/s0/js/朱古力.js": {
       "bytes": 520,
       "sha256": "db6c90815e135fdc581455a0401be27d977feda701601155ed318985536e08cc"
     },
-    "assets/s0/js/\u6734\u6a31\u5f71\u89c6.js": {
+    "assets/s0/js/朴樱影视.js": {
       "bytes": 15288,
       "sha256": "62b14d4b78f91dcf0092768cafc79cddc7c0cddbb76a45005c6d6bce57b163fd"
     },
-    "assets/s0/js/\u695a\u95e8\u5f71\u9662.js": {
+    "assets/s0/js/楚门影院.js": {
       "bytes": 14203,
       "sha256": "78da37628dbd5ee4f031e1efcf823e5ba24ee1e56ec5d47eb85a6f2248051b0d"
     },
-    "assets/s0/js/\u6a21\u677f.js": {
+    "assets/s0/js/模板.js": {
       "bytes": 15300,
       "sha256": "1da00bdcb30ab1a7875a84ee6fc82256e705330b6cc9d84144f163df68b665cb"
     },
-    "assets/s0/js/\u6b27\u4e50\u5f71\u9662[\u98de].js": {
+    "assets/s0/js/欧乐影院[飞].js": {
       "bytes": 18114,
       "sha256": "6fb6ea762708c78cc2fea43cdaf25ff8368e62d813c17bfb1f844343b323b47a"
     },
-    "assets/s0/js/\u6b27\u5e1d\u5f71\u9662.js": {
+    "assets/s0/js/欧帝影院.js": {
       "bytes": 14579,
       "sha256": "4d7b72787c6b748f6d674bd5f76bfa173e2e142233bfd2b8246d53ed837d89c3"
     },
-    "assets/s0/js/\u6b66\u4eab\u5427.js": {
+    "assets/s0/js/武享吧.js": {
       "bytes": 1168,
       "sha256": "be53b4ce8a770cc0b832575e1515441d1b62cce05d6a655c3c1fb7b9ec6a175a"
     },
-    "assets/s0/js/\u6b6a\u7247\u661f\u7403.js": {
+    "assets/s0/js/歪片星球.js": {
       "bytes": 10761,
       "sha256": "5613801efd1226285efae41a1048ec2f865d27fe6b5ba49c1165599311649e98"
     },
-    "assets/s0/js/\u6d77\u5154\u5f71\u9662.js": {
+    "assets/s0/js/海兔影院.js": {
       "bytes": 8956,
       "sha256": "0547910a4364a95a737ab14011b54f7553c96c43951ab147f921be26fdda46bd"
     },
-    "assets/s0/js/\u6d77\u6d0b\u542c\u4e66.js": {
+    "assets/s0/js/海洋听书.js": {
       "bytes": 2068,
       "sha256": "e1b18b5521d47640b36de722a889f4880f77a3deaae6d412927f8cf3aa57ee79"
     },
-    "assets/s0/js/\u6e05\u98ceDJ.js": {
+    "assets/s0/js/清风DJ.js": {
       "bytes": 6104,
       "sha256": "b97f358354362a3e7014de2ab9ec44c6bc6521fe7ff0c722f66b7a1cfed078ae"
     },
-    "assets/s0/js/\u70ed\u64ad\u4e4b\u5bb6.js": {
+    "assets/s0/js/热播之家.js": {
       "bytes": 12639,
       "sha256": "1c68aa007bc64a8e3444a22b5e49be8d1eccdf8aa5f456d4948edd253eae1278"
     },
-    "assets/s0/js/\u70ed\u64ad\u5e93.js": {
+    "assets/s0/js/热播库.js": {
       "bytes": 8787,
       "sha256": "f3640d6e23ffa767ae93807ed73c2a17f4b198bf8797f77344d3e244d9f3444b"
     },
-    "assets/s0/js/\u7231\u4e0a\u4f60\u542c\u4e66\u7f51.js": {
+    "assets/s0/js/爱上你听书网.js": {
       "bytes": 985,
       "sha256": "36db527e3bdc43f0be9da77c6acc3184d32f96bb45a93c326ebc403bb6e28ca1"
     },
-    "assets/s0/js/\u7231\u52a8\u6f2b.js": {
+    "assets/s0/js/爱动漫.js": {
       "bytes": 21411,
       "sha256": "60836385c4dbb8d2e2d60b7c298db968d0437ce34c9838b2f0f66863ab02040f"
     },
-    "assets/s0/js/\u7231\u58f9\u5e06[\u98de].js": {
+    "assets/s0/js/爱壹帆[飞].js": {
       "bytes": 18775,
       "sha256": "135aabe5a0945aaf983eca081959cec70894ee65602b4665fba27d9c9aaa1ec4"
     },
-    "assets/s0/js/\u7231\u5f39\u5e55.js": {
+    "assets/s0/js/爱弹幕.js": {
       "bytes": 10216,
       "sha256": "245f7cb823741ee025a6173cdfc9b52d07d2ad497063402e62cf283015160bef"
     },
-    "assets/s0/js/\u7231\u770b.js": {
+    "assets/s0/js/爱看.js": {
       "bytes": 21537,
       "sha256": "562380f3caf58c3035f1cab061e32c171eae932792b9afce58e0911abb8436e4"
     },
-    "assets/s0/js/\u7231\u770b\u5f71\u9662.js": {
+    "assets/s0/js/爱看影院.js": {
       "bytes": 8075,
       "sha256": "933db56e4fcbdbd23a1eb65d4d5bba641913accdbab9a14ffdc234b06f5c1c1d"
     },
-    "assets/s0/js/\u7231\u770b\u673a\u5668\u4eba.js": {
+    "assets/s0/js/爱看机器人.js": {
       "bytes": 5310,
       "sha256": "421e3b13bb84a6892b9ad2553e2363a1a1222532658c85093b103a76b7a0489b"
     },
-    "assets/s0/js/\u7231\u8f66MV.js": {
+    "assets/s0/js/爱车MV.js": {
       "bytes": 643,
       "sha256": "dacbdca77d2089421ba3ad29fac1b6666fa1c919a61d5cbb03755181be0faa02"
     },
-    "assets/s0/js/\u7231\u8fea[V2].js": {
+    "assets/s0/js/爱迪[V2].js": {
       "bytes": 19124,
       "sha256": "9ff28b56fe5bd1514cba823cd75129625b26c05234367c1da8ed3f2f3dcfe5b7"
     },
-    "assets/s0/js/\u7231\u8fea\u5f71\u89c6.js": {
+    "assets/s0/js/爱迪影视.js": {
       "bytes": 17096,
       "sha256": "01ec2ca78d20822d839620b79f293f017469a446fdcdc4f26dcf3efefae3f38a"
     },
-    "assets/s0/js/\u72ec\u64ad\u5e93[\u98de].js": {
+    "assets/s0/js/独播库[飞].js": {
       "bytes": 22588,
       "sha256": "db338beb251e0d9eac6fbaaf147b4d4dc455d818af3841b89ad7e65c0ff738ed"
     },
-    "assets/s0/js/\u732b\u4e86\u4e2a\u54aa.js": {
+    "assets/s0/js/猫了个咪.js": {
       "bytes": 1933,
       "sha256": "733bb7812d96bdf783c6fc7dc4b282c1f0d7fa480caa09eb483f0bd67507c5d9"
     },
-    "assets/s0/js/\u7384\u5929.js": {
+    "assets/s0/js/玄天.js": {
       "bytes": 8414,
       "sha256": "5b6c6600a28dcc2f69cd347cdaab805e0ea97c58291083e6ed095e10b516ab66"
     },
-    "assets/s0/js/\u73a9\u5076\u59d0\u59d0.js": {
+    "assets/s0/js/玩偶姐姐.js": {
       "bytes": 490,
       "sha256": "586d6896709a8c4f51110bb5795aacc23d8867afcbd6cacdd8a8d9c69bf826c9"
     },
-    "assets/s0/js/\u7535\u5f71\u5148\u751f.js": {
+    "assets/s0/js/电影先生.js": {
       "bytes": 15605,
       "sha256": "586ad9c70e74b431925a7aa8c8177a1709c102b0ec7eed623bb9e2c9ad54ba20"
     },
-    "assets/s0/js/\u767e\u5fd9\u65e0\u679c.js": {
+    "assets/s0/js/百忙无果.js": {
       "bytes": 10871,
       "sha256": "ed32cbe62efcc45cd4ce301228410f9ab3543f5c1b6ca79974ad09e1044e2c53"
     },
-    "assets/s0/js/\u76ae\u76ae\u867e[\u4f18].js": {
+    "assets/s0/js/皮皮虾[优].js": {
       "bytes": 1520,
       "sha256": "c2e8e157166f83b313e18685b923261cb7f472cc7b04ebc3afd15cf40e9090e5"
     },
-    "assets/s0/js/\u76ae\u76ae\u9e2d.js": {
+    "assets/s0/js/皮皮鸭.js": {
       "bytes": 18723,
       "sha256": "751405bf88cabc76898c813feb2c916e47622a5d777655072ac0521612ba4325"
     },
-    "assets/s0/js/\u76f8\u58f0\u968f\u8eab\u542c.js": {
+    "assets/s0/js/相声随身听.js": {
       "bytes": 2399,
       "sha256": "dded09101f9c6efb16b448d8ae2bf320585a7cc6eeae32444c9a49669e603616"
     },
-    "assets/s0/js/\u770b\u4e86\u4e48.js": {
+    "assets/s0/js/看了么.js": {
       "bytes": 12368,
       "sha256": "ceb76b7d8d5e087d79b8f78aa8f0c513889a4d7ebf89ed42abd1255aeeabd863"
     },
-    "assets/s0/js/\u770b\u97e9\u5267.js": {
+    "assets/s0/js/看韩剧.js": {
       "bytes": 3929,
       "sha256": "942a6a6246e7d405662869fcd48ce75a948cd36804d4e9bcc6a6fd9a006be811"
     },
-    "assets/s0/js/\u77ed\u89c6\u9891.js": {
+    "assets/s0/js/短视频.js": {
       "bytes": 1822,
       "sha256": "bdc3900ac09eeb84d400271ff443653e6f33e41c62b83de98177d171045c3d33"
     },
-    "assets/s0/js/\u78c1\u529b\u718a[\u78c1].js": {
+    "assets/s0/js/磁力熊[磁].js": {
       "bytes": 6401,
       "sha256": "1176f5f4fbf892f81b711bdea172f597ab06d03be532e56291a7901d0136db54"
     },
-    "assets/s0/js/\u79c1\u4eba\u5f71\u9662.js": {
+    "assets/s0/js/私人影院.js": {
       "bytes": 12330,
       "sha256": "869341528a157c7f770c6b5133470d29e8d4c49bef41a1e408b00ead6f5da3b6"
     },
-    "assets/s0/js/\u79cb\u971e.js": {
+    "assets/s0/js/秋霞.js": {
       "bytes": 11062,
       "sha256": "d97d479ae45ebe7e1b237766dafb56caf564adf40d67cd3ca040463c68b0ca62"
     },
-    "assets/s0/js/\u79cb\u971e\u5f71\u89c6.js": {
+    "assets/s0/js/秋霞影视.js": {
       "bytes": 14869,
       "sha256": "33df454d684eda6ced22a90a68c6d2b9f1b90de2ad46611553378585693415b5"
     },
-    "assets/s0/js/\u7ae5\u8da3.js": {
+    "assets/s0/js/童趣.js": {
       "bytes": 8197,
       "sha256": "c025691fed143e74cc78f3569abe1df2bd9230cc3e9383847534ba71f791538b"
     },
-    "assets/s0/js/\u7c73\u7231\u5f71\u89c6.js": {
+    "assets/s0/js/米爱影视.js": {
       "bytes": 14882,
       "sha256": "4db65b07810c3c5e6eb01f9fdd412bad1d9b2326aa0bf0819e7a661022e23170"
     },
-    "assets/s0/js/\u7d20\u767d\u767d.js": {
+    "assets/s0/js/素白白.js": {
       "bytes": 12262,
       "sha256": "08ee329a913de2d849f9a84d72e28c67e9cd174bb14e84ff537828d2b9ea3b0e"
     },
-    "assets/s0/js/\u7f51\u6613\u516c\u7248\u5f71\u50cf.js": {
+    "assets/s0/js/网易公版影像.js": {
       "bytes": 1007,
       "sha256": "2609ce317100396c3bdf9f966eedc9e653f5bc2d1cf2b299dbe8ab13bbe7a31d"
     },
-    "assets/s0/js/\u7f51\u98de.TV.js": {
+    "assets/s0/js/网飞.TV.js": {
       "bytes": 21284,
       "sha256": "1a5000c83e93f09b7fb68096eb5900a5796c99c9a102a74a17b385ac59b6a3fb"
     },
-    "assets/s0/js/\u7f8e\u5267\u7f51.js": {
+    "assets/s0/js/美剧网.js": {
       "bytes": 18370,
       "sha256": "53228056d5f96f5b30213cad72f2e4a5a68f748dd1606147ec796862db29859a"
     },
-    "assets/s0/js/\u7f8e\u76ca\u8fbe[V2].js": {
+    "assets/s0/js/美益达[V2].js": {
       "bytes": 18611,
       "sha256": "241f29e2e9a77f3286d7f94fd77d088c329b56fd3da7fd4c6f0051290ce4f2fa"
     },
-    "assets/s0/js/\u7f8e\u89c6\u7f51.js": {
+    "assets/s0/js/美视网.js": {
       "bytes": 16001,
       "sha256": "08cf595b1121a48f3bbda52ebde7f78c1f85156cc6fecfe3f7d8a38f5fee2433"
     },
-    "assets/s0/js/\u80d6\u864e.js": {
+    "assets/s0/js/胖虎.js": {
       "bytes": 20097,
       "sha256": "afafc054f4bba04a8d595067c94fb46746c63aea58f33a2c0cc1e9fcbad3e77c"
     },
-    "assets/s0/js/\u817e\u4e91\u9a7e\u96fe.js": {
+    "assets/s0/js/腾云驾雾.js": {
       "bytes": 33154,
       "sha256": "edda360fb0034f708b87719ed722a6e7684d5ac106f2b7bf889324d0102173a0"
     },
-    "assets/s0/js/\u82b1\u5b50\u52a8\u6f2b.js": {
+    "assets/s0/js/花子动漫.js": {
       "bytes": 24966,
       "sha256": "dbde3506f83fafe7d3636fa594feb9d6fef2dbdb150a9a46769ec90fffc93205"
     },
-    "assets/s0/js/\u82b1\u5c4b\u5f71\u9662.js": {
+    "assets/s0/js/花屋影院.js": {
       "bytes": 12764,
       "sha256": "0568f332388b90ec6b4808ea44f5721c0af75635f0a096ec899fe8e312b6429f"
     },
-    "assets/s0/js/\u82b1\u732bTV.js": {
+    "assets/s0/js/花猫TV.js": {
       "bytes": 12962,
       "sha256": "34d7ebf1ac631b96c618ecc65577b029a7328cdf72dce5bb8d19f9551da52469"
     },
-    "assets/s0/js/\u82f9\u679c\u7231\u5fae.js": {
+    "assets/s0/js/苹果爱微.js": {
       "bytes": 1071,
       "sha256": "674ccd01060bd433ce94ce3ef0e97d0018ab95e42f621168798cc969701681c8"
     },
-    "assets/s0/js/\u8336\u676f\u72d0.js": {
+    "assets/s0/js/茶杯狐.js": {
       "bytes": 3811,
       "sha256": "c99234928c762151f57bc9b37abe372c7848208f4f8a0934ec6958e1a877dcb4"
     },
-    "assets/s0/js/\u8350\u7247.js": {
+    "assets/s0/js/荐片.js": {
       "bytes": 8429,
       "sha256": "c1b53e6dc05655c0088a16479ff8c190f17ac2c16a7ff5f5a30669e0ed7de22a"
     },
-    "assets/s0/js/\u83dc\u72d7.js": {
+    "assets/s0/js/菜狗.js": {
       "bytes": 17612,
       "sha256": "2c7b012b754f9606164bb3541b955a12e7e4baf8736abe9218c4420ba5335a1d"
     },
-    "assets/s0/js/\u843d\u653b\u9601\u5f71\u89c6.js": {
+    "assets/s0/js/落攻阁影视.js": {
       "bytes": 11764,
       "sha256": "f68b2da0ff5d7ae201afb75e90e364f159f2b921009797c7d35c0bd19a9b4d93"
     },
-    "assets/s0/js/\u843d\u653b\u9601\u5f71\u89c6[V2].js": {
+    "assets/s0/js/落攻阁影视[V2].js": {
       "bytes": 18513,
       "sha256": "1fe54df6bbd0163340439ed0f48842f301051f137b74d9f2c88b1ac5618047ee"
     },
-    "assets/s0/js/\u84dd\u5149\u5f71\u9662.js": {
+    "assets/s0/js/蓝光影院.js": {
       "bytes": 13741,
       "sha256": "b59bed1f5ae1e4bd6ef3b5bb9db718f8d10540925ba381e40e6e264a4b8b0727"
     },
-    "assets/s0/js/\u864e\u7259\u76f4\u64ad.js": {
+    "assets/s0/js/虎牙直播.js": {
       "bytes": 22769,
       "sha256": "da99e5ce0862563245bd9de2a59f39703176e81afe778142204de5e2a319b2ed"
     },
-    "assets/s0/js/\u86cb\u86cb\u5267.js": {
+    "assets/s0/js/蛋蛋剧.js": {
       "bytes": 10108,
       "sha256": "8b427d7d230c99057460e7f36c77a884a8b8ad2a17e8418df40ce6a50c5016ad"
     },
-    "assets/s0/js/\u86cb\u86cb\u8d5e.js": {
+    "assets/s0/js/蛋蛋赞.js": {
       "bytes": 8417,
       "sha256": "4a6feff1d9ee34c0f8ace307c05b02b559a93401e6296c1ee6ab3b0ed66495ad"
     },
-    "assets/s0/js/\u8725\u8734\u5f71\u89c6.js": {
+    "assets/s0/js/蜥蜴影视.js": {
       "bytes": 18128,
       "sha256": "857c6b0761e195902a88c516cff22c2b2c8a5e156a20b25b1be9db4c0fc19304"
     },
-    "assets/s0/js/\u873b\u8713FM.js": {
+    "assets/s0/js/蜻蜓FM.js": {
       "bytes": 1225,
       "sha256": "f99989b1e0df3b9984fa875c5958dc79b80ef9eaffd9ff7d8a509fd37648686d"
     },
-    "assets/s0/js/\u88ab\u7a9d\u7535\u5f71.js": {
+    "assets/s0/js/被窝电影.js": {
       "bytes": 7604,
       "sha256": "ac6e63f476510d96f7359fa121be7de697ec25bcf9ba77580d75c329a901b9df"
     },
-    "assets/s0/js/\u897f\u74dc\u5f71\u9662.js": {
+    "assets/s0/js/西瓜影院.js": {
       "bytes": 1136,
       "sha256": "deadaab52abcafeb43b7550ea91c97aaaac35fa147d75078f7e9097c4e3707f7"
     },
-    "assets/s0/js/\u8bc4\u4e66\u968f\u8eab\u542c.js": {
+    "assets/s0/js/评书随身听.js": {
       "bytes": 6612,
       "sha256": "7dd8c35de85785cc5cb322b1eedae803a6b6ea03a71d03edeb933941b108172a"
     },
-    "assets/s0/js/\u8d77\u98de\u5f71\u9662.js": {
+    "assets/s0/js/起飞影院.js": {
       "bytes": 11080,
       "sha256": "ac88f762894d02c34488793e4263224525d6215dc22212aa372e5f6c2b71421d"
     },
-    "assets/s0/js/\u8dd1TV.js": {
+    "assets/s0/js/跑TV.js": {
       "bytes": 1814,
       "sha256": "57c32b22afbb49a9b1e19c27693ba60c1f288d0bef4b67c353a6df39f6f598e2"
     },
-    "assets/s0/js/\u8def\u4eba\u7532[V2].js": {
+    "assets/s0/js/路人甲[V2].js": {
       "bytes": 18822,
       "sha256": "b78a826db0a0ea3d91f5ce925daa50bfbc742fb42695015d03b966332b0126a3"
     },
-    "assets/s0/js/\u8def\u6f2b\u6f2b.js": {
+    "assets/s0/js/路漫漫.js": {
       "bytes": 16510,
       "sha256": "1a0eb51705ae674bad0df4c9af44396c2ec0804bd311848e2cd7c7dbcb25c76f"
     },
-    "assets/s0/js/\u8fbe\u8fbe\u9f9f.js": {
+    "assets/s0/js/达达龟.js": {
       "bytes": 7471,
       "sha256": "f06a793b1e45229bec97c448c1360288803c1357c92e913aea2421e5d64e433c"
     },
-    "assets/s0/js/\u8ffd\u5267\u8ff7.js": {
+    "assets/s0/js/追剧迷.js": {
       "bytes": 1299,
       "sha256": "071908e7533e76216a920889ce042400f2cc447854d64ee5781a77b776033736"
     },
-    "assets/s0/js/\u91776\u7f51.js": {
+    "assets/s0/js/酷6网.js": {
       "bytes": 888,
       "sha256": "ba8706db408dbdb54e9d1f5a32725e4f2b93319c8886889957d66b4fcddffe83"
     },
-    "assets/s0/js/\u9177\u4e9177.js": {
+    "assets/s0/js/酷云77.js": {
       "bytes": 10982,
       "sha256": "beca5fde2266886f898a5d61f8f35b20eacf4eca347640c0e3d0b12e8d909b22"
     },
-    "assets/s0/js/\u9177\u5947MV.js": {
+    "assets/s0/js/酷奇MV.js": {
       "bytes": 1098,
       "sha256": "5d627a8db41e5ebc9eef3dbee23dad2dc53cb61342ac830feeecdc6c4787bff0"
     },
-    "assets/s0/js/\u91c7\u96c6\u4e4b\u738b.js": {
+    "assets/s0/js/采集之王.js": {
       "bytes": 17914,
       "sha256": "7288ec3e5dfb58344fc33526bb2f0f8d65ab8e562a9fd227d9f20265e3e9be71"
     },
-    "assets/s0/js/\u91cf\u5b50\u5f71\u89c6.js": {
+    "assets/s0/js/量子影视.js": {
       "bytes": 20122,
       "sha256": "0f07acd5e4efc5a92e83e3cf8d7323f33f5f8c5ff3488f9c1ddb7549e137f37d"
     },
-    "assets/s0/js/\u91cf\u5b50\u8d44\u6e90.js": {
+    "assets/s0/js/量子资源.js": {
       "bytes": 3058,
       "sha256": "6b54b5f3d9057d3934ef0b5564454ccfad3400f29ba38c79e83099570e937291"
     },
-    "assets/s0/js/\u91d1\u66fc\u5f71\u89c6.js": {
+    "assets/s0/js/金曼影视.js": {
       "bytes": 20846,
       "sha256": "05787db3d5e304ade37e597956cbffc05df5c4add3f03b47f948a588300185ab"
     },
-    "assets/s0/js/\u946b\u946b[V2].js": {
+    "assets/s0/js/鑫鑫[V2].js": {
       "bytes": 17935,
       "sha256": "b1db47e157eb6ece5f2d6ca59b2192c5caa72bca22e92e19b86fae4e0ac2560c"
     },
-    "assets/s0/js/\u963f\u5e03\u5f71\u9662.js": {
+    "assets/s0/js/阿布影院.js": {
       "bytes": 13377,
       "sha256": "eb83a0f2cd67ae076147f5de139252cc89e11916cd2ebed961fa2d86593ef712"
     },
-    "assets/s0/js/\u98de\u5154\u5f71\u89c6.js": {
+    "assets/s0/js/飞兔影视.js": {
       "bytes": 8857,
       "sha256": "2b9b8660f4bc19361c72c5ac70a621392ca1e249fc895f64a008a1712020b572"
     },
-    "assets/s0/js/\u9996\u64ad\u5f71\u9662.js": {
+    "assets/s0/js/首播影院.js": {
       "bytes": 34595,
       "sha256": "ced9a1a3cf40989cfb5b1f65bc322f5587698529cca39f050cde43e071ae7c44"
     },
-    "assets/s0/js/\u9a9a\u706b\u7535\u5f71.js": {
+    "assets/s0/js/骚火电影.js": {
       "bytes": 4067,
       "sha256": "e800296cf6050cfcdb9c4db98025cd759f47661a187ba9729fb42bbb25cf8944"
     },
@@ -2625,7 +2625,7 @@
       "bytes": 450,
       "sha256": "43bb3a41e9237a578079f9013c4d7fd09b410dcee0207b95dabe00287ad669ba"
     },
-    "assets/s0/json/api\u9ed1\u6728\u8033.json": {
+    "assets/s0/json/api黑木耳.json": {
       "bytes": 12119,
       "sha256": "25a6329229e0ff377f040dc1db49b018f7312f90ea88852e759fa9df20099890"
     },
@@ -2645,7 +2645,7 @@
       "bytes": 29277,
       "sha256": "b8311a506ad715e837ccabe9f36766d3238778df6d5b7cb64a98161dbc5a3c84"
     },
-    "assets/s0/json/dj\u770b\u7403.json": {
+    "assets/s0/json/dj看球.json": {
       "bytes": 11718,
       "sha256": "b4daf750559d3f5b129682c6305a0300a56845f5522a26f624e2194d96f647d4"
     },
@@ -2821,23 +2821,23 @@
       "bytes": 40924,
       "sha256": "aff978177ee65576f7046e68a760e5576d0ef29635d6a5bf67c540d96e97c03e"
     },
-    "assets/s0/json/\u4f01\u9e45\u76f4\u64ad.json": {
+    "assets/s0/json/企鹅直播.json": {
       "bytes": 2297,
       "sha256": "f80c99eddeb019eeac1d7001c8574b4b466b97754f92a9b48375181f8e285dea"
     },
-    "assets/s0/json/\u52a8\u6f2b\u5df4\u58eb.json": {
+    "assets/s0/json/动漫巴士.json": {
       "bytes": 12456,
       "sha256": "0665abdd3966ac93568708554b285272797af117ce3ffe198a690cbbc742645e"
     },
-    "assets/s0/json/\u5382\u957f\u5f71\u89c6.json": {
+    "assets/s0/json/厂长影视.json": {
       "bytes": 2363,
       "sha256": "279c59754c748a1ab2d8dcf19f470fae0c147ec3329dac79d7794a47c21d206b"
     },
-    "assets/s0/json/\u5947\u4e50.json": {
+    "assets/s0/json/奇乐.json": {
       "bytes": 6099,
       "sha256": "a1b36e476e674a44d5b6e66a9f430219971f7e58d5c620f0e932cf992314bd48"
     },
-    "assets/s0/json/\u5947\u4f18.json": {
+    "assets/s0/json/奇优.json": {
       "bytes": 3600,
       "sha256": "c88e07339fed16a26262bbeb517a67587ecf837bece21eed87098bdc5eef4997"
     },
@@ -3025,7 +3025,7 @@
       "bytes": 33,
       "sha256": "244811571c2a6b29b3d90db0bde32664d038686c309893becf7d726a56755280"
     },
-    "assets/s0/lib/\u6a21\u677f.js": {
+    "assets/s0/lib/模板.js": {
       "bytes": 15217,
       "sha256": "60bc13ee04302db0fd9b0061e234a8d2ae624e0836e8e9c50e7735425ab63bea"
     },
@@ -3045,27 +3045,27 @@
       "bytes": 117939,
       "sha256": "6400b0ecdcf40280c929bbc104db09b85c58ce80acb6aaa6ab831e1075426344"
     },
-    "assets/s0/live/\u5c71\u4e1c\u8054\u901a.txt": {
+    "assets/s0/live/山东联通.txt": {
       "bytes": 25050,
       "sha256": "2a13c4e781f3d322f66b7e51ecc173284130fa7022d320390d419b035154d534"
     },
-    "assets/s0/live/\u5e7f\u4e1c\u8054\u901a\u5185\u7f51.txt": {
+    "assets/s0/live/广东联通内网.txt": {
       "bytes": 62751,
       "sha256": "cb8e695c4b1c9ac150ec55e5582687e29d2ad4c2a8d9861d27d5b0fcf283e2ff"
     },
-    "assets/s0/live/\u6cb3\u5357\u8054\u901a\u5355\u64ad.txt": {
+    "assets/s0/live/河南联通单播.txt": {
       "bytes": 53642,
       "sha256": "91c39ec99a2668f278d53e3377655fc7c12db7acad8edf2ddd7038c96ff33af8"
     },
-    "assets/s0/live/\u8fbd\u5b81\u79fb\u52a8\u534e\u4e3a.txt": {
+    "assets/s0/live/辽宁移动华为.txt": {
       "bytes": 32843,
       "sha256": "3d9992dbe6b6b0676f85e78e3f3dbd007675053163144df3d00af28d6a20945b"
     },
-    "assets/s0/live/\u8fbd\u5b81\u79fb\u52a8\u70fd\u706b.txt": {
+    "assets/s0/live/辽宁移动烽火.txt": {
       "bytes": 39473,
       "sha256": "bfb3d0570bfeb103d8780aa4e7909f33081dd38c13c9d1fbe15ba112d14795c1"
     },
-    "assets/s0/live/\u8fbd\u5b81\u8054\u901a.txt": {
+    "assets/s0/live/辽宁联通.txt": {
       "bytes": 25732,
       "sha256": "8b8542a32237fe2c6927157fb4c4febb6d83e4862bd47ff921c045918b74def3"
     },
@@ -3109,7 +3109,7 @@
       "bytes": 13497,
       "sha256": "bc3cd27519d97edd0409b1a633698b71866b4d6c2111cd8bfbc3d91079b71748"
     },
-    "assets/s0/py/TVB\u4e91\u64ad.py": {
+    "assets/s0/py/TVB云播.py": {
       "bytes": 16997,
       "sha256": "cdbc86774b03ac922cfdd2c34662dac21fec378cd9c5e41cd0e9ac3cf1e852e3"
     },
@@ -3121,35 +3121,35 @@
       "bytes": 10933,
       "sha256": "8718ab969c6c7a5d826817f1cf5b155254ee4ff977f4a05623071caf64a8899f"
     },
-    "assets/s0/py/\u5267\u738b\u77ed\u5267.py": {
+    "assets/s0/py/剧王短剧.py": {
       "bytes": 9616,
       "sha256": "5b09d3114008a9b3ecfa0e6bb37aa811637f84c9fd94c6d70e1d9166e820c157"
     },
-    "assets/s0/py/\u534e\u6570.py": {
+    "assets/s0/py/华数.py": {
       "bytes": 27881,
       "sha256": "f705f46a57f1c8149cd82f9c2b8c1842658d46e686a0701c022181a03b129aee"
     },
-    "assets/s0/py/\u534e\u8c0a\u5f71\u89c6.py": {
+    "assets/s0/py/华谊影视.py": {
       "bytes": 32431,
       "sha256": "bf05f0aefe1a928fb604ab1a87451ee2130944f4d90601b3c956e119d11648e6"
     },
-    "assets/s0/py/\u54d4\u54e9\u76f4\u64ad.py": {
+    "assets/s0/py/哔哩直播.py": {
       "bytes": 9750,
       "sha256": "25db3ca922a39c4d6f43ca8c727a7bc4959ef47e9a530cd2d2ee10ee51365fa4"
     },
-    "assets/s0/py/\u661f\u82bd\u77ed\u5267.py": {
+    "assets/s0/py/星芽短剧.py": {
       "bytes": 10933,
       "sha256": "8718ab969c6c7a5d826817f1cf5b155254ee4ff977f4a05623071caf64a8899f"
     },
-    "assets/s0/py/\u7231\u542c\u97f3\u4e50.py": {
+    "assets/s0/py/爱听音乐.py": {
       "bytes": 20181,
       "sha256": "a37d90fe0425cf13815220427cb8f0d09252a8f96a5638ef70393c848622241c"
     },
-    "assets/s0/py/\u7f51\u7edc\u76f4\u64ad.py": {
+    "assets/s0/py/网络直播.py": {
       "bytes": 51041,
       "sha256": "87fbb69e2aef41b163d62da394d72d1872830cd1f27a84f1acdbffa4e7550b09"
     },
-    "assets/s0/py/\u95ea\u96f7.py": {
+    "assets/s0/py/闪雷.py": {
       "bytes": 12859,
       "sha256": "b50b61e34ab2bedc316c2a292cef9b87469d63c49f330818c8cc5594c1d19f4d"
     },
@@ -3161,7 +3161,7 @@
       "bytes": 105812,
       "sha256": "953dec1bee035ab991f7291b8bbb0e76e2d7de4f37b74c6e07bfc15422c2e040"
     },
-    "assets/s0/README-\u6211\u7684\u914d\u7f6e.md": {
+    "assets/s0/README-我的配置.md": {
       "bytes": 6205,
       "sha256": "430e45fae2333f989ea9a907d427742d62da6cc7561b26e858121b7bf82ff3da"
     },
@@ -3225,83 +3225,83 @@
       "bytes": 476,
       "sha256": "337d6d9b9b970865831266a1e04e8c17e77a99445065125a9f1415e376f5a003"
     },
-    "assets/s0/XBPQ/\u517b\u751f\u5802.json": {
+    "assets/s0/XBPQ/养生堂.json": {
       "bytes": 1112,
       "sha256": "6eec9394ee107f69d7c5b1f01e7b6e1c1cf0c2cd04c89cf86f9606f93e501d38"
     },
-    "assets/s0/XBPQ/\u54c6\u5566\u65b0\u756a\u793e.json": {
+    "assets/s0/XBPQ/哆啦新番社.json": {
       "bytes": 1261,
       "sha256": "cb7cae0892c304733cecac6f88083b05f040607f3bb08d9923bfcb91da641041"
     },
-    "assets/s0/XBPQ/\u5723\u57ce1080.json": {
+    "assets/s0/XBPQ/圣城1080.json": {
       "bytes": 9488,
       "sha256": "478a06080a4fb8b4a28179f1b40fa6137ab0dcf4fd016bf5539bd3d9df55b30d"
     },
-    "assets/s0/XBPQ/\u597d\u6050\u6016.json": {
+    "assets/s0/XBPQ/好恐怖.json": {
       "bytes": 718,
       "sha256": "5d89826f4f642de026dc91c57fe410b7d3a8c688fc098c0b9d64f0c88a01344f"
     },
-    "assets/s0/XBPQ/\u5c0f\u767d.json": {
+    "assets/s0/XBPQ/小白.json": {
       "bytes": 511,
       "sha256": "9699d9bf938532d5c6ccda2602cab4e6cd2f867e4591d3e85d8a749e3db9e248"
     },
-    "assets/s0/XBPQ/\u5c0f\u9547\u5f71\u89c6.json": {
+    "assets/s0/XBPQ/小镇影视.json": {
       "bytes": 199,
       "sha256": "7b5b7c46c63fc0078950e8d8942f5e55da2784e4faf6588924f0831a52efb5fe"
     },
-    "assets/s0/XBPQ/\u5e03\u8c374K.json": {
+    "assets/s0/XBPQ/布谷4K.json": {
       "bytes": 878,
       "sha256": "f051157adcda9946f3b02c173d8a31fbf53c93432ffd566c66ce015cdd3a41f9"
     },
-    "assets/s0/XBPQ/\u6587\u624d.json": {
+    "assets/s0/XBPQ/文才.json": {
       "bytes": 2241,
       "sha256": "db3d5088710e3fa0b5653413b355b551e8c5a90d60286d6d85910f5fc9aa0126"
     },
-    "assets/s0/XBPQ/\u6a31\u82b1\u52a8\u6f2b.json": {
+    "assets/s0/XBPQ/樱花动漫.json": {
       "bytes": 340,
       "sha256": "e19130561372d736076ee62e7c2e40f2c4abba87b4a3bd68fe7b9d249965038d"
     },
-    "assets/s0/XBPQ/\u6c38\u4e50\u5f71\u89c6.json": {
+    "assets/s0/XBPQ/永乐影视.json": {
       "bytes": 787,
       "sha256": "ac149c345cf61ce434a214a6e526a985beddaf412e1ba4a014c7b72e43227343"
     },
-    "assets/s0/XBPQ/\u7535\u5f71\u5148\u751f.json": {
+    "assets/s0/XBPQ/电影先生.json": {
       "bytes": 705,
       "sha256": "33b76e3482c9aeecfbb8bc8bf052dafff2cbd902755c82848336ef9e202fd638"
     },
-    "assets/s0/XBPQ/\u767d\u5ad6\u5f71\u89c6.json": {
+    "assets/s0/XBPQ/白嫖影视.json": {
       "bytes": 289,
       "sha256": "5fb8b6a50450b678e407166e0bd0090d2f5199beae2df10b1fd7de66d38c0b66"
     },
-    "assets/s0/XBPQ/\u76f8\u58f0.json": {
+    "assets/s0/XBPQ/相声.json": {
       "bytes": 963,
       "sha256": "345f341264dd3da45af5a99bfc31104d3377c6abe67cb7c4cfd9a0007b8d44f7"
     },
-    "assets/s0/XBPQ/\u79cb\u971e.json": {
+    "assets/s0/XBPQ/秋霞.json": {
       "bytes": 897,
       "sha256": "334e31f3c83051f55da161c2eb9860795535f938e0745c1934fb4be7fd021535"
     },
-    "assets/s0/XBPQ/\u8bc4\u4e66.json": {
+    "assets/s0/XBPQ/评书.json": {
       "bytes": 897,
       "sha256": "fbdb019a48c05de2938472d6bf2de9164cf928e1567e786c41dc6d1add10bad0"
     },
-    "assets/s0/XBPQ/\u96ea\u82b1.json": {
+    "assets/s0/XBPQ/雪花.json": {
       "bytes": 1139,
       "sha256": "a334e5f67a78af97c28082516a43bbae818cdafb9129f1803c6930cff6e765a3"
     },
-    "assets/s0/XBPQ/\u9762\u5305\u5f71\u89c6.json": {
+    "assets/s0/XBPQ/面包影视.json": {
       "bytes": 282,
       "sha256": "c978e1626cbd6699b39f1415c052d99eb3306779f0fd7a09d1275e0205698193"
     },
-    "assets/s0/XBPQ/\u97e9\u5267\u770b\u770b.json": {
+    "assets/s0/XBPQ/韩剧看看.json": {
       "bytes": 2127,
       "sha256": "d9330400ad04e99b838176445c720d20132bd81a98e738c6a64effcf7052a5ec"
     },
-    "assets/s0/XBPQ/\u9ebb\u8863\u5f71\u9662.json": {
+    "assets/s0/XBPQ/麻衣影院.json": {
       "bytes": 186,
       "sha256": "271729204f194aa39f1e8a3ead1b192202372862ec297ac7ac8945ce8f2693b1"
     },
-    "assets/s0/XBPQ/\u9ed1\u72d0\u5f71\u9662.json": {
+    "assets/s0/XBPQ/黑狐影院.json": {
       "bytes": 1406,
       "sha256": "66306b7d2a668fcb4b7104f3549bf3f24f545edd879eaa5a7a4aaf2353f57504"
     },
@@ -3313,11 +3313,11 @@
       "bytes": 85205,
       "sha256": "9be9964d6e63d92726ff7feda3c8a147d1f4aa1128888dbed3a54ac3432b2508"
     },
-    "assets/s0/xiaosa/js/56\u52a8\u6f2b.js": {
+    "assets/s0/xiaosa/js/56动漫.js": {
       "bytes": 1884,
       "sha256": "9a236d2cb4589f247c743ca39b0742845478f220806a9274a645850c8c972d16"
     },
-    "assets/s0/xiaosa/js/88\u770b\u7403.js": {
+    "assets/s0/xiaosa/js/88看球.js": {
       "bytes": 1958,
       "sha256": "ed80b602235a87d2ed10debe916755c83dbbcf37d8df043f51d7c7771f695a49"
     },
@@ -3393,7 +3393,7 @@
       "bytes": 341203,
       "sha256": "9d6a88fe4c9cb9039a2f9cfda8dde976fb3e20ec9e1c1880370ddcc03fb7c026"
     },
-    "assets/s0/xiaosa/js/NT\u52a8\u6f2b.js": {
+    "assets/s0/xiaosa/js/NT动漫.js": {
       "bytes": 25827,
       "sha256": "a610fd6a854829434553d08214d89e8fa8210c4e62d210632ef873f40d608bbd"
     },
@@ -3417,235 +3417,235 @@
       "bytes": 6011,
       "sha256": "8c6e2c0220eb2264b7d47f792c6ae89fce0a89fcc50cd8fe2decaaf0c3493ce7"
     },
-    "assets/s0/xiaosa/js/\u4e09\u516d\u96f6.js": {
+    "assets/s0/xiaosa/js/三六零.js": {
       "bytes": 23845,
       "sha256": "20d4aff0157ef7ec3793b7e717dfcf0160b5b2f4fbc0c5c8767c81ebf3fdcdd7"
     },
-    "assets/s0/xiaosa/js/\u4e09\u516d\u96f6\u5f39\u5e55.js": {
+    "assets/s0/xiaosa/js/三六零弹幕.js": {
       "bytes": 23623,
       "sha256": "37e919052d035b2f5a2b6788185b976b5166d203c5a7fd6cce855a739a473cc5"
     },
-    "assets/s0/xiaosa/js/\u4eba\u4eba.js": {
+    "assets/s0/xiaosa/js/人人.js": {
       "bytes": 2804,
       "sha256": "5765ca0b865846676b4cb7fd1ad0aed33f7e6a75de27c9fcf2f1055a9bd9129b"
     },
-    "assets/s0/xiaosa/js/\u4eba\u4eba\u5206\u4eab\u7ad9.js": {
+    "assets/s0/xiaosa/js/人人分享站.js": {
       "bytes": 2804,
       "sha256": "5765ca0b865846676b4cb7fd1ad0aed33f7e6a75de27c9fcf2f1055a9bd9129b"
     },
-    "assets/s0/xiaosa/js/\u4eba\u4eba\u7535\u5f71\u7f51.js": {
+    "assets/s0/xiaosa/js/人人电影网.js": {
       "bytes": 2257,
       "sha256": "c399c1d885f998f151f2926e0d797ed566a90a1cec1818a6fa2b41e08a140aea"
     },
-    "assets/s0/xiaosa/js/\u4f18\u9177\u5f39\u5e55.js": {
+    "assets/s0/xiaosa/js/优酷弹幕.js": {
       "bytes": 63644,
       "sha256": "4092d63b0bbd9cc99b4863df9a5c0513d0494c9d41655956c8548c567d828faa"
     },
-    "assets/s0/xiaosa/js/\u4f18\u9177\u89c6\u9891.js": {
+    "assets/s0/xiaosa/js/优酷视频.js": {
       "bytes": 12428,
       "sha256": "a951be88a4ab2665052ca83aab8c92afe9f8e803163d4a44c09de89845a28dfa"
     },
-    "assets/s0/xiaosa/js/\u5168\u76d8.js": {
+    "assets/s0/xiaosa/js/全盘.js": {
       "bytes": 3290,
       "sha256": "0a90c55ab733ea85c56e6557ddfbffd60552fb78f37657198b488c7e428d4c7f"
     },
-    "assets/s0/xiaosa/js/\u5267\u5708\u5708.js": {
+    "assets/s0/xiaosa/js/剧圈圈.js": {
       "bytes": 386,
       "sha256": "e8ce25c576f4febe4f643b461971f075766db8ba18e0767102569f783f98d584"
     },
-    "assets/s0/xiaosa/js/\u52a8\u6f2b\u5c9b.js": {
+    "assets/s0/xiaosa/js/动漫岛.js": {
       "bytes": 26977,
       "sha256": "05d5c67cb5a46c846e2560cd50d7ffb5320d48bb37176d898918d83befdc106d"
     },
-    "assets/s0/xiaosa/js/\u52a8\u6f2b\u5df4\u58eb.js": {
+    "assets/s0/xiaosa/js/动漫巴士.js": {
       "bytes": 13011,
       "sha256": "eb990e11a1651ee525e5c118a7c02337d127e667f3b2f1a570bd126b074f272d"
     },
-    "assets/s0/xiaosa/js/\u52a8\u753b\u7247\u5927\u5168.js": {
+    "assets/s0/xiaosa/js/动画片大全.js": {
       "bytes": 979,
       "sha256": "c895d33b6fb2aeb5f696dac3a7ecf744b8f345925551a2914dee932d6485cde6"
     },
-    "assets/s0/xiaosa/js/\u53bb\u770b\u5427.js": {
+    "assets/s0/xiaosa/js/去看吧.js": {
       "bytes": 31221,
       "sha256": "ba47e885e5fcc63850fe4aede1cb1d03d657e1079f32747cc6169cc09c25349e"
     },
-    "assets/s0/xiaosa/js/\u53cc\u661f.js": {
+    "assets/s0/xiaosa/js/双星.js": {
       "bytes": 2728,
       "sha256": "3432f1191d2f9523017d0dbd2752c51314111cae67e7d764d7d095ed39ec6d1f"
     },
-    "assets/s0/xiaosa/js/\u5929\u5802.js": {
+    "assets/s0/xiaosa/js/天堂.js": {
       "bytes": 3189,
       "sha256": "cceb5b4e0087599227cfc146b850a2f13b582505680af2bfc72b98f1bd848917"
     },
-    "assets/s0/xiaosa/js/\u5938\u514b\u76d8\u641c.js": {
+    "assets/s0/xiaosa/js/夸克盘搜.js": {
       "bytes": 3307,
       "sha256": "b303ccf35413c8d38e6b0d3f8abbb6752e9facec8bfec31cfa82c0b3c87811df"
     },
-    "assets/s0/xiaosa/js/\u5947\u7c73\u52a8\u6f2b.js": {
+    "assets/s0/xiaosa/js/奇米动漫.js": {
       "bytes": 30940,
       "sha256": "206c172ed55e2e9e88b560fe28c60453715c74d2e9a836d17a61f9e593d47ef7"
     },
-    "assets/s0/xiaosa/js/\u597d\u770b\u52a8\u6f2b.js": {
+    "assets/s0/xiaosa/js/好看动漫.js": {
       "bytes": 1449,
       "sha256": "057778c178f779dd6adebab23f067647e117a55651705f74ba517d66cf9c5ba1"
     },
-    "assets/s0/xiaosa/js/\u5f02\u4e16\u754c.js": {
+    "assets/s0/xiaosa/js/异世界.js": {
       "bytes": 8150,
       "sha256": "32c2aa6e21476a16a2bb599fdbf71cb2bab715a2354eb81ce495376264702f95"
     },
-    "assets/s0/xiaosa/js/\u601d\u53e4\u5f71\u89c6.js": {
+    "assets/s0/xiaosa/js/思古影视.js": {
       "bytes": 1744,
       "sha256": "984fe0c90038a5e107bd444d9cf8170236254ccd584213462bbc0aabf8100857"
     },
-    "assets/s0/xiaosa/js/\u6021\u8431\u52a8\u6f2b.js": {
+    "assets/s0/xiaosa/js/怡萱动漫.js": {
       "bytes": 21460,
       "sha256": "e45b8cb66d367f13350c1f0fb9a0ccfa93e717e80ef74f3adac7cebe66d06320"
     },
-    "assets/s0/xiaosa/js/\u61d2\u76d8.js": {
+    "assets/s0/xiaosa/js/懒盘.js": {
       "bytes": 3312,
       "sha256": "f7b4e33e76633e1a1875f8cc7cbfbfb9fd2612b2b9c5d7fc2ace91606f5723b7"
     },
-    "assets/s0/xiaosa/js/\u673a\u5668\u4eba.js": {
+    "assets/s0/xiaosa/js/机器人.js": {
       "bytes": 14648,
       "sha256": "0597c8b2b33e4d9d8ca83e55b86136cd61e4ae4ef991073d5e2546f5243599ba"
     },
-    "assets/s0/xiaosa/js/\u6821\u957f.js": {
+    "assets/s0/xiaosa/js/校长.js": {
       "bytes": 4463,
       "sha256": "9419313092071b380fd8e8df9dda50760674e8392a82367a6d03b44cb2134eda"
     },
-    "assets/s0/xiaosa/js/\u6a21\u677f.js": {
+    "assets/s0/xiaosa/js/模板.js": {
       "bytes": 20230,
       "sha256": "f631f64cd7170c5aca43823d682134ae85ae0971e7d43d36f59fcf73f837b9eb"
     },
-    "assets/s0/xiaosa/js/\u6a31\u82b1\u52a8\u6f2b.js": {
+    "assets/s0/xiaosa/js/樱花动漫.js": {
       "bytes": 279,
       "sha256": "619766256a6037ea5829933c8f4ab0910516c0c0932a094af15df3744f487929"
     },
-    "assets/s0/xiaosa/js/\u7231Baidu.js": {
+    "assets/s0/xiaosa/js/爱Baidu.js": {
       "bytes": 3439,
       "sha256": "d5bd77ed6c23095cb76ca166d0250b5566882ea9cd8f72056830fbd48de4c3ee"
     },
-    "assets/s0/xiaosa/js/\u7231Quark.js": {
+    "assets/s0/xiaosa/js/爱Quark.js": {
       "bytes": 3463,
       "sha256": "5af8c4f5a34c0dcfb301226c83708bee57ffc3d31d93e7acee373f7141308c0b"
     },
-    "assets/s0/xiaosa/js/\u7231UC.js": {
+    "assets/s0/xiaosa/js/爱UC.js": {
       "bytes": 3447,
       "sha256": "6d6b02525ce9ebfa727076c537ebfce11cc2a7dd2ef0c9f7761e8c5ff17b812c"
     },
-    "assets/s0/xiaosa/js/\u7231\u52a8\u6f2b.js": {
+    "assets/s0/xiaosa/js/爱动漫.js": {
       "bytes": 21411,
       "sha256": "60836385c4dbb8d2e2d60b7c298db968d0437ce34c9838b2f0f66863ab02040f"
     },
-    "assets/s0/xiaosa/js/\u7231\u5947\u827a.js": {
+    "assets/s0/xiaosa/js/爱奇艺.js": {
       "bytes": 4940,
       "sha256": "5a690235aa86096341110508388b9052f52220a72c59071be1c49af0c844c9f1"
     },
-    "assets/s0/xiaosa/js/\u7231\u5947\u827a\u5f39\u5e55.js": {
+    "assets/s0/xiaosa/js/爱奇艺弹幕.js": {
       "bytes": 44414,
       "sha256": "a25750b31ef8c19e2a21ea617fdb4fc4056822369e377014ba439a8bdc88040b"
     },
-    "assets/s0/xiaosa/js/\u7231\u5f39\u5e55.js": {
+    "assets/s0/xiaosa/js/爱弹幕.js": {
       "bytes": 21117,
       "sha256": "68649f10d6b911c8c84085910752764fedd14fb3f37750ac8b624fec5da8d468"
     },
-    "assets/s0/xiaosa/js/\u7231\u641c.js": {
+    "assets/s0/xiaosa/js/爱搜.js": {
       "bytes": 3393,
       "sha256": "e87f7922e648428cd936a69e313479db6f32763daf871b2e036543614becda98"
     },
-    "assets/s0/xiaosa/js/\u7231\u641cBaidu.js": {
+    "assets/s0/xiaosa/js/爱搜Baidu.js": {
       "bytes": 3439,
       "sha256": "d5bd77ed6c23095cb76ca166d0250b5566882ea9cd8f72056830fbd48de4c3ee"
     },
-    "assets/s0/xiaosa/js/\u7231\u641cQuark.js": {
+    "assets/s0/xiaosa/js/爱搜Quark.js": {
       "bytes": 3463,
       "sha256": "5af8c4f5a34c0dcfb301226c83708bee57ffc3d31d93e7acee373f7141308c0b"
     },
-    "assets/s0/xiaosa/js/\u7231\u641cUC.js": {
+    "assets/s0/xiaosa/js/爱搜UC.js": {
       "bytes": 3447,
       "sha256": "6d6b02525ce9ebfa727076c537ebfce11cc2a7dd2ef0c9f7761e8c5ff17b812c"
     },
-    "assets/s0/xiaosa/js/\u74dc\u5b50\u5f71\u89c6.js": {
+    "assets/s0/xiaosa/js/瓜子影视.js": {
       "bytes": 29102,
       "sha256": "832504e3929668536f826d7f103d9223c71d9fb2531a2f76bb1e197e7d5ad122"
     },
-    "assets/s0/xiaosa/js/\u767e\u9177.js": {
+    "assets/s0/xiaosa/js/百酷.js": {
       "bytes": 2251,
       "sha256": "16c5def670e30d58cf942dc54b08856bff038bc6b08457204de26998ca8b7fd5"
     },
-    "assets/s0/xiaosa/js/\u770b\u4e86\u4e48.js": {
+    "assets/s0/xiaosa/js/看了么.js": {
       "bytes": 24473,
       "sha256": "62520fc6ed79864956b227e9ffd0d3ab493f0720d1c1d82f0c86af444ecba5a0"
     },
-    "assets/s0/xiaosa/js/\u77ed\u5267\u5168\u7f51.js": {
+    "assets/s0/xiaosa/js/短剧全网.js": {
       "bytes": 4384,
       "sha256": "493674b377ca160126beafa9ea6ac6aa0d465a70ec0236a433e48134c675b05d"
     },
-    "assets/s0/xiaosa/js/\u77ed\u5267\u5408\u96c6.js": {
+    "assets/s0/xiaosa/js/短剧合集.js": {
       "bytes": 764,
       "sha256": "89ed7a657ebfdd7a62cd19325964002db41bf70dd726d507af0093039f225711"
     },
-    "assets/s0/xiaosa/js/\u77ed\u5267\u5927\u5168.js": {
+    "assets/s0/xiaosa/js/短剧大全.js": {
       "bytes": 707,
       "sha256": "d1f4783c52a1f9fa3c1971fca4f81577168241cd6679be3d0427e5adce3e9d0e"
     },
-    "assets/s0/xiaosa/js/\u789f\u8c03\u5f71\u89c6.js": {
+    "assets/s0/xiaosa/js/碟调影视.js": {
       "bytes": 1501,
       "sha256": "8caa7ea9a100ddee930b2d3a9cf4e621818719ff918af7f4f5cb26b058e42a55"
     },
-    "assets/s0/xiaosa/js/\u7acb\u64ad.js": {
+    "assets/s0/xiaosa/js/立播.js": {
       "bytes": 7401,
       "sha256": "3ac0ced89afe4cf6d98a42fb5a08d26a560f1749c968e8a396a17be15572f160"
     },
-    "assets/s0/xiaosa/js/\u7c73\u641c.js": {
+    "assets/s0/xiaosa/js/米搜.js": {
       "bytes": 3332,
       "sha256": "cbb2e89cfa7adfc5531023b41db866eccbb3ee5872a47276215443debc8ffa53"
     },
-    "assets/s0/xiaosa/js/\u817e\u8baf\u5f39\u5e55.js": {
+    "assets/s0/xiaosa/js/腾讯弹幕.js": {
       "bytes": 25040,
       "sha256": "09106002351c154372d80b3b4d45d2d40d4e4a3fbc897bef1cc3e493425c32a6"
     },
-    "assets/s0/xiaosa/js/\u817e\u8baf\u89c6\u9891.js": {
+    "assets/s0/xiaosa/js/腾讯视频.js": {
       "bytes": 8636,
       "sha256": "3ce7f2a5741741c10e8abe65f73663accab88115fc3a7e1d714fe516dc540209"
     },
-    "assets/s0/xiaosa/js/\u8292\u679c\u5f39\u5e55.js": {
+    "assets/s0/xiaosa/js/芒果弹幕.js": {
       "bytes": 24198,
       "sha256": "d0f91bc2da90bd82461841e57b8f3dc92fcdf6a0bb15f3a2b56f1693a7ddcea9"
     },
-    "assets/s0/xiaosa/js/\u8292\u679c\u89c6\u9891.js": {
+    "assets/s0/xiaosa/js/芒果视频.js": {
       "bytes": 3848,
       "sha256": "01fcd21bc3f5a919881acb1b0f0c85ff1ea3335e757b4d142db6a0420be61755"
     },
-    "assets/s0/xiaosa/js/\u82b1\u5b50\u52a8\u6f2b.js": {
+    "assets/s0/xiaosa/js/花子动漫.js": {
       "bytes": 24966,
       "sha256": "dbde3506f83fafe7d3636fa594feb9d6fef2dbdb150a9a46769ec90fffc93205"
     },
-    "assets/s0/xiaosa/js/\u8336\u676f\u72d0.js": {
+    "assets/s0/xiaosa/js/茶杯狐.js": {
       "bytes": 41422,
       "sha256": "4c5f758c4976c6e9473408cfdcbaa54617a66a906e4a514af042bc103ea3a9f4"
     },
-    "assets/s0/xiaosa/js/\u8def\u6f2b\u6f2b.js": {
+    "assets/s0/xiaosa/js/路漫漫.js": {
       "bytes": 16510,
       "sha256": "1a0eb51705ae674bad0df4c9af44396c2ec0804bd311848e2cd7c7dbcb25c76f"
     },
-    "assets/s0/xiaosa/js/\u8fbe\u8fbe\u9f9f.js": {
+    "assets/s0/xiaosa/js/达达龟.js": {
       "bytes": 15996,
       "sha256": "b28c973f47ad36925c9d719a1e6f707138407bfd2335ded46cf9dd895930288c"
     },
-    "assets/s0/xiaosa/js/\u8ffd\u5267\u5f39\u5e55.js": {
+    "assets/s0/xiaosa/js/追剧弹幕.js": {
       "bytes": 5817,
       "sha256": "951e7ca1a67cea07360e231235fd38ebbe480a780af2b1d7b68e0df579aad981"
     },
-    "assets/s0/xiaosa/js/\u8ffd\u5267\u5f71\u89c6.js": {
+    "assets/s0/xiaosa/js/追剧影视.js": {
       "bytes": 5817,
       "sha256": "951e7ca1a67cea07360e231235fd38ebbe480a780af2b1d7b68e0df579aad981"
     },
-    "assets/s0/xiaosa/js/\u91c7\u96c6\u4e4b\u738b.js": {
+    "assets/s0/xiaosa/js/采集之王.js": {
       "bytes": 17914,
       "sha256": "7288ec3e5dfb58344fc33526bb2f0f8d65ab8e562a9fd227d9f20265e3e9be71"
     },
-    "assets/s0/xiaosa/js/\u9b54\u529b\u9ad8\u6e05.js": {
+    "assets/s0/xiaosa/js/魔力高清.js": {
       "bytes": 15148,
       "sha256": "123171da9476ced7db6b4337d62d486866716539fb19ad7a61d6e44910916c9e"
     },
@@ -3821,103 +3821,103 @@
       "bytes": 756,
       "sha256": "00cbafedcafa43f40657b170755395ef2828a20c1ef7ee8c4afe3a50c04ccd30"
     },
-    "assets/s0/xiaosa/json/\u4e8c\u5c0f.json": {
+    "assets/s0/xiaosa/json/二小.json": {
       "bytes": 609,
       "sha256": "46160f07ebbb08a9c9c70561ef4d6b8955c2ce2841b58bc1ea848707b4a59c0f"
     },
-    "assets/s0/xiaosa/json/\u521d\u4e2d\u8bfe\u5802.json": {
+    "assets/s0/xiaosa/json/初中课堂.json": {
       "bytes": 29277,
       "sha256": "b8311a506ad715e837ccabe9f36766d3238778df6d5b7cb64a98161dbc5a3c84"
     },
-    "assets/s0/xiaosa/json/\u54d4\u54e9\u5408\u96c6.json": {
+    "assets/s0/xiaosa/json/哔哩合集.json": {
       "bytes": 114792,
       "sha256": "7e9c20a895a4211a851a62a56e97761c8fed71c981ab0d11dc0ff50b38cdaabc"
     },
-    "assets/s0/xiaosa/json/\u54d4\u54e9\u54d4\u54e9\u542c\u4e66.json": {
+    "assets/s0/xiaosa/json/哔哩哔哩听书.json": {
       "bytes": 1188,
       "sha256": "714751883fe27948043153b672445c2329ad239a9ab01206c6d548b78bf7ebd1"
     },
-    "assets/s0/xiaosa/json/\u54d4\u54e9\u54d4\u54e9\u5c0f\u54c1.json": {
+    "assets/s0/xiaosa/json/哔哩哔哩小品.json": {
       "bytes": 954,
       "sha256": "06e950b6876b391a1dfa98292ac6b419bd93bc93b39253829aef01e7b17fb185"
     },
-    "assets/s0/xiaosa/json/\u54d4\u54e9\u54d4\u54e9\u620f\u66f2.json": {
+    "assets/s0/xiaosa/json/哔哩哔哩戏曲.json": {
       "bytes": 3786,
       "sha256": "6453da3755d282547e614d733b617ef7f4ecb5d41ef681ecf377dfbbadd61b73"
     },
-    "assets/s0/xiaosa/json/\u54d4\u54e9\u54d4\u54e9\u6f14\u5531\u4f1a.json": {
+    "assets/s0/xiaosa/json/哔哩哔哩演唱会.json": {
       "bytes": 17582,
       "sha256": "e58a8b4e1141156057cbee889bf40baf8bfcbc39873d29acfab835dd6860b7a0"
     },
-    "assets/s0/xiaosa/json/\u54d4\u54e9\u54d4\u54e9\u76f8\u58f0.json": {
+    "assets/s0/xiaosa/json/哔哩哔哩相声.json": {
       "bytes": 582,
       "sha256": "a585af91b84c5ca1d2eb5bdfcd25fe38bc5a10e903cf626b20e56fb26659609b"
     },
-    "assets/s0/xiaosa/json/\u54d4\u54e9\u89c6\u9891.json": {
+    "assets/s0/xiaosa/json/哔哩视频.json": {
       "bytes": 7160,
       "sha256": "6af3493a4c574b4510c909a4af4fc2a2ddbde4c9e212e7705944fe56b2d7a09c"
     },
-    "assets/s0/xiaosa/json/\u591a\u591a.json": {
+    "assets/s0/xiaosa/json/多多.json": {
       "bytes": 638,
       "sha256": "d91831d110623bdcde95c1b85580094c97ec84e78f3f705a9c20720753294445"
     },
-    "assets/s0/xiaosa/json/\u5938\u7236.json": {
+    "assets/s0/xiaosa/json/夸父.json": {
       "bytes": 510,
       "sha256": "188b019867ed671710b48ffc7c65989697cc4673565b0ed78439f0b75f62473e"
     },
-    "assets/s0/xiaosa/json/\u5c0f\u5b66\u8bfe\u5802.json": {
+    "assets/s0/xiaosa/json/小学课堂.json": {
       "bytes": 21969,
       "sha256": "e944b4059eb9ea045f99bd879814d0ca14b57609d36e0b24aba4e004298fe365"
     },
-    "assets/s0/xiaosa/json/\u5c11\u513f\u6559\u80b2.json": {
+    "assets/s0/xiaosa/json/少儿教育.json": {
       "bytes": 8896,
       "sha256": "7dce644e045b5d798341eeb0c8a9fed7f53115117c30604ca8f1885209a4aebf"
     },
-    "assets/s0/xiaosa/json/\u5feb\u6620.json": {
+    "assets/s0/xiaosa/json/快映.json": {
       "bytes": 643,
       "sha256": "08f52f7f941619eb2a5e16de789999f6dd513ece2637e94a45bc77fdd409a132"
     },
-    "assets/s0/xiaosa/json/\u6728\u5076.json": {
+    "assets/s0/xiaosa/json/木偶.json": {
       "bytes": 552,
       "sha256": "7797243cb3b257ac1044ad03f5b390bacdfe6b5ca85000e24856625dd55294a2"
     },
-    "assets/s0/xiaosa/json/\u6b27\u6b4c.json": {
+    "assets/s0/xiaosa/json/欧歌.json": {
       "bytes": 503,
       "sha256": "7c4233125a7b4e1104dcdd6deef3c90a53ae8290e4044e84f560e423b3c443de"
     },
-    "assets/s0/xiaosa/json/\u6d77\u7ef5.json": {
+    "assets/s0/xiaosa/json/海绵.json": {
       "bytes": 447,
       "sha256": "c375577e55b9de532ec685802ed95f4239fb88b3f2148d008b739115f88ab13d"
     },
-    "assets/s0/xiaosa/json/\u73a9\u5076.json": {
+    "assets/s0/xiaosa/json/玩偶.json": {
       "bytes": 39393,
       "sha256": "4b8d15ba33793ab0e32acf94bdba105d94c05192c5d35bfac7b47476c6aa1e1f"
     },
-    "assets/s0/xiaosa/json/\u81f3\u81fb.json": {
+    "assets/s0/xiaosa/json/至臻.json": {
       "bytes": 823,
       "sha256": "96ca3a8ef0b7dc803192cd1434858f4afaf5fb533d97c5755db2349b98ac31e7"
     },
-    "assets/s0/xiaosa/json/\u8350\u7247.json": {
+    "assets/s0/xiaosa/json/荐片.json": {
       "bytes": 8375,
       "sha256": "56d3f7cefb2b66545e0f97a41c11a7ea22b467177946a41e26cd8d4fc1fd888b"
     },
-    "assets/s0/xiaosa/json/\u864e\u6591.json": {
+    "assets/s0/xiaosa/json/虎斑.json": {
       "bytes": 630,
       "sha256": "995d21a79e7c229260f152223a97379777b0b901befac01ccf5374059a86ae84"
     },
-    "assets/s0/xiaosa/json/\u8721\u7b14.json": {
+    "assets/s0/xiaosa/json/蜡笔.json": {
       "bytes": 734,
       "sha256": "d7207d5a0a4f3ea065d29c5bd425a7e8625c908ccc178151f3d8ae9fa122de0d"
     },
-    "assets/s0/xiaosa/json/\u91c7\u96c6\u9759\u6001.json": {
+    "assets/s0/xiaosa/json/采集静态.json": {
       "bytes": 10549,
       "sha256": "bc1ba3e096c72c4aaff6404b0acec5961012b8c32714a8fca23ee4e4e60272df"
     },
-    "assets/s0/xiaosa/json/\u96f7\u9cb8.json": {
+    "assets/s0/xiaosa/json/雷鲸.json": {
       "bytes": 702,
       "sha256": "67f931bf236edc06027c362eb0ce3a7e8e6816f661e5927a891917a079651591"
     },
-    "assets/s0/xiaosa/json/\u9ad8\u4e2d\u8bfe\u5802.json": {
+    "assets/s0/xiaosa/json/高中课堂.json": {
       "bytes": 32964,
       "sha256": "9f5afe073bed42f2d41e8799b45dbcb03c92fc1030e593174368589d10aa5ebc"
     },
@@ -3945,99 +3945,99 @@
       "bytes": 10933,
       "sha256": "8718ab969c6c7a5d826817f1cf5b155254ee4ff977f4a05623071caf64a8899f"
     },
-    "assets/s0/xiaosa/py/\u4f18\u9177\u89c6\u9891.py": {
+    "assets/s0/xiaosa/py/优酷视频.py": {
       "bytes": 13128,
       "sha256": "b45b85f709981727b8ea5ae5348b21ddbe69f7a3064d753a9731ea3b4c5e3d9d"
     },
-    "assets/s0/xiaosa/py/\u5077\u4e50\u77ed\u5267.py": {
+    "assets/s0/xiaosa/py/偷乐短剧.py": {
       "bytes": 32742,
       "sha256": "04356116061d6327a4e87c654a2cc6dbeb71f913980679f1176b992cba173ae7"
     },
-    "assets/s0/xiaosa/py/\u5149\u901f\u5f71\u89c6.py": {
+    "assets/s0/xiaosa/py/光速影视.py": {
       "bytes": 8510,
       "sha256": "e3adef57497553181ffdbb6e0ae75bcf56130ed3ab60ca57be8cd0c04bd732aa"
     },
-    "assets/s0/xiaosa/py/\u5267\u738b\u77ed\u5267.py": {
+    "assets/s0/xiaosa/py/剧王短剧.py": {
       "bytes": 9616,
       "sha256": "5b09d3114008a9b3ecfa0e6bb37aa811637f84c9fd94c6d70e1d9166e820c157"
     },
-    "assets/s0/xiaosa/py/\u54d4\u54e9\u76f4\u64ad.py": {
+    "assets/s0/xiaosa/py/哔哩直播.py": {
       "bytes": 9750,
       "sha256": "25db3ca922a39c4d6f43ca8c727a7bc4959ef47e9a530cd2d2ee10ee51365fa4"
     },
-    "assets/s0/xiaosa/py/\u54d4\u54e9\u89c6\u9891.py": {
+    "assets/s0/xiaosa/py/哔哩视频.py": {
       "bytes": 25500,
       "sha256": "f9c4256ea3f6233bfbf49de87b861f336d3e2249a2e706e33ca8cf48aeaf308a"
     },
-    "assets/s0/xiaosa/py/\u55e8\u76ae\u5f71\u89c6.py": {
+    "assets/s0/xiaosa/py/嗨皮影视.py": {
       "bytes": 4303,
       "sha256": "f4a060e50f31f60fd08b77d527a3e8ee086f49e2e51bdbd80804fdee08b653c6"
     },
-    "assets/s0/xiaosa/py/\u60f3\u770b\u5f71\u89c6.py": {
+    "assets/s0/xiaosa/py/想看影视.py": {
       "bytes": 5823,
       "sha256": "ca5b794aceec56ba94f9036cdf4b1f7e4d285c0db02ded94504d08cd32a58c9d"
     },
-    "assets/s0/xiaosa/py/\u661f\u82bd\u77ed\u5267.py": {
+    "assets/s0/xiaosa/py/星芽短剧.py": {
       "bytes": 10933,
       "sha256": "8718ab969c6c7a5d826817f1cf5b155254ee4ff977f4a05623071caf64a8899f"
     },
-    "assets/s0/xiaosa/py/\u6cb3\u9a6c\u77ed\u5267.py": {
+    "assets/s0/xiaosa/py/河马短剧.py": {
       "bytes": 14138,
       "sha256": "f2bc09e58bb43233d5ea104f4b2c5db1525f80f4e29cdf4e357fcb71ccb84189"
     },
-    "assets/s0/xiaosa/py/\u706b\u8f66\u5f71\u89c6.py": {
+    "assets/s0/xiaosa/py/火车影视.py": {
       "bytes": 12100,
       "sha256": "9474c9bc3a9e60d91ad5919632bcfc4e60060334c2b7b35dcac0fd62a37b948b"
     },
-    "assets/s0/xiaosa/py/\u7231\u542c\u97f3\u4e50.py": {
+    "assets/s0/xiaosa/py/爱听音乐.py": {
       "bytes": 20181,
       "sha256": "a37d90fe0425cf13815220427cb8f0d09252a8f96a5638ef70393c848622241c"
     },
-    "assets/s0/xiaosa/py/\u7231\u5947\u827a.py": {
+    "assets/s0/xiaosa/py/爱奇艺.py": {
       "bytes": 10190,
       "sha256": "bec004edfda21e552e405a36b2cfebf3452c7ed36a244bba70bff96cfba5ea8a"
     },
-    "assets/s0/xiaosa/py/\u7231\u770b\u77ed\u5267.py": {
+    "assets/s0/xiaosa/py/爱看短剧.py": {
       "bytes": 3241,
       "sha256": "b026096f80d4fa384d47d35b7cf9ea07a07834b46adad90c974c7c435a352635"
     },
-    "assets/s0/xiaosa/py/\u730e\u624b\u5f71\u89c6.py": {
+    "assets/s0/xiaosa/py/猎手影视.py": {
       "bytes": 11358,
       "sha256": "56820a64fd771b62a7217a781ca02acd46e1dc44e600caa1b6285d21cc5b7c4a"
     },
-    "assets/s0/xiaosa/py/\u751c\u5708\u77ed\u5267.py": {
+    "assets/s0/xiaosa/py/甜圈短剧.py": {
       "bytes": 8307,
       "sha256": "b2f9a151f700ae201f1b2f5f0a35df254610cc28fc7c8edc6a9fb7e395e38504"
     },
-    "assets/s0/xiaosa/py/\u7f51\u7edc\u76f4\u64ad.py": {
+    "assets/s0/xiaosa/py/网络直播.py": {
       "bytes": 51041,
       "sha256": "87fbb69e2aef41b163d62da394d72d1872830cd1f27a84f1acdbffa4e7550b09"
     },
-    "assets/s0/xiaosa/py/\u7f8e\u5e15\u5f71\u89c6.py": {
+    "assets/s0/xiaosa/py/美帕影视.py": {
       "bytes": 3476,
       "sha256": "300e42b5e740acafbb7e9ab7ec4b93ca13a22d6cfbfe8cc2221de2521137962a"
     },
-    "assets/s0/xiaosa/py/\u817e\u8baf\u89c6\u9891.py": {
+    "assets/s0/xiaosa/py/腾讯视频.py": {
       "bytes": 14346,
       "sha256": "a4d76a6dce5bf0b9ca27fd033924ea42b9586751e8d75d75552c0cf3b84d68ea"
     },
-    "assets/s0/xiaosa/py/\u8292\u679c\u89c6\u9891.py": {
+    "assets/s0/xiaosa/py/芒果视频.py": {
       "bytes": 7599,
       "sha256": "e28b58fdba08e3050246146fa54399626c1d042f3fb05fd7bd38846d1d72ce04"
     },
-    "assets/s0/xiaosa/py/\u8ffd\u661f\u5f71\u89c6.py": {
+    "assets/s0/xiaosa/py/追星影视.py": {
       "bytes": 6829,
       "sha256": "4973c7ba6c86bd4de8487a75ec51e829a6c047b0a3d2dcc04122c2a5bc429257"
     },
-    "assets/s0/xiaosa/py/\u91d1\u724c\u5f71\u89c6.py": {
+    "assets/s0/xiaosa/py/金牌影视.py": {
       "bytes": 8242,
       "sha256": "e0722ef0e3b212fde72c85b2b8e156d124e64089d054e8fce146f4b404f659b1"
     },
-    "assets/s0/xiaosa/py/\u9526\u9ca4\u77ed\u5267.py": {
+    "assets/s0/xiaosa/py/锦鲤短剧.py": {
       "bytes": 5728,
       "sha256": "483dffb6c50e4c9723c7f7becfdb3e4f6526ff9e67045f5dba78d0c9f1c8fa62"
     },
-    "assets/s0/xiaosa/py/\u96f6\u5ea6\u5f71\u89c6.py": {
+    "assets/s0/xiaosa/py/零度影视.py": {
       "bytes": 7469,
       "sha256": "c83e632a351cc0fd615a2d1b4bfed51909ccf90d949770c17f51ff5a2b884ea2"
     },
@@ -4049,295 +4049,295 @@
       "bytes": 1859860,
       "sha256": "72a1f3928eca281d878e44fc57162ff6a1f3ef779a2da05a2b351b241b110d69"
     },
-    "assets/s0/xiaosa/XBPQ/\u4e03\u4e03\u5f71\u89c6.json": {
+    "assets/s0/xiaosa/XBPQ/七七影视.json": {
       "bytes": 220,
       "sha256": "f6e4525008a9c87cd6a955287b229cea1ce29eedaaea54c9505de22f811fc8e9"
     },
-    "assets/s0/xiaosa/XBPQ/\u4e03\u70b9\u5f71\u89c6.json": {
+    "assets/s0/xiaosa/XBPQ/七点影视.json": {
       "bytes": 320,
       "sha256": "69f047a67c430f216b4ff93ea76c2b60cd18a16e6efee825e38e6c92734633f5"
     },
-    "assets/s0/xiaosa/XBPQ/\u4e09\u4e5d\u5f71\u89c6.json": {
+    "assets/s0/xiaosa/XBPQ/三九影视.json": {
       "bytes": 252,
       "sha256": "8338a033ffadee0ef691ae4d612c4337fca80c7c5d53814be88dae57846dbba0"
     },
-    "assets/s0/xiaosa/XBPQ/\u4e09\u56db\u5f71\u89c6.json": {
+    "assets/s0/xiaosa/XBPQ/三四影视.json": {
       "bytes": 198,
       "sha256": "45117ac71cb3d4979c850568e1d6233d1e561fdbb223207512a52fd65af0ec44"
     },
-    "assets/s0/xiaosa/XBPQ/\u4fee\u7f57\u5f71\u89c6.json": {
+    "assets/s0/xiaosa/XBPQ/修罗影视.json": {
       "bytes": 577,
       "sha256": "7e26fd4edf6beba296b7534c3fc74d061eba76d6e6a9cd799a400e030ca421ff"
     },
-    "assets/s0/xiaosa/XBPQ/\u514d\u8d39\u5f71\u89c6.json": {
+    "assets/s0/xiaosa/XBPQ/免费影视.json": {
       "bytes": 686,
       "sha256": "55c0aeb0582bcfbbd309fc7b188eb1c43ad8785256d328fef0e948061c12da7c"
     },
-    "assets/s0/xiaosa/XBPQ/\u517b\u751f\u5802.json": {
+    "assets/s0/xiaosa/XBPQ/养生堂.json": {
       "bytes": 1112,
       "sha256": "6eec9394ee107f69d7c5b1f01e7b6e1c1cf0c2cd04c89cf86f9606f93e501d38"
     },
-    "assets/s0/xiaosa/XBPQ/\u519c\u6c11\u5f71\u89c6.json": {
+    "assets/s0/xiaosa/XBPQ/农民影视.json": {
       "bytes": 446,
       "sha256": "54c803dee83ac4f0fb587df4be066deb634adc1265ee3e9078efc06dc8a9b319"
     },
-    "assets/s0/xiaosa/XBPQ/\u53ef\u53ef\u5f71\u89c6.json": {
+    "assets/s0/xiaosa/XBPQ/可可影视.json": {
       "bytes": 386,
       "sha256": "e788c512772c4c5511a2421b76d4e285aa151f84041dac10708ddeaf2b65017a"
     },
-    "assets/s0/xiaosa/XBPQ/\u5409\u5409\u77ed\u5267.json": {
+    "assets/s0/xiaosa/XBPQ/吉吉短剧.json": {
       "bytes": 119,
       "sha256": "1ef2c3a97a902998f72dfb17595d0cc19f0194800aa40ca2c9b1c6f66659896e"
     },
-    "assets/s0/xiaosa/XBPQ/\u54c6\u5566\u65b0\u756a\u793e.json": {
+    "assets/s0/xiaosa/XBPQ/哆啦新番社.json": {
       "bytes": 1261,
       "sha256": "cb7cae0892c304733cecac6f88083b05f040607f3bb08d9923bfcb91da641041"
     },
-    "assets/s0/xiaosa/XBPQ/\u5947\u8ff9\u5f71\u89c6.json": {
+    "assets/s0/xiaosa/XBPQ/奇迹影视.json": {
       "bytes": 706,
       "sha256": "76645b523a560ed0a146f342a51e06061719a79ea2f19fcb9badd20cdcea233a"
     },
-    "assets/s0/xiaosa/XBPQ/\u5c0f\u67ab\u5f71\u89c6.json": {
+    "assets/s0/xiaosa/XBPQ/小枫影视.json": {
       "bytes": 532,
       "sha256": "2a55e908252f33bcb6c6d70d75e0009ee41e50b34cc6960d66336302a7ad6999"
     },
-    "assets/s0/xiaosa/XBPQ/\u5c0f\u9547\u5f71\u89c6.json": {
+    "assets/s0/xiaosa/XBPQ/小镇影视.json": {
       "bytes": 199,
       "sha256": "7b5b7c46c63fc0078950e8d8942f5e55da2784e4faf6588924f0831a52efb5fe"
     },
-    "assets/s0/xiaosa/XBPQ/\u5c3c\u739b\u5f71\u89c6.json": {
+    "assets/s0/xiaosa/XBPQ/尼玛影视.json": {
       "bytes": 215,
       "sha256": "80cb71acd8218012ebff13e780d5e3bfd5195c00b48e393f51c3b7e7d57f993a"
     },
-    "assets/s0/xiaosa/XBPQ/\u5e03\u8c37TV.json": {
+    "assets/s0/xiaosa/XBPQ/布谷TV.json": {
       "bytes": 1079,
       "sha256": "2497df7b5f873ff958bd56c4ad4a2dcfc925548c8ba7dc3af3570c3becbbda8b"
     },
-    "assets/s0/xiaosa/XBPQ/\u660e\u661f\u5f71\u89c6.json": {
+    "assets/s0/xiaosa/XBPQ/明星影视.json": {
       "bytes": 3068,
       "sha256": "d3a9d7d5a1a97885922f82abc458bd8d9cc1b7738edab61725a72c5ec9e14e6b"
     },
-    "assets/s0/xiaosa/XBPQ/\u6a31\u82b1\u52a8\u6f2b.json": {
+    "assets/s0/xiaosa/XBPQ/樱花动漫.json": {
       "bytes": 340,
       "sha256": "e19130561372d736076ee62e7c2e40f2c4abba87b4a3bd68fe7b9d249965038d"
     },
-    "assets/s0/xiaosa/XBPQ/\u6a31\u82b1\u5f71\u89c6.json": {
+    "assets/s0/xiaosa/XBPQ/樱花影视.json": {
       "bytes": 208,
       "sha256": "5b1acd41ea121b5a6c24d854b859eb73c328390dc261e6de39f578a428fafd2e"
     },
-    "assets/s0/xiaosa/XBPQ/\u6c38\u4e50\u5f71\u89c6.json": {
+    "assets/s0/xiaosa/XBPQ/永乐影视.json": {
       "bytes": 787,
       "sha256": "ac149c345cf61ce434a214a6e526a985beddaf412e1ba4a014c7b72e43227343"
     },
-    "assets/s0/xiaosa/XBPQ/\u6d41\u5149\u5f71\u89c6.json": {
+    "assets/s0/xiaosa/XBPQ/流光影视.json": {
       "bytes": 717,
       "sha256": "110cbb7f02e932fae78077b026ddd3c6bf457d299985914934db8f290bfce979"
     },
-    "assets/s0/xiaosa/XBPQ/\u6d77\u7eb3\u5f71\u89c6.json": {
+    "assets/s0/xiaosa/XBPQ/海纳影视.json": {
       "bytes": 269,
       "sha256": "1bfaa90bfbd3e0e1d3b7da542e3501a04d1799bf8c3ec0cff8cecba712557fe4"
     },
-    "assets/s0/xiaosa/XBPQ/\u7231\u6211\u77ed\u5267.json": {
+    "assets/s0/xiaosa/XBPQ/爱我短剧.json": {
       "bytes": 1148,
       "sha256": "6574813fa2b9d8639ad9f65ee309795e56676fe19f0fb07b08ad0b8b5905c1e4"
     },
-    "assets/s0/xiaosa/XBPQ/\u72d0\u72f8\u541b.json": {
+    "assets/s0/xiaosa/XBPQ/狐狸君.json": {
       "bytes": 785,
       "sha256": "f23f3f3f69c1d11ff7e70a0d79ac00eeb412e8177167468cb7464e2fec290b5f"
     },
-    "assets/s0/xiaosa/XBPQ/\u756a\u8304\u77ed\u5267.json": {
+    "assets/s0/xiaosa/XBPQ/番茄短剧.json": {
       "bytes": 1334,
       "sha256": "1a2d3bcb22443abaa16c72a56f580b27093d4ac82a5e4b1037976f4546266b58"
     },
-    "assets/s0/xiaosa/XBPQ/\u76ae\u76ae\u867e.json": {
+    "assets/s0/xiaosa/XBPQ/皮皮虾.json": {
       "bytes": 267,
       "sha256": "713e69bbeae56b07784e0a5828117ebcf3585f4fbcda74b50cffeba3e440107e"
     },
-    "assets/s0/xiaosa/XBPQ/\u77ed\u5267\u7f51.json": {
+    "assets/s0/xiaosa/XBPQ/短剧网.json": {
       "bytes": 181,
       "sha256": "dba08b3178e675704ffbfa0ddd66fa11789677c4956a2eb6f7d72b9c3b7d9b90"
     },
-    "assets/s0/xiaosa/XBPQ/\u79c0\u513f\u5f71\u89c6.json": {
+    "assets/s0/xiaosa/XBPQ/秀儿影视.json": {
       "bytes": 382,
       "sha256": "995052ab428f2fc04b1b65d02f0020afe6f8781493d5d50a3dc4e3e9b42365cd"
     },
-    "assets/s0/xiaosa/XBPQ/\u83ab\u5c0f\u5f71\u89c6.json": {
+    "assets/s0/xiaosa/XBPQ/莫小影视.json": {
       "bytes": 229,
       "sha256": "7c169c8b611660109e28c70ffc1b4974cadf7281e4694dbf78287bc602e9c3b4"
     },
-    "assets/s0/xiaosa/XBPQ/\u96ea\u7cd5\u5f71\u89c6.json": {
+    "assets/s0/xiaosa/XBPQ/雪糕影视.json": {
       "bytes": 266,
       "sha256": "33469765a70c186b50fdec74e3a8b9045edc6d458c9214645a7dc89716d57bbe"
     },
-    "assets/s0/xiaosa/XBPQ/\u96ea\u82b1.json": {
+    "assets/s0/xiaosa/XBPQ/雪花.json": {
       "bytes": 1139,
       "sha256": "a334e5f67a78af97c28082516a43bbae818cdafb9129f1803c6930cff6e765a3"
     },
-    "assets/s0/xiaosa/XBPQ/\u9762\u5305\u5f71\u89c6.json": {
+    "assets/s0/xiaosa/XBPQ/面包影视.json": {
       "bytes": 282,
       "sha256": "c978e1626cbd6699b39f1415c052d99eb3306779f0fd7a09d1275e0205698193"
     },
-    "assets/s0/xiaosa/XBPQ/\u97e9\u5267\u770b\u770b.json": {
+    "assets/s0/xiaosa/XBPQ/韩剧看看.json": {
       "bytes": 2127,
       "sha256": "d9330400ad04e99b838176445c720d20132bd81a98e738c6a64effcf7052a5ec"
     },
-    "assets/s0/xiaosa/XBPQ/\u9a9a\u706b\u5f71\u89c6.json": {
+    "assets/s0/xiaosa/XBPQ/骚火影视.json": {
       "bytes": 725,
       "sha256": "0289fcd3a7e18f3f08d871dda3a35d94e489c608b0b17217db32e03086d3ff44"
     },
-    "assets/s0/xiaosa/XBPQ/\u9ea6\u7530\u5f71\u89c6.json": {
+    "assets/s0/xiaosa/XBPQ/麦田影视.json": {
       "bytes": 1897,
       "sha256": "8b6b596f5163e4a73f05a5ab142f2975f90e9b055bfa9642d1309228b6a08134"
     },
-    "assets/s0/xiaosa/XYQHiker/BT\u5929\u5802.json": {
+    "assets/s0/xiaosa/XYQHiker/BT天堂.json": {
       "bytes": 2892,
       "sha256": "307dacb5ed424483a8b951d3aa206fba1586fd680b5249974b1e0b1d8a57e685"
     },
-    "assets/s0/xiaosa/XYQHiker/\u4e03\u65b0\u5f71\u89c6.json": {
+    "assets/s0/xiaosa/XYQHiker/七新影视.json": {
       "bytes": 3404,
       "sha256": "55ccb90710d396f14e5e4a2c3d2c737c596f3bc7a0b56c2de6660e0a31db937c"
     },
-    "assets/s0/xiaosa/XYQHiker/\u4e5d\u516b\u5f71\u89c6.json": {
+    "assets/s0/xiaosa/XYQHiker/九八影视.json": {
       "bytes": 3431,
       "sha256": "aac6e6254f853e685d40704ad24b9a7ef051749c8f3e4c2d0f90fa8c0a35c2e3"
     },
-    "assets/s0/xiaosa/XYQHiker/\u516b\u53f7\u5f71\u89c6.json": {
+    "assets/s0/xiaosa/XYQHiker/八号影视.json": {
       "bytes": 3097,
       "sha256": "b88ae121f5a0a7fe12802170bbab99047af58cb117fe8f51a641ae657e06d22a"
     },
-    "assets/s0/xiaosa/XYQHiker/\u519c\u6c11\u5f71\u89c6.json": {
+    "assets/s0/xiaosa/XYQHiker/农民影视.json": {
       "bytes": 3555,
       "sha256": "bea350c20b45fccc9aceda9f99078e1de6365cda79181e86e7d9ca1833498921"
     },
-    "assets/s0/xiaosa/XYQHiker/\u5267\u5708\u5f71\u89c6.json": {
+    "assets/s0/xiaosa/XYQHiker/剧圈影视.json": {
       "bytes": 3268,
       "sha256": "15271daa16fdc2aa3dbe429c795b28d589a2cecabfb114552f1978c123d98edc"
     },
-    "assets/s0/xiaosa/XYQHiker/\u5df4\u58eb\u52a8\u6f2b.json": {
+    "assets/s0/xiaosa/XYQHiker/巴士动漫.json": {
       "bytes": 2993,
       "sha256": "c5baa12febb2572d663b686b765b919a4a06205d5ad4a660c5464127d51e669b"
     },
-    "assets/s0/xiaosa/XYQHiker/\u661f\u8fb0\u5f71\u89c6.json": {
+    "assets/s0/xiaosa/XYQHiker/星辰影视.json": {
       "bytes": 3338,
       "sha256": "942f368f647d397f8e6c22c79fdb22ad5c43d1669b671742f6862c557dc1bcab"
     },
-    "assets/s0/xiaosa/XYQHiker/\u6765\u770b\u5f71\u89c6.json": {
+    "assets/s0/xiaosa/XYQHiker/来看影视.json": {
       "bytes": 3338,
       "sha256": "6f49866e39fbde6d1a82381d8c980cb41ae85260f8b067ffab5c2730304847dc"
     },
-    "assets/s0/xiaosa/XYQHiker/\u7535\u5f71\u6e2f.json": {
+    "assets/s0/xiaosa/XYQHiker/电影港.json": {
       "bytes": 1966,
       "sha256": "2f8ab3821b2bd8c4113887399286821f2d869c7f23ac50aec04f86651f8534c3"
     },
-    "assets/s0/xiaosa/XYQHiker/\u7535\u5f71\u725b.json": {
+    "assets/s0/xiaosa/XYQHiker/电影牛.json": {
       "bytes": 3296,
       "sha256": "e20083ec52a249a507154f0c6d767e77ef90b5be3d54682fb2db51219a9b59bc"
     },
-    "assets/s0/xiaosa/XYQHiker/\u767e\u601d\u6d3e.json": {
+    "assets/s0/xiaosa/XYQHiker/百思派.json": {
       "bytes": 4399,
       "sha256": "09228047adde4a6764c2475d14a9127b10b489a52e491459ea88de86f0bc5618"
     },
-    "assets/s0/xiaosa/XYQHiker/\u76d2\u5b50\u5f71\u89c6.json": {
+    "assets/s0/xiaosa/XYQHiker/盒子影视.json": {
       "bytes": 3059,
       "sha256": "66dbae83072ad57c7370c3335b36aceb3e3bb22ad57681554b6b79310628d6ca"
     },
-    "assets/s0/xiaosa/XYQHiker/\u770b\u770b\u5f71\u89c6.json": {
+    "assets/s0/xiaosa/XYQHiker/看看影视.json": {
       "bytes": 3414,
       "sha256": "a2d7bf624f831dcaf907afe02e788306cbaed32b4e23a3efa4c6d00efb59c6a2"
     },
-    "assets/s0/xiaosa/XYQHiker/\u77ed\u5267\u5c4b.json": {
+    "assets/s0/xiaosa/XYQHiker/短剧屋.json": {
       "bytes": 3017,
       "sha256": "c0832867a70c5f085088d5e67cb068353c5161768fe87d9ce3e85911648a0982"
     },
-    "assets/s0/xiaosa/XYQHiker/\u9a9a\u706b\u5f71\u89c6.json": {
+    "assets/s0/xiaosa/XYQHiker/骚火影视.json": {
       "bytes": 2894,
       "sha256": "5d1634e18033a0312fa335cb26f95ac3847132c26c47654e0c7ba25e6f3e48e1"
     },
-    "assets/s0/XYQBiu/88\u770b\u7403.json": {
+    "assets/s0/XYQBiu/88看球.json": {
       "bytes": 1785,
       "sha256": "ba5313eb911a5b7b009c031cd27c0fcb80177a6542eded59f078598ca3478c6d"
     },
-    "assets/s0/XYQBiu/\u7f51\u6613CC\u76f4\u64ad.json": {
+    "assets/s0/XYQBiu/网易CC直播.json": {
       "bytes": 3995,
       "sha256": "1588181f8b26053e7af83532ade0c4f255bb578c675db8f849a015c4d1fa9f5b"
     },
-    "assets/s0/XYQHiker/996\u5f71\u89c6.json": {
+    "assets/s0/XYQHiker/996影视.json": {
       "bytes": 3320,
       "sha256": "4243c7631d9821d2130e9abc8d0308b246b6f2fa07350d1a21235f822b5fa880"
     },
-    "assets/s0/XYQHiker/\u4e03\u65b0\u5f71\u89c6.json": {
+    "assets/s0/XYQHiker/七新影视.json": {
       "bytes": 3344,
       "sha256": "7ffd8540de979633916dbb4025dd20854b56e307571f7c3dad00e81e57fb4752"
     },
-    "assets/s0/XYQHiker/\u4e91\u76d8\u8d44\u6e90.json": {
+    "assets/s0/XYQHiker/云盘资源.json": {
       "bytes": 749,
       "sha256": "ef0d393583ce4b8e3dfba87f04c50f69518491725dcb87bb38811595a9056107"
     },
-    "assets/s0/XYQHiker/\u5154\u5c0f\u8d1d.json": {
+    "assets/s0/XYQHiker/兔小贝.json": {
       "bytes": 2111,
       "sha256": "9a2807b673ed66c4aa6fbbac861a154645e84e71629387871ed208090c63fb18"
     },
-    "assets/s0/XYQHiker/\u5154\u5c0f\u8d1d2.json": {
+    "assets/s0/XYQHiker/兔小贝2.json": {
       "bytes": 2836,
       "sha256": "da4fc621373170feceffd3eab13a6677ddcd0fd555c07fcc9c83f3cf55dd57a0"
     },
-    "assets/s0/XYQHiker/\u519c\u6c11\u5f71\u89c6.json": {
+    "assets/s0/XYQHiker/农民影视.json": {
       "bytes": 3541,
       "sha256": "a83b1f9b85bd9d0d48714489db91ee86aa4df998553141cab0b3d6052758befc"
     },
-    "assets/s0/XYQHiker/\u5267\u5708\u5f71\u89c6.json": {
+    "assets/s0/XYQHiker/剧圈影视.json": {
       "bytes": 3268,
       "sha256": "15271daa16fdc2aa3dbe429c795b28d589a2cecabfb114552f1978c123d98edc"
     },
-    "assets/s0/XYQHiker/\u53ef\u53ef\u5f71\u89c6.json": {
+    "assets/s0/XYQHiker/可可影视.json": {
       "bytes": 3122,
       "sha256": "a1d6fe70246dd9ab40eb7422de3cfff09f7988f3884b671735a8870f5b63299f"
     },
-    "assets/s0/XYQHiker/\u54d4\u5600\u5f71\u89c6.json": {
+    "assets/s0/XYQHiker/哔嘀影视.json": {
       "bytes": 4110,
       "sha256": "58c271f5666e941acd53dd38859fd70b394b711b8b417ed3d5e679be22a4578d"
     },
-    "assets/s0/XYQHiker/\u5df4\u58eb\u52a8\u6f2b.json": {
+    "assets/s0/XYQHiker/巴士动漫.json": {
       "bytes": 2993,
       "sha256": "c5baa12febb2572d663b686b765b919a4a06205d5ad4a660c5464127d51e669b"
     },
-    "assets/s0/XYQHiker/\u5f71\u641c.json": {
+    "assets/s0/XYQHiker/影搜.json": {
       "bytes": 595,
       "sha256": "f44d12192b171b75154d03218ec0bf8afd0ecd528dce59686d3d1693fdeae0ba"
     },
-    "assets/s0/XYQHiker/\u64ad\u89c6\u7ae5\u8da3.json": {
+    "assets/s0/XYQHiker/播视童趣.json": {
       "bytes": 2654,
       "sha256": "c87e70bbe237e4d34dfe987db5469fce0db7471d025a83046087503b170a165b"
     },
-    "assets/s0/XYQHiker/\u6597\u9c7c\u76f4\u64ad.json": {
+    "assets/s0/XYQHiker/斗鱼直播.json": {
       "bytes": 66645,
       "sha256": "4a521fb7b281e03aecf7919fc4c51978133adc44029854c44441d5b386e8c7cf"
     },
-    "assets/s0/XYQHiker/\u6765\u770b\u5f71\u89c6.json": {
+    "assets/s0/XYQHiker/来看影视.json": {
       "bytes": 3338,
       "sha256": "6f49866e39fbde6d1a82381d8c980cb41ae85260f8b067ffab5c2730304847dc"
     },
-    "assets/s0/XYQHiker/\u6cb3\u9a6c\u77ed\u5267.json": {
+    "assets/s0/XYQHiker/河马短剧.json": {
       "bytes": 3791,
       "sha256": "33b9ee12adc5c1fca134c0541d674ba4c41288766a584e66735c688a176f91e1"
     },
-    "assets/s0/XYQHiker/\u7231\u4f60\u77ed\u5267.json": {
+    "assets/s0/XYQHiker/爱你短剧.json": {
       "bytes": 3127,
       "sha256": "c79eb43fdf7f2dc00f750ff821dabba3c92a11ca7ba3708c352380f1e5e0f76f"
     },
-    "assets/s0/XYQHiker/\u73a9\u5076\u54e5\u54e5.json": {
+    "assets/s0/XYQHiker/玩偶哥哥.json": {
       "bytes": 3218,
       "sha256": "0bb27afa2de4d036ed2f7fed309729196938f61fe353d80667e7be0822532ce9"
     },
-    "assets/s0/XYQHiker/\u7535\u5f71\u6e2f.json": {
+    "assets/s0/XYQHiker/电影港.json": {
       "bytes": 1966,
       "sha256": "2f8ab3821b2bd8c4113887399286821f2d869c7f23ac50aec04f86651f8534c3"
     },
-    "assets/s0/XYQHiker/\u77ed\u5267\u5c4b.json": {
+    "assets/s0/XYQHiker/短剧屋.json": {
       "bytes": 3017,
       "sha256": "c0832867a70c5f085088d5e67cb068353c5161768fe87d9ce3e85911648a0982"
     },
-    "assets/s0/XYQHiker/\u864e\u7259\u76f4\u64ad.json": {
+    "assets/s0/XYQHiker/虎牙直播.json": {
       "bytes": 16951,
       "sha256": "f079c3858ef18127995a50fe6ac94b4cedbdc857ad3056876675b80a4a1d475f"
     },
@@ -4350,8 +4350,8 @@
       "sha256": "3dec79b48f892c8c320d73bef11034ab93aef0232be5abc77d1b9bcf07bed2c9"
     },
     "main.json": {
-      "bytes": 80883,
-      "sha256": "18689f444743555021b2e8fb153ab27cd55c076fe416dbebd17b7b62da71cabe"
+      "bytes": 81033,
+      "sha256": "4434ce6f0f9b4f35d2743cd9cb07a03ddc69f1a2197bc504320c19b7e979d850"
     },
     "releases/v0.1.0-rc18/godnext.jar": {
       "bytes": 28026,
@@ -4414,8 +4414,8 @@
       "sha256": "d8526f2e70ad9ea4c367119c08b4a13e0381cc802a3fd2f1912a26e3f71048d0"
     },
     "releases/v0.1.0-rc18/main.json": {
-      "bytes": 80883,
-      "sha256": "18689f444743555021b2e8fb153ab27cd55c076fe416dbebd17b7b62da71cabe"
+      "bytes": 81033,
+      "sha256": "4434ce6f0f9b4f35d2743cd9cb07a03ddc69f1a2197bc504320c19b7e979d850"
     }
   }
 }

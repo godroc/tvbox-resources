@@ -1,5 +1,5 @@
 {
-  "spider": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/jar/spider.jar;md5;4a35e9a49f5872ea0a4358e5424e657a",
+  "spider": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/jar/spider.jar;md5;4a35e9a49f5872ea0a4358e5424e657a",
   "lives": [
     {
       "name": "migu",
@@ -24,7 +24,7 @@
     {
       "name": "ipv6",
       "type": 0,
-      "url": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/tvboxtv.txt",
+      "url": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/tvboxtv.txt",
       "playerType": 1,
       "ua": "okhttp/3.8.1",
       "timeout": 20,
@@ -34,7 +34,7 @@
     {
       "name": "央视频",
       "type": 0,
-      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/custom/py/yangshipin.py",
+      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/custom/py/yangshipin.py",
       "url": "",
       "ext": {
         "cast_entries": false
@@ -55,29 +55,29 @@
       "searchable": 1,
       "quickSearch": 0,
       "changeable": 0,
-      "jar": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/jar/spider.jar;md5;4a35e9a49f5872ea0a4358e5424e657a"
+      "jar": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/jar/spider.jar;md5;4a35e9a49f5872ea0a4358e5424e657a"
     },
     {
       "key": "godnext_settings",
       "name": "配置与诊断 • 自建",
       "type": 3,
       "api": "csp_GodNextConfig",
-      "jar": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/releases/v0.1.0-rc18/godnext.jar;md5;05587c01103e9df9cebaa16ae5e19312",
+      "jar": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/releases/v0.1.0-rc18/godnext.jar;md5;05587c01103e9df9cebaa16ae5e19312",
       "ext": {
         "siteUrl": "https://tv.godroc.dpdns.org/tg-api/device/pan",
         "delegateKey": "push_agent",
         "searchMode": "grouped",
-        "groupIcon": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/releases/v0.1.0-rc18/group-icons/other.png",
+        "groupIcon": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/releases/v0.1.0-rc18/group-icons/other.png",
         "checkLinks": true,
         "onlyCheckedOk": true,
         "hideUnsupported": true,
         "checkTimeoutMs": 3200,
-        "delegateJar": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/jar/spider.jar;md5;4a35e9a49f5872ea0a4358e5424e657a",
+        "delegateJar": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/jar/spider.jar;md5;4a35e9a49f5872ea0a4358e5424e657a",
         "delegateApi": "csp_Push",
         "delegateExt": "",
         "orderKey": "配置中心",
         "orderApi": "csp_Config",
-        "orderJar": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/jar/spider.jar;md5;4a35e9a49f5872ea0a4358e5424e657a",
+        "orderJar": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/jar/spider.jar;md5;4a35e9a49f5872ea0a4358e5424e657a",
         "orderExt": "",
         "requireDeviceKey": true
       },
@@ -90,22 +90,22 @@
       "name": "TG搜索 • 自建",
       "type": 3,
       "api": "csp_GodNextSearch",
-      "jar": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/releases/v0.1.0-rc18/godnext.jar;md5;05587c01103e9df9cebaa16ae5e19312",
+      "jar": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/releases/v0.1.0-rc18/godnext.jar;md5;05587c01103e9df9cebaa16ae5e19312",
       "ext": {
         "siteUrl": "https://tv.godroc.dpdns.org/tg-api/device/tg",
         "delegateKey": "push_agent",
         "searchMode": "grouped",
-        "groupIcon": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/releases/v0.1.0-rc18/group-icons/other.png",
+        "groupIcon": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/releases/v0.1.0-rc18/group-icons/other.png",
         "checkLinks": true,
         "onlyCheckedOk": true,
         "hideUnsupported": true,
         "checkTimeoutMs": 3200,
-        "delegateJar": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/jar/spider.jar;md5;4a35e9a49f5872ea0a4358e5424e657a",
+        "delegateJar": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/jar/spider.jar;md5;4a35e9a49f5872ea0a4358e5424e657a",
         "delegateApi": "csp_Push",
         "delegateExt": "",
         "orderKey": "配置中心",
         "orderApi": "csp_Config",
-        "orderJar": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/jar/spider.jar;md5;4a35e9a49f5872ea0a4358e5424e657a",
+        "orderJar": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/jar/spider.jar;md5;4a35e9a49f5872ea0a4358e5424e657a",
         "orderExt": "",
         "requireDeviceKey": true
       },
@@ -119,22 +119,22 @@
       "name": "盘搜 • 自建",
       "type": 3,
       "api": "csp_GodNextSearch",
-      "jar": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/releases/v0.1.0-rc18/godnext.jar;md5;05587c01103e9df9cebaa16ae5e19312",
+      "jar": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/releases/v0.1.0-rc18/godnext.jar;md5;05587c01103e9df9cebaa16ae5e19312",
       "ext": {
         "siteUrl": "https://tv.godroc.dpdns.org/tg-api/device/pan",
         "delegateKey": "push_agent",
         "searchMode": "grouped",
-        "groupIcon": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/releases/v0.1.0-rc18/group-icons/other.png",
+        "groupIcon": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/releases/v0.1.0-rc18/group-icons/other.png",
         "checkLinks": true,
         "onlyCheckedOk": true,
         "hideUnsupported": true,
         "checkTimeoutMs": 3200,
-        "delegateJar": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/jar/spider.jar;md5;4a35e9a49f5872ea0a4358e5424e657a",
+        "delegateJar": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/jar/spider.jar;md5;4a35e9a49f5872ea0a4358e5424e657a",
         "delegateApi": "csp_Push",
         "delegateExt": "",
         "orderKey": "配置中心",
         "orderApi": "csp_Config",
-        "orderJar": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/jar/spider.jar;md5;4a35e9a49f5872ea0a4358e5424e657a",
+        "orderJar": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/jar/spider.jar;md5;4a35e9a49f5872ea0a4358e5424e657a",
         "orderExt": "",
         "requireDeviceKey": true
       },
@@ -186,8 +186,8 @@
       "key": "新闪雷",
       "name": "新闪雷 • MP4",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/lib/drpy2.min.js",
-      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/js/新闪雷.js",
+      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/js/新闪雷.js",
       "header": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0"
       }
@@ -213,8 +213,8 @@
       "key": "cupfox_in",
       "name": "茶杯狐 • cupfox.in",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/lib/drpy2.min.js",
-      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/js/茶杯狐.js",
+      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/js/茶杯狐.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
@@ -227,7 +227,7 @@
       "key": "italkbbtv",
       "name": "ITalkBB • 外",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/py/ITalkBBTV.py",
+      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/py/ITalkBBTV.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
@@ -237,7 +237,7 @@
       "key": "OleLive",
       "name": "欧乐影院 • 外",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/py/OleLive.py",
+      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/py/OleLive.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -247,7 +247,7 @@
       "key": "华数",
       "name": "华数 • 影视",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/py/华数.py",
+      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/py/华数.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -257,7 +257,7 @@
       "key": "华谊影视",
       "name": "华谊 • 影视",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/py/华谊影视.py",
+      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/py/华谊影视.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -267,7 +267,7 @@
       "key": "Didahd",
       "name": "嘀嗒影视",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/py/Didahd.py",
+      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/py/Didahd.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
@@ -277,7 +277,7 @@
       "key": "TVB云播",
       "name": "TVB云播",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/py/TVB云播.py",
+      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/py/TVB云播.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
@@ -1504,7 +1504,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/json/SEJY.json",
+        "json": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/json/SEJY.json",
         "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
       },
       "style": {
@@ -1521,7 +1521,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/json/XXKT.json",
+        "json": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/json/XXKT.json",
         "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
       },
       "style": {
@@ -1538,7 +1538,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/json/CZKT.json",
+        "json": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/json/CZKT.json",
         "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
       },
       "style": {
@@ -1555,7 +1555,7 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": {
-        "json": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/json/GZKT.json",
+        "json": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/json/GZKT.json",
         "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
       },
       "style": {
@@ -1950,7 +1950,7 @@
       "key": "Ncat",
       "name": "网飞猫",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/py/Ncat.py",
+      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/py/Ncat.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
@@ -1960,173 +1960,173 @@
       "key": "drpy_js_360影视",
       "name": "官源 • 360",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/lib/drpy2.min.js",
-      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/js/360影视.js"
+      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/js/360影视.js"
     },
     {
       "key": "drpy_js_百忙无果",
       "name": "官源 • 芒果",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/lib/drpy2.min.js",
-      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/js/百忙无果.js"
+      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/js/百忙无果.js"
     },
     {
       "key": "drpy_js_腾云驾雾",
       "name": "官源 • 腾讯",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/lib/drpy2.min.js",
-      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/js/腾云驾雾.js"
+      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/js/腾云驾雾.js"
     },
     {
       "key": "drpy_js_奇珍异兽",
       "name": "官源 • 爱奇艺",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/lib/drpy2.min.js",
-      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/js/奇珍异兽.js"
+      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/js/奇珍异兽.js"
     },
     {
       "key": "drpy_js_菜狗",
       "name": "官源 • 搜狗",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/lib/drpy2.min.js",
-      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/js/菜狗.js"
+      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/js/菜狗.js"
     },
     {
       "key": "drpy_js_优酷",
       "name": "官源 • 优酷",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/lib/drpy2.min.js",
-      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/js/优酷.js"
+      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/js/优酷.js"
     },
     {
       "key": "drpy_js_Anime1动畫",
       "name": "动漫 • Anime1动畫",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/lib/drpy2.min.js",
-      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/js/Anime1动畫.js"
+      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/js/Anime1动畫.js"
     },
     {
       "key": "drpy_js_NT动漫",
       "name": "动漫 • NT动漫",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/lib/drpy2.min.js",
-      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/js/NT动漫.js"
+      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/js/NT动漫.js"
     },
     {
       "key": "drpy_js_路漫漫",
       "name": "动漫 • 路漫漫",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/lib/drpy2.min.js",
-      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/js/路漫漫.js"
+      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/js/路漫漫.js"
     },
     {
       "key": "drpy_js_去看吧",
       "name": "动漫 • 去看吧",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/lib/drpy2.min.js",
-      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/js/去看吧.js"
+      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/js/去看吧.js"
     },
     {
       "key": "drpy_js_A8音乐",
       "name": "音频 • A8音乐",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/lib/drpy2.min.js",
-      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/js/A8音乐.js"
+      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/js/A8音乐.js"
     },
     {
       "key": "drpy_js_DJ音乐",
       "name": "音频 • DJ音乐",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/lib/drpy2.min.js",
+      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/lib/drpy2.min.js",
       "changeable": 0,
       "style": {
         "type": "rect",
         "ratio": 1
       },
-      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/js/DJ音乐.js"
+      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/js/DJ音乐.js"
     },
     {
       "key": "drpy_js_蜻蜓FM",
       "name": "广播 • 蜻蜓FM",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/lib/drpy2.min.js",
+      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/lib/drpy2.min.js",
       "changeable": 0,
-      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/js/蜻蜓FM.js"
+      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/js/蜻蜓FM.js"
     },
     {
       "key": "drpy_js_爱上你听书网",
       "name": "听书 • 爱上你听书",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/lib/drpy2.min.js",
+      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/lib/drpy2.min.js",
       "changeable": 0,
       "style": {
         "type": "rect",
         "ratio": 1
       },
-      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/js/爱上你听书网.js"
+      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/js/爱上你听书网.js"
     },
     {
       "key": "drpy_js_博看听书",
       "name": "听书 • 博看听书",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/lib/drpy2.min.js",
+      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/lib/drpy2.min.js",
       "changeable": 0,
       "style": {
         "type": "rect",
         "ratio": 1
       },
-      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/js/博看听书.js"
+      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/js/博看听书.js"
     },
     {
       "key": "drpy_js_海洋听书",
       "name": "听书 • 海洋听书",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/lib/drpy2.min.js",
+      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/lib/drpy2.min.js",
       "changeable": 0,
       "style": {
         "type": "rect",
         "ratio": 1
       },
-      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/js/海洋听书.js"
+      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/js/海洋听书.js"
     },
     {
       "key": "drpy_js_有声小说",
       "name": "听书 • 有声小说",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/lib/drpy2.min.js",
+      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/lib/drpy2.min.js",
       "changeable": 0,
       "style": {
         "type": "rect",
         "ratio": 1
       },
-      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/js/有声小说吧.js"
+      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/js/有声小说吧.js"
     },
     {
       "key": "drpy_js_播客",
       "name": "聚合 • 播客",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/lib/drpy2.min.js",
-      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/js/播客.js"
+      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/js/播客.js"
     },
     {
       "key": "drpy_js_酷6网",
       "name": "聚合 • 酷6网",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/lib/drpy2.min.js",
+      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/lib/drpy2.min.js",
       "changeable": 0,
-      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/js/酷6网.js"
+      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/js/酷6网.js"
     },
     {
       "key": "drpy_js_网易公版影像",
       "name": "聚合 • 网易公版",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/lib/drpy2.min.js",
+      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/lib/drpy2.min.js",
       "changeable": 0,
       "style": {
         "type": "rect",
         "ratio": 1.597
       },
-      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/js/网易公版影像.js"
+      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/js/网易公版影像.js"
     },
     {
       "key": "push_agent",
@@ -2141,15 +2141,15 @@
       "key": "bb",
       "name": "配置接口完全免费",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/lib/drpy2.min.js",
-      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/js/drpy.js"
+      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/js/drpy.js"
     },
     {
       "key": "cc",
       "name": "请勿相信视频中任何广告",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/lib/drpy2.min.js",
-      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18/raw/assets/s0/js/drpy.js"
+      "api": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/lib/drpy2.min.js",
+      "ext": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/raw/assets/s0/js/drpy.js"
     }
   ],
   "parses": [

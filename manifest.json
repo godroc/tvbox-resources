@@ -1,8 +1,12 @@
 {
-  "version": "mirror-20261026-rc18",
+  "version": "mirror-20261026-rc18-1",
   "device_keys_required": true,
   "tv_tested": false,
   "files": {
+    ".gitattributes": {
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
     "fast/assets/s0/biliext/Bili.json": {
       "bytes": 40083,
       "sha256": "af6e1cfba9a82536c289c1589ff724dfc422582cc48abd39eb1a3c2569cd9257"
@@ -4340,12 +4344,12 @@
       "sha256": "3dec79b48f892c8c320d73bef11034ab93aef0232be5abc77d1b9bcf07bed2c9"
     },
     "fast/main.json": {
-      "bytes": 82383,
-      "sha256": "df6a08f05ed1bd5b3d9029977b39d6cf46669ae7d9a80aaf8e6e9f88359adfd0"
+      "bytes": 82533,
+      "sha256": "aec98acc088bbae7dee07c97e3c41987beab581ea46447b49a2d46c3f198630a"
     },
     "fast/manifest.json": {
-      "bytes": 176313,
-      "sha256": "010263b579df7df0b70e11e824da003afd4b75ccfbfd2fd16e12f4f3c0f431e5"
+      "bytes": 171538,
+      "sha256": "3394435c487e08065336497d81aea96edd8bc22010f9a73999d1ea38d8c49a49"
     },
     "fast/releases/v0.1.0-rc18/godnext.jar": {
       "bytes": 28026,
@@ -4408,12 +4412,12 @@
       "sha256": "d8526f2e70ad9ea4c367119c08b4a13e0381cc802a3fd2f1912a26e3f71048d0"
     },
     "fast/releases/v0.1.0-rc18/main.json": {
-      "bytes": 82383,
-      "sha256": "df6a08f05ed1bd5b3d9029977b39d6cf46669ae7d9a80aaf8e6e9f88359adfd0"
+      "bytes": 82533,
+      "sha256": "aec98acc088bbae7dee07c97e3c41987beab581ea46447b49a2d46c3f198630a"
     },
     "main.json": {
-      "bytes": 82383,
-      "sha256": "df6a08f05ed1bd5b3d9029977b39d6cf46669ae7d9a80aaf8e6e9f88359adfd0"
+      "bytes": 82533,
+      "sha256": "aec98acc088bbae7dee07c97e3c41987beab581ea46447b49a2d46c3f198630a"
     },
     "raw/assets/s0/biliext/Bili.json": {
       "bytes": 40083,
@@ -8752,12 +8756,12 @@
       "sha256": "3dec79b48f892c8c320d73bef11034ab93aef0232be5abc77d1b9bcf07bed2c9"
     },
     "raw/main.json": {
-      "bytes": 80883,
-      "sha256": "18689f444743555021b2e8fb153ab27cd55c076fe416dbebd17b7b62da71cabe"
+      "bytes": 81033,
+      "sha256": "4434ce6f0f9b4f35d2743cd9cb07a03ddc69f1a2197bc504320c19b7e979d850"
     },
     "raw/manifest.json": {
-      "bytes": 176293,
-      "sha256": "535532ca0d22f1fb7d125c98de05c6e3a13b1e3f29dcabbbd96f15840231f6cd"
+      "bytes": 171518,
+      "sha256": "c33a42102542e89e29eb2573ea437003c282b09fc320647096f8ad4e65ec4dcb"
     },
     "raw/releases/v0.1.0-rc18/godnext.jar": {
       "bytes": 28026,
@@ -8820,12 +8824,12 @@
       "sha256": "d8526f2e70ad9ea4c367119c08b4a13e0381cc802a3fd2f1912a26e3f71048d0"
     },
     "raw/releases/v0.1.0-rc18/main.json": {
-      "bytes": 80883,
-      "sha256": "18689f444743555021b2e8fb153ab27cd55c076fe416dbebd17b7b62da71cabe"
+      "bytes": 81033,
+      "sha256": "4434ce6f0f9b4f35d2743cd9cb07a03ddc69f1a2197bc504320c19b7e979d850"
     },
     "raw-main.json": {
-      "bytes": 80883,
-      "sha256": "18689f444743555021b2e8fb153ab27cd55c076fe416dbebd17b7b62da71cabe"
+      "bytes": 81033,
+      "sha256": "4434ce6f0f9b4f35d2743cd9cb07a03ddc69f1a2197bc504320c19b7e979d850"
     },
     "README.md": {
       "bytes": 771,
