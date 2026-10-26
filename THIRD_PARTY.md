@@ -1,0 +1,1 @@
+Third-party assets originate from the existing qist-based deployment and retain their authorship. No relicensing or ownership claim is made. Existing upstream notices are preserved. Local cryptographic fixture audit only exempts exact baseline-matching files; user credentials are never included. See per-channel manifests for redacted legacy credential fields.
