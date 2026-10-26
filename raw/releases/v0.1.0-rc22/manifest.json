@@ -1,0 +1,71 @@
+{
+  "version": "v0.1.0-rc22",
+  "status": "candidate",
+  "source": "rc21 with legacy App.get() Activity-field fallback",
+  "files": {
+    "godnext.jar": {
+      "bytes": 29397,
+      "sha256": "3cdbf217e14a130ec6a2b2cfdd79723a9591bf032bf2eb508341ab6b132ae002"
+    },
+    "group-icons/115.png": {
+      "bytes": 6132,
+      "sha256": "ee606ac9187e450aeee9e92f52ea833f93186d27b14699a8b48ac1c35d815aa4"
+    },
+    "group-icons/123.png": {
+      "bytes": 7556,
+      "sha256": "b094e0d053aa391566683ffeb0411614bede3280ac97f6d8b88a66e4c402e701"
+    },
+    "group-icons/aliyun.png": {
+      "bytes": 6300,
+      "sha256": "b097f79b2c0d13a989fdc974444ff16230ff73910b4a4d46c5854df1548159df"
+    },
+    "group-icons/baidu.png": {
+      "bytes": 7217,
+      "sha256": "dbd0da2dda94a486594af63521d7b45230d7ef855c28ac47c80fa8c97c5030ff"
+    },
+    "group-icons/ed2k.png": {
+      "bytes": 7344,
+      "sha256": "82f03afe45d213497d6e9986cb4af99d5b073e14f4847eb58c41f40eced0aa9f"
+    },
+    "group-icons/guangya.png": {
+      "bytes": 7883,
+      "sha256": "fa59eb92bc1d4ff761b57b3e97c75ad9136df01762010d2221563d2ca7509880"
+    },
+    "group-icons/magnet.png": {
+      "bytes": 9936,
+      "sha256": "a7a1cb963d396d6e9926e963d9090a38cb96bf19cb0dae26bb4c9b1e8cf71dc5"
+    },
+    "group-icons/mobile.png": {
+      "bytes": 10608,
+      "sha256": "667bf13d203597059b29218531509fd224a28ce97f7b6d0b4b78ed21df6fc883"
+    },
+    "group-icons/other.png": {
+      "bytes": 8047,
+      "sha256": "fd0c52294be75c5109190df1f0731a2b91edfd1dc9a0fd2a1cd05b8dedae8c24"
+    },
+    "group-icons/pikpak.png": {
+      "bytes": 6899,
+      "sha256": "27ddc1ee8d7423912cc073bffc25cbdd95ddab72b753a1bdf5c00eeab87e6d44"
+    },
+    "group-icons/quark.png": {
+      "bytes": 7878,
+      "sha256": "d81c5540bedda2360fb237acef1a2658d978e1f4d4c064950f617e5f9ea282fa"
+    },
+    "group-icons/tianyi.png": {
+      "bytes": 8685,
+      "sha256": "a91364385870bb985c1438fd79fe15aace6d348c84b64e716f4ec0115a51403b"
+    },
+    "group-icons/uc.png": {
+      "bytes": 6605,
+      "sha256": "b3e327e7c63885f713a8561b4bdf7e49def1e6664807581436230990031d168f"
+    },
+    "group-icons/xunlei.png": {
+      "bytes": 7133,
+      "sha256": "d8526f2e70ad9ea4c367119c08b4a13e0381cc802a3fd2f1912a26e3f71048d0"
+    },
+    "main.json": {
+      "bytes": 80883,
+      "sha256": "94296e573e3c2f074c58b11c5150c10a477dd60d3ebf276f508fb6c835283476"
+    }
+  }
+}
