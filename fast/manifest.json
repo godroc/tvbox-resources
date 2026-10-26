@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "mirror-20261026-rc18-1",
+  "version": "mirror-20261026-rc18-2",
   "redacted_fields": [
     "assets\\s0\\XBPQ\\雪花.json.搜索url [query credential omitted]",
     "assets\\s0\\xiaosa\\XBPQ\\雪花.json.搜索url [query credential omitted]",
@@ -9,7 +9,7 @@
     "assets\\s0\\XYQHiker\\兔小贝2.json.搜索链接 [query credential omitted]"
   ],
   "source_url": "https://tv.godroc.dpdns.org/next/releases/v0.1.0-rc18/main.json",
-  "mirror_base": "https://ghfast.top/https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-1/fast/",
+  "mirror_base": "https://gh-proxy.com/https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261026-rc18-2/fast/",
   "sites": 156,
   "backend_moved": false,
   "files": {
@@ -4350,8 +4350,8 @@
       "sha256": "3dec79b48f892c8c320d73bef11034ab93aef0232be5abc77d1b9bcf07bed2c9"
     },
     "main.json": {
-      "bytes": 82533,
-      "sha256": "aec98acc088bbae7dee07c97e3c41987beab581ea46447b49a2d46c3f198630a"
+      "bytes": 82683,
+      "sha256": "6a2e3a2215fbbe491d2a9211d09fc102f0d43cc087610166ae0e1fb5df008c18"
     },
     "releases/v0.1.0-rc18/godnext.jar": {
       "bytes": 28026,
@@ -4414,8 +4414,8 @@
       "sha256": "d8526f2e70ad9ea4c367119c08b4a13e0381cc802a3fd2f1912a26e3f71048d0"
     },
     "releases/v0.1.0-rc18/main.json": {
-      "bytes": 82533,
-      "sha256": "aec98acc088bbae7dee07c97e3c41987beab581ea46447b49a2d46c3f198630a"
+      "bytes": 82683,
+      "sha256": "6a2e3a2215fbbe491d2a9211d09fc102f0d43cc087610166ae0e1fb5df008c18"
     }
   }
 }
