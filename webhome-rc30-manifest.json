@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "version": "rc30",
+  "tag": "mirror-20261027-rc30-webhome",
+  "files": {
+    "docs/webhome/rc30-c9f1b61a6a33/app.js": {
+      "size": 34449,
+      "sha256": "4ef7eaa029502e6476a3ef69f0363dc5e20b1e2ea12aedefdd7acab27124c650"
+    },
+    "docs/webhome/rc30-c9f1b61a6a33/catalog.css": {
+      "size": 7397,
+      "sha256": "80941e89c54afb08b5080c6000e593a69b5eac6c7a1bfc8576098bba345033d8"
+    },
+    "docs/webhome/rc30-c9f1b61a6a33/catalog.js": {
+      "size": 27999,
+      "sha256": "fcb800290ad5f7337bd594ef61cf3237912cb8190a95b71a799511b2ea0caf1f"
+    },
+    "docs/webhome/rc30-c9f1b61a6a33/core.js": {
+      "size": 7911,
+      "sha256": "f20b80ef1ed42329703dceda028ba81bd802ba8e4f977ba1743e71402afd239e"
+    },
+    "docs/webhome/rc30-c9f1b61a6a33/discovery-data.js": {
+      "size": 5654,
+      "sha256": "3c5fc5eb7d064569f94c2e2bb9839932f58452c0ff688321d5c2c0ac879f5e52"
+    },
+    "docs/webhome/rc30-c9f1b61a6a33/discovery.css": {
+      "size": 4832,
+      "sha256": "90790f05834674241617eda27c7ff5b12d9f1488c503ac9c99d76e9c6c738407"
+    },
+    "docs/webhome/rc30-c9f1b61a6a33/discovery.js": {
+      "size": 10870,
+      "sha256": "2c41740e9e07485d442e964dc34ad4fcf4e7a3612413216f838cc9d929f3479a"
+    },
+    "docs/webhome/rc30-c9f1b61a6a33/index.html": {
+      "size": 11407,
+      "sha256": "a498a8dff7b1ce21a8f6ff7008a49f18b08e1b326c55ea26ede0de86514a9d95"
+    },
+    "docs/webhome/rc30-c9f1b61a6a33/providers.js": {
+      "size": 25309,
+      "sha256": "2edca18f5e2885a06b7089f5bf868a47845a43f1e4cd29590a34ec4816263244"
+    },
+    "docs/webhome/rc30-c9f1b61a6a33/reference-search.css": {
+      "size": 1833,
+      "sha256": "8a48562ef214a44053902757998a027e24c77a71fcf41a4fc30b1ad8f5785037"
+    },
+    "docs/webhome/rc30-c9f1b61a6a33/reference-search.js": {
+      "size": 13111,
+      "sha256": "e29e1ddc9d5a3ecf4c694b1c3469616a725b70f332b429ade9d298667bd45699"
+    },
+    "docs/webhome/rc30-c9f1b61a6a33/styles.css": {
+      "size": 17560,
+      "sha256": "42a130d7b7b930b64d6b9125e30f5e6042120b775cb57bccae5f4058875d3c2f"
+    },
+    "fast/releases/v0.1.0-rc30/main.json": {
+      "size": 79902,
+      "sha256": "ae1300813016320c8c296db1f5de80dc6f6dc70df73a266ed391993d5ea22ab5"
+    },
+    "fast/releases/v0.1.0-rc30/version.json": {
+      "size": 1360,
+      "sha256": "05386174f676dac745cd8a3aae776c9545c16196a302a2d73b0a925b3347290e"
+    },
+    "fast/releases/v0.1.0-rc30/webhome-only.json": {
+      "size": 20056,
+      "sha256": "18d64a265e058aee36cbd946fbcbb5e2f41a8799e3fe978988c4ecc46b7ae327"
+    },
+    "raw-rc30.json": {
+      "size": 78252,
+      "sha256": "d6a913862535df853be1fd972d8c82547f460d3c4f041392ff324c7037a5f916"
+    },
+    "raw/releases/v0.1.0-rc30/main.json": {
+      "size": 78252,
+      "sha256": "d6a913862535df853be1fd972d8c82547f460d3c4f041392ff324c7037a5f916"
+    },
+    "raw/releases/v0.1.0-rc30/version.json": {
+      "size": 1360,
+      "sha256": "05386174f676dac745cd8a3aae776c9545c16196a302a2d73b0a925b3347290e"
+    },
+    "raw/releases/v0.1.0-rc30/webhome-only.json": {
+      "size": 19990,
+      "sha256": "7d47016d16c91ab8f9edb0750db63d7ae65bf23ca6b0ac7239d08f875b0ab8e4"
+    },
+    "rc30.json": {
+      "size": 79902,
+      "sha256": "ae1300813016320c8c296db1f5de80dc6f6dc70df73a266ed391993d5ea22ab5"
+    }
+  },
+  "homePage": "https://godroc.github.io/tvbox-resources/webhome/rc30-c9f1b61a6a33/index.html",
+  "fast_entry": "https://gh-proxy.com/https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261027-rc30-webhome/fast/releases/v0.1.0-rc30/main.json",
+  "raw_entry": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261027-rc30-webhome/raw/releases/v0.1.0-rc30/main.json",
+  "backend_moved": false,
+  "tv_tested": false
+}
