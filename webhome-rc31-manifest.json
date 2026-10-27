@@ -1,0 +1,100 @@
+{
+  "schema": 1,
+  "version": "rc31",
+  "tag": "mirror-20261027-rc31-webhome",
+  "files": {
+    "docs/webhome/rc31-c3392be92306/app.js": {
+      "size": 35359,
+      "sha256": "d1917239d6846cd046c04aed3a36cca882689b94dfb5a82da52ba316c64c74ff"
+    },
+    "docs/webhome/rc31-c3392be92306/catalog.css": {
+      "size": 7724,
+      "sha256": "0756f93eef107772bb74ab2959c2cc080732a71c74cbab8869bddc352d85a47a"
+    },
+    "docs/webhome/rc31-c3392be92306/catalog.js": {
+      "size": 27999,
+      "sha256": "fcb800290ad5f7337bd594ef61cf3237912cb8190a95b71a799511b2ea0caf1f"
+    },
+    "docs/webhome/rc31-c3392be92306/core.js": {
+      "size": 7911,
+      "sha256": "f20b80ef1ed42329703dceda028ba81bd802ba8e4f977ba1743e71402afd239e"
+    },
+    "docs/webhome/rc31-c3392be92306/discovery-data.js": {
+      "size": 5654,
+      "sha256": "3c5fc5eb7d064569f94c2e2bb9839932f58452c0ff688321d5c2c0ac879f5e52"
+    },
+    "docs/webhome/rc31-c3392be92306/discovery.css": {
+      "size": 6416,
+      "sha256": "9c0a6c6f2516a2973b5733eec83defe44e457a39a7c596f439f4acb0c87e0bd1"
+    },
+    "docs/webhome/rc31-c3392be92306/discovery.js": {
+      "size": 10870,
+      "sha256": "2c41740e9e07485d442e964dc34ad4fcf4e7a3612413216f838cc9d929f3479a"
+    },
+    "docs/webhome/rc31-c3392be92306/index.html": {
+      "size": 11486,
+      "sha256": "a7ea432ca8249296b7b0faab78a20549dd02286c09b252ac55f478c4bb5ed51f"
+    },
+    "docs/webhome/rc31-c3392be92306/navigation.js": {
+      "size": 17791,
+      "sha256": "f76c54b5038ce81f33da19d4a277919399dd113d832cde0f89cece2da3eda2c4"
+    },
+    "docs/webhome/rc31-c3392be92306/overlay-history.js": {
+      "size": 7992,
+      "sha256": "5412c65fefcf606b4a14c38b7e78aac00bf0d43e687448b1c582cbbf05c56482"
+    },
+    "docs/webhome/rc31-c3392be92306/providers.js": {
+      "size": 25309,
+      "sha256": "2edca18f5e2885a06b7089f5bf868a47845a43f1e4cd29590a34ec4816263244"
+    },
+    "docs/webhome/rc31-c3392be92306/reference-search.css": {
+      "size": 2097,
+      "sha256": "cbb997c5365248e0377e4f1e00daf8a6ab990ab51489c6b03a24954b2de3f6a1"
+    },
+    "docs/webhome/rc31-c3392be92306/reference-search.js": {
+      "size": 13111,
+      "sha256": "e29e1ddc9d5a3ecf4c694b1c3469616a725b70f332b429ade9d298667bd45699"
+    },
+    "docs/webhome/rc31-c3392be92306/styles.css": {
+      "size": 17396,
+      "sha256": "2661d5391801df2ef5a0f8366357a4281af2d375da59e8d17c30f7e19f8ccc7b"
+    },
+    "fast/releases/v0.1.0-rc31/main.json": {
+      "size": 79902,
+      "sha256": "65157db6066dd843a93a141db094e111d8b6c55bd38e3da540ee2db6391fbe3d"
+    },
+    "fast/releases/v0.1.0-rc31/version.json": {
+      "size": 1543,
+      "sha256": "b268f3d130a70b7c82f90686373cd2a27caddde9bfdb00a7f9f9b8a516501487"
+    },
+    "fast/releases/v0.1.0-rc31/webhome-only.json": {
+      "size": 20056,
+      "sha256": "2463c430f4271a7acc34ea00af9b23836e70b11ea5aeb5707d4687d7551e9512"
+    },
+    "raw-rc31.json": {
+      "size": 78252,
+      "sha256": "7f04df095637712f4c27f94076ff4ae17383c4ce77405fe2efbf74a1711cd7cc"
+    },
+    "raw/releases/v0.1.0-rc31/main.json": {
+      "size": 78252,
+      "sha256": "7f04df095637712f4c27f94076ff4ae17383c4ce77405fe2efbf74a1711cd7cc"
+    },
+    "raw/releases/v0.1.0-rc31/version.json": {
+      "size": 1543,
+      "sha256": "b268f3d130a70b7c82f90686373cd2a27caddde9bfdb00a7f9f9b8a516501487"
+    },
+    "raw/releases/v0.1.0-rc31/webhome-only.json": {
+      "size": 19990,
+      "sha256": "0099b12220faeee90fc6d585887cb6e5c89ae259db2bfcdb07e096d96fee874e"
+    },
+    "rc31.json": {
+      "size": 79902,
+      "sha256": "65157db6066dd843a93a141db094e111d8b6c55bd38e3da540ee2db6391fbe3d"
+    }
+  },
+  "homePage": "https://godroc.github.io/tvbox-resources/webhome/rc31-c3392be92306/index.html",
+  "fast_entry": "https://gh-proxy.com/https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261027-rc31-webhome/fast/releases/v0.1.0-rc31/main.json",
+  "raw_entry": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261027-rc31-webhome/raw/releases/v0.1.0-rc31/main.json",
+  "backend_moved": false,
+  "tv_tested": false
+}
