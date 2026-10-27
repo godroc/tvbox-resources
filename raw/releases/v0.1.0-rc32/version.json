@@ -1,0 +1,25 @@
+{
+  "version": "rc32",
+  "tag": "mirror-20261027-rc32-webhome",
+  "feature": "self-hosted-webhome",
+  "device_keys_required": true,
+  "backend_moved": false,
+  "tv_tested": false,
+  "homePage": "https://godroc.github.io/tvbox-resources/webhome/rc32-b66ffb9a8eca/index.html",
+  "static_sha256": {
+    "index.html": "467fac2f7e12e22fc718a6e4d0faca138058981c3b26b8f3385559f64ca9b33f",
+    "styles.css": "41ba5013b614a2662efba0a33f28d59ed516edb943a9567313c03ec8db78826e",
+    "core.js": "f20b80ef1ed42329703dceda028ba81bd802ba8e4f977ba1743e71402afd239e",
+    "providers.js": "2edca18f5e2885a06b7089f5bf868a47845a43f1e4cd29590a34ec4816263244",
+    "catalog.js": "fcb800290ad5f7337bd594ef61cf3237912cb8190a95b71a799511b2ea0caf1f",
+    "catalog.css": "0756f93eef107772bb74ab2959c2cc080732a71c74cbab8869bddc352d85a47a",
+    "reference-search.js": "f2f86baec663b6f0bf3e7fd67fd02c8600524a58d07a98539e2910b6f42694fa",
+    "reference-search.css": "3d578c4814a7d5f96502a5467710a50d38f8bb856b58e5ba1e0afc1c1096c040",
+    "discovery-data.js": "faa347c32331bc3a833056350481ae5c4a83400bb2bbeb88320ac02a03fb3831",
+    "discovery.js": "64b28f8b744167351b216da29255a219b191302c4ef62a41027c7c32d333c06a",
+    "discovery.css": "7bf477e7ce8ae889f0d448f230d30f07574935566d10262d49733caea56941b5",
+    "navigation.js": "79083bbbcdea10b49435565b8569f1318250537056010e3adf770aeb46236f13",
+    "overlay-history.js": "39330c8653f038956eb2bb05c970eb89eb684852d015aaad5040721383e8a5e3",
+    "app.js": "a54a66d86dc146f1bef8377d8f4fb0ba915433c77df5a920ae2cbf9cc55a74b8"
+  }
+}
