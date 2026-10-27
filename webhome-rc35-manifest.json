@@ -1,0 +1,100 @@
+{
+  "schema": 1,
+  "version": "rc35",
+  "tag": "mirror-20261027-rc35-webhome",
+  "files": {
+    "docs/webhome/rc35-e0a8bf5d5ab3/app.js": {
+      "size": 44145,
+      "sha256": "ae010c5483a61a1800a434b833c5523c29e1809f954cc8204074e26f5d2fa1c4"
+    },
+    "docs/webhome/rc35-e0a8bf5d5ab3/catalog.css": {
+      "size": 8253,
+      "sha256": "36165b48627594d0f7ff929845169a4b8561f9832a8ad46b341718488296faea"
+    },
+    "docs/webhome/rc35-e0a8bf5d5ab3/catalog.js": {
+      "size": 30965,
+      "sha256": "e6933d188bb7c243e09cfa93a781096e04dfa3d15712063288d816f9db87d5b1"
+    },
+    "docs/webhome/rc35-e0a8bf5d5ab3/core.js": {
+      "size": 10138,
+      "sha256": "92623b86404ebeef710c1fd056eaab2a9a94881a509b48c580094e8e64d59274"
+    },
+    "docs/webhome/rc35-e0a8bf5d5ab3/discovery-data.js": {
+      "size": 21557,
+      "sha256": "2c0412812a9863fa83add11aeae8a160f55e0daee74034cf9c5e81e1406ea53a"
+    },
+    "docs/webhome/rc35-e0a8bf5d5ab3/discovery.css": {
+      "size": 14209,
+      "sha256": "0adde3fa90057689f34f50216ee295223286a0087c28fc4fa1323e7f04781427"
+    },
+    "docs/webhome/rc35-e0a8bf5d5ab3/discovery.js": {
+      "size": 35831,
+      "sha256": "ca5ac5ef73c7513e8d67c7864b4f2d4a2be855d556ef4ac93cbce85e5c3b35ba"
+    },
+    "docs/webhome/rc35-e0a8bf5d5ab3/index.html": {
+      "size": 12682,
+      "sha256": "6d24f30b81b9cc89db697a216089bbae6b74f9c0496be3bbe92a2dfeda594cef"
+    },
+    "docs/webhome/rc35-e0a8bf5d5ab3/navigation.js": {
+      "size": 19713,
+      "sha256": "c3e1c3d65f4fcd53aaabeffe0131829598624fd753cd1e37b6655b0df58c930f"
+    },
+    "docs/webhome/rc35-e0a8bf5d5ab3/overlay-history.js": {
+      "size": 8016,
+      "sha256": "39330c8653f038956eb2bb05c970eb89eb684852d015aaad5040721383e8a5e3"
+    },
+    "docs/webhome/rc35-e0a8bf5d5ab3/providers.js": {
+      "size": 25309,
+      "sha256": "2edca18f5e2885a06b7089f5bf868a47845a43f1e4cd29590a34ec4816263244"
+    },
+    "docs/webhome/rc35-e0a8bf5d5ab3/reference-search.css": {
+      "size": 3284,
+      "sha256": "ea771d9182d2fba14c4cf6579d3cfdbc502a865cea2d64f9c2259684c50eead0"
+    },
+    "docs/webhome/rc35-e0a8bf5d5ab3/reference-search.js": {
+      "size": 16269,
+      "sha256": "ea7ad5c103968215781f9ded205f52f8e94ef03a842c98b16165c28a30c70b4e"
+    },
+    "docs/webhome/rc35-e0a8bf5d5ab3/styles.css": {
+      "size": 18539,
+      "sha256": "c671c5e5a1a1831f83d47d91cdec5d4cef3d958f621d5641da25e236f3761e62"
+    },
+    "fast/releases/v0.1.0-rc35/main.json": {
+      "size": 78344,
+      "sha256": "b5ec824f72d3df469878a65849742d78ecf2785e1f36f8ca39ef3ae3b8a76178"
+    },
+    "fast/releases/v0.1.0-rc35/version.json": {
+      "size": 1543,
+      "sha256": "16839dffb186be93c56799235f254cc95f6e8dc2979baa7d6a1e738fd31ba4fd"
+    },
+    "fast/releases/v0.1.0-rc35/webhome-only.json": {
+      "size": 20082,
+      "sha256": "7f901201bcfe736b244214e67609d4855d91c2455d018b3c93f2bb381aba01d7"
+    },
+    "raw-rc35.json": {
+      "size": 78344,
+      "sha256": "b5ec824f72d3df469878a65849742d78ecf2785e1f36f8ca39ef3ae3b8a76178"
+    },
+    "raw/releases/v0.1.0-rc35/main.json": {
+      "size": 78344,
+      "sha256": "b5ec824f72d3df469878a65849742d78ecf2785e1f36f8ca39ef3ae3b8a76178"
+    },
+    "raw/releases/v0.1.0-rc35/version.json": {
+      "size": 1543,
+      "sha256": "16839dffb186be93c56799235f254cc95f6e8dc2979baa7d6a1e738fd31ba4fd"
+    },
+    "raw/releases/v0.1.0-rc35/webhome-only.json": {
+      "size": 20082,
+      "sha256": "7f901201bcfe736b244214e67609d4855d91c2455d018b3c93f2bb381aba01d7"
+    },
+    "rc35.json": {
+      "size": 78344,
+      "sha256": "b5ec824f72d3df469878a65849742d78ecf2785e1f36f8ca39ef3ae3b8a76178"
+    }
+  },
+  "homePage": "https://godroc.github.io/tvbox-resources/webhome/rc35-e0a8bf5d5ab3/index.html",
+  "fast_entry": "https://gh-proxy.com/https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261027-rc35-webhome/fast/releases/v0.1.0-rc35/main.json",
+  "raw_entry": "https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261027-rc35-webhome/raw/releases/v0.1.0-rc35/main.json",
+  "backend_moved": false,
+  "tv_tested": false
+}
