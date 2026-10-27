@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="referrer" content="no-referrer">
+  <title>GG · 家庭资源库</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="catalog.css">
+  <link rel="stylesheet" href="reference-search.css">
+  <link rel="stylesheet" href="discovery.css">
+</head>
+<body>
+  <header class="topbar">
+    <button id="brand" class="brand" aria-label="返回首页"><span class="brand-mark">GG</span><span>家庭资源库<small>WEBHOME · RC39</small></span></button>
+    <nav class="topnav" aria-label="主导航"><button id="homeNav" class="navlink active">首页</button><button id="sitesNav" class="navlink">站点</button><button id="searchNav" class="navlink">搜索</button><button id="favoritesNav" class="navlink">收藏 <span id="favoriteCount">0</span></button></nav>
+    <div class="top-actions"><button id="bridgeStatus" class="connection"><span class="status-dot"></span><span id="bridgeLabel">连接播放器</span></button><button id="settingsOpen" class="iconbutton" aria-label="设置">⚙<span>设置</span></button></div>
+  </header>
+  <div id="workspace" class="workspace catalog-mode">
+    <aside id="searchSidebar" class="sidebar" aria-label="资源来源" hidden>
+      <div class="side-label">搜索工具</div>
+      <button class="source active" data-source="all"><span class="source-icon">◈</span><span>全部来源</span><em id="countAll">0</em></button>
+      <button class="source" data-source="pan"><span class="source-icon pan">盘</span><span>盘搜 · 自建<small id="panStatus">等待搜索</small></span><em id="countPan">0</em></button>
+      <button class="source" data-source="tg"><span class="source-icon tg">TG</span><span>TG · 自建<small id="tgStatus">等待搜索</small></span><em id="countTg">0</em></button>
+      <div class="side-note"><span class="note-orbit">◎</span><strong>两路搜索，一个入口</strong><p>分别获取 · 按链接合并<br>保留来源，方便选择</p></div>
+      <div class="side-bottom"><span id="keyBadge">设备密钥未设置</span><small>账户授权仍使用原配置中心</small></div>
+    </aside>
+    <main id="main">
+      <section id="hero" class="hero" hidden>
+        <div class="hero-copy"><span class="eyebrow">YOUR PRIVATE COLLECTION</span><h1>想看的，<br>从这里找到<span>。</span></h1><p>自建盘搜与 Telegram 资源，<br class="mobile-break">在熟悉的播放器里继续观看。</p></div>
+        <div class="hero-art" aria-hidden="true"><div class="orbit one"></div><div class="orbit two"></div><div class="art-card back"><span>TG</span><i></i><i></i></div><div class="art-card front"><div class="art-window">◈</div><span>属于你的资源库</span><i></i></div><div class="art-star">✦</div></div>
+      </section>
+      <section id="searchArea" class="search-area" aria-label="搜索资源" hidden>
+        <form id="searchForm" class="searchbox"><span aria-hidden="true">⌕</span><input id="query" maxlength="120" type="search" placeholder="搜索片名，可带年份或季数" autocomplete="off" aria-label="搜索片名"><button id="searchButton" type="submit">搜索资源 <span>↗</span></button></form>
+        <div class="search-scope"><label>搜索范围 <select id="searchScope"><option value="common">常用资源＋自建</option><option value="reference">仅参考站点</option><option value="self">仅盘搜／TG</option><option value="native">全部订阅源（App 原生搜索）</option></select></label><button id="nativeSearchButton" type="button" class="subbutton">全部订阅源 ↗</button></div>
+        <div class="search-secondary"><div id="recentSearches" class="recent-searches"></div><button id="mobileFavorites" class="textbutton mobile-favorites">我的收藏</button></div>
+      </section>
+      <section id="resultsSection" hidden>
+        <div class="result-heading"><div><span class="eyebrow" id="resultEyebrow">SEARCH RESULTS</span><h2 id="resultTitle">搜索结果</h2></div><div class="result-actions"><button id="groupView" class="subbutton">网盘分组</button><button id="retryButton" class="subbutton" hidden>重试失败来源</button></div></div>
+        <div id="providerMessages" class="provider-messages" aria-live="polite"></div>
+        <div class="filters" aria-label="筛选结果">
+          <div id="diskFilters" class="disk-filters"></div>
+          <div class="filter-controls">
+            <label>来源<select id="providerFilter"><option value="all">全部来源</option><option value="pan">盘搜 · 自建</option><option value="tg">TG · 自建</option></select></label>
+            <label>格式标注<select id="quality"><option value="">全部</option><option>4K</option><option>1080P</option><option>HDR</option><option>高码</option></select></label>
+            <label>排序<select id="sort"><option value="relevance">匹配优先</option><option value="newest">日期最新</option><option value="size">文件最大</option></select></label>
+            <label>发布时间<select id="since"><option value="0">不限</option><option value="7">近 7 天</option><option value="30">近 30 天</option><option value="90">近 90 天</option></select></label>
+            <label>资源大小<select id="minSize"><option value="0">不限</option><option value="1000000000">至少 1 GB</option><option value="10000000000">至少 10 GB</option><option value="50000000000">至少 50 GB</option></select></label>
+            <label class="exclude-label">排除关键词<input id="exclude" placeholder="预告，花絮" maxlength="100"></label>
+            <label class="check-label"><input type="checkbox" id="keepUnknown" checked>保留未知信息</label><button id="resetFilters" class="textbutton">重置筛选</button>
+          </div>
+        </div>
+        <div class="results-meta"><span id="resultSummary" aria-live="polite"></span><span class="metadata-note">格式、大小为来源标注，非实测</span></div>
+        <div id="groupGrid" class="group-grid"></div>
+        <div id="resourceGrid" class="resource-grid"></div>
+        <div id="emptyState" class="empty-state" hidden><span>⌕</span><h3 id="emptyTitle">还没有匹配结果</h3><p id="emptyText">试试缩短片名，或放宽筛选条件。</p></div>
+        <nav id="pagination" class="pagination" aria-label="结果分页"><button id="previousPage">← 上一页</button><span id="pageInfo"></span><button id="nextPage">下一页 →</button></nav>
+      </section>
+      <section id="welcome" class="welcome" hidden><div class="section-title"><h2>从一次搜索开始</h2><span>你的选择，会留在这台设备</span></div><div class="welcome-grid"><button class="welcome-card" data-suggest="电影"><span>01 / DISCOVER</span><h3>找一部电影</h3><p>跨来源搜索，按网盘挑选</p><em>↗</em></button><button class="welcome-card second" data-suggest="纪录片"><span>02 / EXPLORE</span><h3>发现纪录片</h3><p>筛选格式，保留更多可能</p><em>↗</em></button><button class="welcome-card third" id="welcomeSettings"><span>03 / YOUR DEVICE</span><h3>连接你的资源</h3><p>设置本机独立设备密钥</p><em>↗</em></button></div></section>
+      <section id="referenceResults" aria-label="参考站点搜索结果" hidden></section>
+      <section id="discoverySection" aria-label="豆瓣选片与分类筛选"></section>
+      <section id="catalogSection" aria-label="参考站点与分类海报墙" hidden></section>
+      <footer>GG · 自建家庭影音 <span>RC39 · 豆瓣选片 × 多站找源</span></footer>
+    </main>
+  </div>
+  <div id="settingsModal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="settingsTitle"><div class="modal-panel settings-panel"><div class="modal-heading"><div><span class="eyebrow">THIS DEVICE ONLY</span><h2 id="settingsTitle">偏好与设备连接</h2></div><button class="close-button" data-close="settingsModal" aria-label="关闭设置">×</button></div><form id="settingsForm">
+    <label class="field">设备访问密钥<input id="deviceKey" type="password" autocomplete="off" spellcheck="false" maxlength="43" placeholder="输入这台设备的 43 位独立密钥"></label><p class="field-note">仅向自建搜索接口发送。不会写入源文件、导出设置或分享链接。</p><label class="check-label"><input id="rememberKey" type="checkbox" checked>记住在这台设备；清除网页数据后需重新输入</label><p id="settingsError" class="error-text" role="alert"></p>
+    <label class="field">网盘优先顺序<input id="diskOrder" placeholder="夸克,天翼,阿里,百度,UC,123,迅雷,移动,115"></label><p class="field-note">可填中文名称或英文类型，以逗号分隔。初次可导入原配置顺序；本页不自动读取原配置中心的私有存储。</p>
+    <div class="field">来源顺序<div class="settings-options" id="sourceOrderOptions"><button type="button" data-value="pan,tg">盘搜 → TG</button><button type="button" data-value="tg,pan">TG → 盘搜</button></div></div><div class="field">每页数量<div class="settings-options" id="pageSizeOptions"><button type="button" data-value="24">24 条</button><button type="button" data-value="40">40 条</button><button type="button" data-value="60">60 条</button></div></div>
+    <label class="check-label"><input id="startGrouped" type="checkbox" checked>搜索后先显示网盘分组</label><div class="field">参考站点<div id="refSiteSettings" class="ref-sites"></div><p class="field-note">用于影片详情里的参考站点；更改立即保存到本机，详情不再单独显示站点选择。</p></div><div class="field">详情播放源显示网盘<div id="displayDiskSettings" class="ref-sites"></div><p class="field-note">只显示勾选网盘的资源；默认仅夸克。在这里增加后，影片详情的播放源里就会出现对应网盘。</p></div><div class="settings-tools"><button id="clearKey" type="button" class="danger-text">清除本机密钥</button><button id="exportSettings" type="button" class="textbutton">导出偏好（不含密钥）</button></div><textarea id="exportText" readonly hidden aria-label="导出的偏好设置"></textarea>
+    <div class="modal-actions"><button type="button" class="subbutton" data-close="settingsModal">取消</button><button class="primary" type="submit">保存设置</button></div></form></div></div>
+  <div id="detailModal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="detailTitle"><div class="modal-panel detail-panel"><button class="close-button detail-close" data-close="detailModal" aria-label="关闭详情">×</button><div id="detailPoster" class="detail-poster"></div><div class="detail-copy"><span id="detailDisk" class="eyebrow"></span><h2 id="detailTitle"></h2><div id="detailMeta" class="detail-meta"></div><p class="detail-description">由原播放器继续解析资源、选择文件与播放。网盘账户和 Cookie 仍使用原配置中心。</p><div id="detailLink" class="detail-link"></div><p id="playError" class="error-text" role="alert"></p><button id="playButton" class="primary">交给播放器 ↗</button><div class="detail-tools"><button id="favoriteButton" class="subbutton">加入收藏</button><button id="copyButton" class="subbutton">复制分享链接</button></div><small class="field-note">分享链接存在不等于已验证可播放。本页不执行链接检测。</small></div></div></div>
+  <div id="pushModal" class="modal" hidden role="dialog" aria-modal="true" aria-labelledby="pushTitle"><div class="modal-panel"><div class="modal-heading"><h2 id="pushTitle">推送播放</h2><button class="close-button" data-close="pushModal" aria-label="关闭推送">×</button></div><form id="pushForm"><label class="field">资源地址<input id="pushURL" type="text" maxlength="4000" placeholder="网盘分享、视频网址或磁力链接"></label><p class="field-note">使用原播放器解析，网盘授权仍由原配置中心管理。</p><p id="pushError" class="error-text" role="alert"></p><button type="submit" class="primary">交给播放器</button></form></div></div>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <script src="core.js"></script><script src="providers.js"></script><script src="catalog.js"></script><script src="reference-search.js"></script><script src="discovery-data.js"></script><script src="discovery.js"></script><script src="navigation.js"></script><script src="overlay-history.js"></script><script src="app.js"></script>
+</body>
+</html>
