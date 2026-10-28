@@ -1,0 +1,136 @@
+.discovery{padding:4px 0 22px;color:#e7ebef}.gg-tv .topbar{height:56px;min-height:56px;padding:0 24px}.gg-tv .brand-mark{width:30px;height:30px;border-radius:7px;font-size:14px}.gg-tv .brand{font-size:14px}.gg-tv .brand small{display:none}.discovery-types{display:flex;align-items:center;flex-wrap:nowrap;overflow-x:auto;white-space:nowrap;padding:0 0 7px;margin:0 0 4px;border-bottom:1px solid #252b31}.discovery-type{position:relative;flex:0 0 auto;padding:9px 13px;color:#aab3bc;font-size:13px;border-radius:3px}.discovery-type:hover,.discovery-type:focus{color:#fff;background:#242a30;outline:2px solid #d9e1e7;outline-offset:1px}.discovery-type.active{color:#fff;font-weight:600}.discovery-type.active:after{position:absolute;bottom:0;left:13px;right:13px;height:2px;content:"";background:#d9e1e7}.discovery-quick-actions{display:flex;align-items:center;flex-wrap:wrap;padding:6px 0 8px;border-bottom:1px solid #252b31}.discovery-quick-actions button{padding:5px 11px;margin:0 7px 0 0;color:#aab3bc;font-size:12px;border-radius:3px}.discovery-quick-actions button:hover,.discovery-quick-actions button:focus{color:#fff;background:#242a30;outline:2px solid #cfd8df;outline-offset:1px}.discovery-content{padding-top:8px}.discovery-status{min-height:20px;margin:6px 0;color:#9ca7b2;font-size:12px}.discovery-rail{margin:4px 0 18px;min-width:0}.discovery-rail-heading{display:flex;align-items:center;justify-content:space-between;margin:0 0 8px}.discovery-rail-heading h2,.discovery-browse-title{margin:0;color:#f4f6f8;font-size:18px;line-height:1.35;font-weight:600}.discovery-rail-track{display:flex;overflow-x:auto;overflow-y:hidden;padding:2px 2px 8px;scrollbar-width:thin;scrollbar-color:#505a63 transparent}.discovery-rail-track .discovery-card{flex:0 0 132px;width:132px;margin:0 12px 0 0}.discovery-card{display:block;min-width:0;padding:0;text-align:left;color:#f1f3f5;border-radius:3px;background:transparent;transition:transform .14s ease,outline-color .14s ease}.discovery-card:focus{outline:2px solid #e7edf1;outline-offset:3px;transform:scale(1.035);position:relative;z-index:2}.discovery-poster{position:relative;width:100%;height:198px;overflow:hidden;background:#20262c;border-radius:6px}.discovery-image{position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;object-fit:cover}.discovery-title{display:block;margin:6px 0 0;color:#f1f3f5;font-size:12px;line-height:1.4;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}.discovery-year{display:block;margin-top:2px;color:#9ca7b2;font-size:11px}.discovery-rating{position:absolute;right:6px;bottom:6px;padding:3px 6px;color:#fff;background:#111c;border-radius:2px;font-size:10px}.discovery-no-image{position:absolute;top:45%;left:0;right:0;text-align:center;color:#a0aab3;font-size:11px}.discovery-browse-head{display:flex;align-items:center;flex-wrap:wrap;margin:2px 0 8px}.discovery-browse-title{margin-right:12px}.discovery-filter-open{padding:6px 12px;color:#e6e9ec;border:1px solid #4b555e;border-radius:3px;background:#22292f}.discovery-filter-open:focus{outline:2px solid #e7edf1;outline-offset:2px}.discovery-active-filters{display:flex;align-items:center;flex-wrap:wrap;margin:0 -6px}.discovery-filter-chip{display:inline-block;padding:3px 8px;margin:2px 6px;color:#cbd3d9;background:#252d33;border-radius:2px;font-size:11px}.discovery-grid{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));grid-gap:16px 12px}.discovery-grid .discovery-card{width:100%;margin:0}.discovery-grid .discovery-poster{height:0;padding-bottom:150%}.discovery-grid .discovery-title{font-size:12px;margin-top:6px}.discovery-paging{display:flex;align-items:center;justify-content:center;margin:20px 0}.discovery-paging>*+*{margin-left:18px}.discovery-paging span{color:#aab3bc;font-size:12px}.discovery-modal{position:fixed;top:0;right:0;bottom:0;left:0;z-index:70;overflow:auto;padding:20px;background:#000c}.discovery-detail{max-width:1050px;margin:0 auto;background:#141a20;border:1px solid #39434b;border-radius:6px;padding:22px;box-shadow:0 16px 60px #0009}.discovery-close{display:block;margin-left:auto;padding:7px 10px;color:#e5e9ed;border:1px solid #3d474f;border-radius:3px;background:#20272d}.discovery-detail-head{display:flex;margin-top:8px}.discovery-detail-head>*+*{margin-left:24px}.discovery-detail-poster{position:relative;flex:0 0 200px;height:300px;overflow:hidden;background:#20262c;border-radius:3px}.discovery-detail-image{position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;object-fit:cover}.discovery-detail-copy{flex:1;min-width:0}.discovery-detail-copy h2{margin:6px 0;color:#f4f6f8;font-size:25px}.discovery-meta{color:#bdc7cf;font-size:12px}.discovery-synopsis{max-height:130px;overflow:auto;white-space:pre-wrap;color:#c1c9cf;font-size:13px;line-height:1.7}.discovery-self{padding:12px 0}.discovery-self-list{display:block}.discovery-self-list button{text-align:left;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.discovery-filter-modal{align-items:stretch;justify-content:flex-end;padding:0;background:#0009}.discovery-filter-panel{width:390px;max-width:100%;height:100%;overflow:auto;padding:20px;background:#171d23;border-left:1px solid #38424a;box-shadow:-12px 0 40px #0007}.discovery-filter-heading{display:flex;align-items:center;justify-content:space-between;padding:0 0 12px;border-bottom:1px solid #333c44}.discovery-filter-heading h2{margin:0;color:#f4f6f8;font-size:20px}.discovery-filter-close{color:#dce2e7;font-size:24px}.discovery-filter-form{padding:8px 0}.discovery-filter-form .discovery-field{display:block;margin:12px 0;color:#bdc6cd;font-size:12px}.discovery-filter-form select{display:block;width:100%;margin-top:6px;padding:9px 10px;color:#f0f2f4;background:#222a31;border:1px solid #424d56;border-radius:3px;font:inherit}.discovery-filter-actions{display:flex;justify-content:flex-end;padding-top:14px;border-top:1px solid #333c44}.discovery-filter-actions>*+*{margin-left:8px}.discovery-filter-apply{padding:8px 14px;color:#111;background:#e5eaee;border-radius:3px;font-size:12px}.discovery-filter-cancel{padding:8px 14px;color:#d5dce1;border:1px solid #48525b;border-radius:3px}.discovery-filter-modal[hidden],.discovery-modal[hidden]{display:none!important}.topbar{background:#101419}.topnav .navlink.active:after{background:#dfe5e9}.brand-mark{border-radius:5px}.catalog-mode main{max-width:1740px}.ref-dialog{z-index:80}.detail-panel{z-index:100}
+@media(min-width:1550px){.discovery-grid{grid-template-columns:repeat(8,minmax(0,1fr))}.discovery-rail-track .discovery-card{flex-basis:144px;width:144px}.discovery-poster{height:216px}}
+@media(max-width:1000px){.discovery-grid{grid-template-columns:repeat(5,minmax(0,1fr))}.topbar{padding:0 20px}.connection{display:none}}
+@media(max-width:760px){.discovery{padding:2px 0 16px}.discovery-types{padding-bottom:4px}.discovery-type{padding:8px 10px;font-size:12px}.discovery-quick-actions{padding:4px 0 6px}.discovery-quick-actions button{margin-right:4px;padding:5px 8px;font-size:11px}.discovery-content{padding-top:6px}.discovery-rail{margin-bottom:14px}.discovery-rail-heading h2,.discovery-browse-title{font-size:16px}.discovery-rail-track .discovery-card{flex-basis:108px;width:108px;margin-right:10px}.discovery-poster{height:162px}.discovery-grid{grid-template-columns:repeat(3,minmax(0,1fr));grid-gap:14px 9px}.discovery-modal{padding:8px}.discovery-detail{padding:14px}.discovery-detail-head>*+*{margin-left:14px}.discovery-detail-poster{flex-basis:125px;height:188px}.discovery-detail-copy h2{font-size:21px}.discovery-synopsis{max-height:120px}.discovery-self-list{grid-template-columns:1fr}.discovery-filter-modal{align-items:flex-end;justify-content:center;padding:0}.discovery-filter-panel{width:100%;height:auto;max-height:82vh;padding:16px 16px 24px;border-left:0;border-top:1px solid #46515a;border-radius:14px 14px 0 0}.discovery-filter-form .discovery-field{margin:9px 0}.discovery-filter-form select{padding:8px}}
+@media(max-width:390px){.discovery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.discovery-detail-head{display:block}.discovery-detail-head>*+*{margin-left:0}.discovery-detail-poster{width:125px;height:188px;margin-bottom:12px}.discovery-detail-copy h2{font-size:19px}.discovery-rail-track .discovery-card{flex-basis:100px;width:100px;margin-right:9px}.discovery-poster{height:150px}.discovery-types{overflow-x:auto}.discovery-filter-form select{max-width:100%}}
+.discovery-detail{position:relative;overflow:hidden}.discovery-close{position:relative;z-index:2}.discovery-detail-backdrop{position:absolute;top:0;right:0;width:100%;height:300px;object-fit:cover;opacity:.17;pointer-events:none}.discovery-detail-head,.discovery-sources,.discovery-reference{position:relative;z-index:1}.discovery-detail-head{margin-top:2px}.discovery-detail-copy{padding:4px 0 0}.discovery-detail-copy h2{font-size:30px;line-height:1.2}.discovery-synopsis{max-width:660px;max-height:84px;margin:10px 0 0;overflow:auto;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical}.discovery-sources{margin:20px 0 0;padding:14px 0 8px;border-top:1px solid #303941}.discovery-sources-heading{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}.discovery-sources-heading h3,.discovery-reference h3{margin:0;color:#f2f5f7;font-size:17px;font-weight:600}.discovery-all-sources{padding:7px 12px;color:#d7dee4;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.22);border-radius:14px;font-size:12px}
+.discovery-dot-legend{display:flex;align-items:center;justify-content:space-between;margin:2px 0 8px;color:#8b959e;font-size:11px}
+.discovery-dot-legend .discovery-recheck-btn{padding:4px 10px;color:#d7dee4;background:transparent;border:1px solid rgba(255,255,255,.22);border-radius:12px;font-size:11px}
+.discovery-dot-legend .discovery-recheck-btn:focus{outline:2px solid #f1f4f6;outline-offset:2px;background:rgba(255,255,255,.14)}
+.discovery-all-sources:focus{background:rgba(255,255,255,.16)}.discovery-self-status{margin:7px 0 10px;color:#aeb8c0;font-size:12px}.discovery-source-group{margin:12px 0}.discovery-source-group h4{margin:0 0 7px;color:#c8d0d6;font-size:12px;font-weight:600}.discovery-self-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-gap:8px}.discovery-resource{min-height:38px;padding:8px 10px;color:#e8edf0;background:#20282f;border:1px solid #37424a;border-radius:3px;white-space:normal;line-height:1.35}.discovery-reference{margin:12px 0 0;padding:14px 0 0;border-top:1px solid #303941}.discovery-reference-content{margin-top:8px}.discovery-close:focus,.discovery-all-sources:focus,.discovery-resource:focus{outline:2px solid #f1f4f6;outline-offset:3px}.discovery-resource:focus{background:#303a43}
+@media(max-width:760px){.discovery-detail-copy h2{font-size:23px}.discovery-sources{margin-top:14px;padding-top:12px}.discovery-sources-heading h3,.discovery-reference h3{font-size:15px}.discovery-self-list{grid-template-columns:repeat(2,minmax(0,1fr))}.discovery-detail-backdrop{height:240px}}
+@media(max-width:390px){.discovery-detail-copy h2{font-size:21px}.discovery-detail-head{display:flex;align-items:flex-start}.discovery-detail-poster{flex:0 0 112px;width:112px;height:168px;margin:0 10px 0 0}.discovery-detail-head>*+*{margin-left:0}.discovery-synopsis{-webkit-line-clamp:3;max-height:68px;margin-top:7px;font-size:12px;line-height:1.55}.discovery-self-list{grid-template-columns:1fr}.discovery-sources-heading{align-items:flex-start}.discovery-all-sources{padding:6px 10px;font-size:11px}.discovery-detail-backdrop{height:210px}}
+
+/* RC33: cinematic details; explicit geometry supports older TV WebView. */
+.discovery-modal{padding:0;background:#0b0e11}.discovery-detail{min-height:100vh;max-width:none;border:0;border-radius:0;padding:24px 4vw 48px;background:#10151a}.discovery-detail-backdrop{height:480px;opacity:.23;filter:blur(15px);transform:scale(1.04);object-position:center 35%}.discovery-detail-head{min-height:320px;align-items:center}.discovery-detail-copy{max-width:760px;text-shadow:0 2px 10px #000}.discovery-detail-copy h2{font-size:38px}.discovery-sources,.discovery-reference{max-width:1500px;margin-left:auto;margin-right:auto}.discovery-resource{min-height:46px}.discovery-resource:focus{outline:3px solid #fff;background:#394650}@media(max-width:760px){.discovery-detail{padding:16px 18px 40px}.discovery-detail-head{min-height:205px}.discovery-detail-backdrop{height:300px}.discovery-detail-copy h2{font-size:25px}}
+
+.discovery-native-group{margin:16px 0}.discovery-native-group h3{font-size:14px;margin:0 0 8px;color:#ccd4dd}.discovery-native-options{display:flex;flex-wrap:wrap}.discovery-native-option{padding:8px 12px;margin:0 6px 6px 0;border:1px solid #48545f;border-radius:5px;background:#222a31;color:#e5e9ee;font-size:13px}.discovery-native-option[aria-pressed=true]{background:#e5edb5;color:#121916;border-color:#e5edb5}.discovery-native-option:focus{outline:3px solid white;outline-offset:2px}.discovery-native-form{padding-bottom:16px}
+
+/* RC34: history delete, source icons, preselect. Explicit geometry for older TV WebView. */
+.discovery-card{position:relative}
+.discovery-history-delete{position:absolute;top:6px;right:6px;z-index:3;padding:4px 10px;color:#fff;background:#c33;border-radius:4px;font-size:12px}
+.discovery-history-delete:focus{outline:2px solid #fff;outline-offset:2px}
+.discovery-resource{display:flex;align-items:center}
+.discovery-resource-icon{flex:0 0 auto;width:22px;height:22px;line-height:22px;text-align:center;margin-right:8px;color:#fff;background:#39434b;border-radius:6px;font-size:12px}
+.discovery-resource-label{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.discovery-resource.is-preselected{outline:3px solid #fff}
+.discovery-preselect-badge{flex:0 0 auto;margin-left:8px;padding:1px 6px;color:#121916;background:#e5edb5;border-radius:3px;font-size:11px}
+.discovery-types-sep{width:1px;align-self:stretch;background:#2c343d;margin:6px 8px;flex:0 0 auto}
+.discovery-type[aria-expanded=true]{color:#fff;background:#242a30}
+.discovery-filter-bar{padding:2px 0 10px;border-bottom:1px solid #252b31}
+.discovery-filter-bar .discovery-native-group{margin:10px 0}
+.discovery-filter-bar .discovery-native-group h3{font-size:12px;margin:0 0 6px;color:#9ca7b2}
+.discovery-self-list .discovery-resource{width:100%;margin:0 0 7px}
+.discovery-reference-content .ref-auto-share{display:flex;width:100%;margin:0 0 7px}
+.discovery-resource[data-gg-check="ok"] .discovery-resource-label::after{content:" \2713";color:#a8c686}
+.ref-auto-share[data-gg-check="ok"] .ref-auto-share-label::after{content:" \2713";color:#a8c686}
+.discovery-sources-empty{color:#9ca7b2;font-size:12px;margin:8px 0}
+body.gg-topbar-collapsed .topbar{display:none}
+.discovery-filter-layer .discovery-detail{max-width:860px}
+.discovery-filter-kinds{display:flex;margin:14px 0 4px}
+.discovery-filter-kinds>*+*{margin-left:8px}
+.discovery-filter-hint{color:#9ca7b2;font-size:12px;margin:14px 0 0}
+.discovery-delete-layer .discovery-detail{max-width:560px}
+.discovery-delete-layer h2{margin:0;color:#f4f6f8;font-size:20px}
+.discovery-delete-title{color:#f4f6f8;font-size:16px;margin:12px 0 4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.discovery-delete-note{color:#9ca7b2;font-size:12px;margin:8px 0}
+
+/* Full-screen film artwork and direct text resource choices. */
+.discovery-modal[aria-label="影片详情与找源"] .discovery-detail{background:#10151a;min-height:100vh}
+.discovery-modal[aria-label="影片详情与找源"] .discovery-detail-backdrop{position:fixed;top:0;right:0;bottom:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center 32%;opacity:.92;filter:none;transform:none;z-index:0}
+.discovery-modal[aria-label="影片详情与找源"] .discovery-detail-shade{position:fixed;top:0;right:0;bottom:0;left:0;z-index:0;pointer-events:none;background:linear-gradient(180deg,rgba(8,12,16,.12),rgba(8,12,16,.18) 28%,rgba(8,12,16,.68) 58%,rgba(8,12,16,.94))}
+.discovery-modal[aria-label="影片详情与找源"] .discovery-detail-head{min-height:38vh;align-items:flex-end;justify-content:center;padding:12px 0 20px}
+.discovery-modal[aria-label="影片详情与找源"] .has-art .discovery-detail-poster{display:none}
+.discovery-modal[aria-label="影片详情与找源"] .has-art .discovery-detail-copy{text-align:center;max-width:900px}
+.discovery-modal[aria-label="影片详情与找源"] .has-art .discovery-synopsis{margin-left:auto;margin-right:auto}
+.discovery-modal[aria-label="影片详情与找源"] .discovery-detail-poster{box-shadow:0 12px 35px #0009;border-radius:8px}
+.discovery-modal[aria-label="影片详情与找源"] .discovery-detail-copy h2{font-weight:700;letter-spacing:.01em}
+.discovery-modal[aria-label="影片详情与找源"] .discovery-sources{max-width:1100px;margin-top:0;background:rgba(12,17,22,.76);border:1px solid rgba(255,255,255,.12);border-radius:10px;padding:16px 18px}
+.discovery-modal[aria-label="影片详情与找源"] .discovery-self-list,.discovery-modal[aria-label="影片详情与找源"] .ref-site-results{display:block}
+.discovery-modal[aria-label="影片详情与找源"] .ref-root{padding:0;background:transparent;border-radius:0}
+.discovery-modal[aria-label="影片详情与找源"] .ref-auto-resolved{display:block;padding:0;margin:0;border:0;background:transparent}
+.discovery-modal[aria-label="影片详情与找源"] .ref-auto-resolve-label{display:block;margin:0 0 6px}
+.discovery-modal[aria-label="影片详情与找源"] .ref-auto-share{min-height:46px;max-width:100%;text-align:left;white-space:normal}
+.discovery-modal[aria-label="影片详情与找源"] .discovery-resource,.discovery-modal[aria-label="影片详情与找源"] .ref-auto-share{border-radius:6px}
+@media(max-width:760px){.discovery-modal[aria-label="影片详情与找源"] .discovery-detail-head{min-height:230px}.discovery-modal[aria-label="影片详情与找源"] .discovery-sources{padding:12px}.discovery-modal[aria-label="影片详情与找源"] .discovery-detail-backdrop{height:100%}}
+.discovery-delete-actions{display:flex;justify-content:center;margin-top:18px}
+.discovery-delete-actions>*+*{margin-left:12px}
+.discovery-delete-confirm{background:#b3261e!important;color:#fff!important;border-color:#b3261e!important}
+.discovery-sources-note{color:#9ca7b2;font-size:12px;margin:6px 0}
+.discovery-modal[aria-label="影片详情与找源"] .poster-only .discovery-detail-backdrop{filter:blur(28px) brightness(.5);transform:scale(1.15);opacity:.9}
+.discovery-modal[aria-label="影片详情与找源"] .poster-only .discovery-detail-head{flex-direction:column;align-items:center;text-align:center}
+.discovery-modal[aria-label="影片详情与找源"] .poster-only .discovery-detail-head>*+*{margin-left:0}
+.discovery-modal[aria-label="影片详情与找源"] .poster-only .discovery-detail-poster{flex:none;width:200px;height:300px;margin-bottom:16px}
+.discovery-modal[aria-label="影片详情与找源"] .poster-only .discovery-detail-copy{flex:none;width:100%;max-width:900px;text-align:center}
+.discovery-modal[aria-label="影片详情与找源"] .poster-only .discovery-synopsis{margin-left:auto;margin-right:auto}
+.discovery-modal[aria-label="影片详情与找源"] .discovery-detail-shade{background:linear-gradient(180deg,rgba(8,12,16,.38),rgba(8,12,16,.32) 28%,rgba(8,12,16,.68) 58%,rgba(8,12,16,.94))}
+.discovery-modal[aria-label="影片详情与找源"] .has-art .discovery-detail-copy h2,.discovery-modal[aria-label="影片详情与找源"] .poster-only .discovery-detail-copy h2{text-shadow:0 2px 12px #000}
+.discovery-modal[aria-label="影片详情与找源"] .has-art .discovery-detail-copy,.discovery-modal[aria-label="影片详情与找源"] .poster-only .discovery-detail-copy{text-shadow:0 2px 10px #000}
+.discovery-skeleton-rail{margin:4px 0 18px}
+.discovery-skeleton .discovery-poster{background:#20262c;animation:gg-pulse 1.6s ease-in-out infinite}
+.discovery-skeleton-title{display:block;height:12px;margin-top:6px;background:#20262c;border-radius:2px}
+@keyframes gg-pulse{0%,100%{opacity:.55}50%{opacity:1}}
+.discovery-card:focus{box-shadow:0 8px 24px #0008}
+.discovery-sources-progress{color:#9ca7b2;font-size:12px;margin:6px 0}
+
+/* RC41: inline browse filters (native Douban chip rows, no dialog, no separate button) */
+.discovery-inline-filters{margin:6px 0 14px}
+.discovery-filter-row{display:flex;align-items:flex-start;margin-bottom:8px}
+.discovery-filter-label{flex-shrink:0;width:52px;font-size:12px;color:#8d98a8;padding-top:7px}
+.discovery-filter-options{display:flex;flex-wrap:wrap}
+.discovery-filter-chip{padding:6px 12px;margin:0 6px 6px 0;border:1px solid #3d4852;border-radius:20px;font-size:12px;color:#9aa7b4;background:#1b222c}
+.discovery-filter-chip.active{background:#32412c;color:#cef47c;border-color:#4a5a3d}
+.discovery-filter-reset{margin-left:4px}
+
+/* RC42: horizontal disk tabs in detail (pre-searched, tabs only switch the view) */
+.discovery-disk-tabs{display:flex;overflow-x:auto;margin:12px 0 14px;padding-bottom:2px}
+.discovery-disk-tab{flex-shrink:0;padding:8px 15px;margin-right:8px;border:1px solid #3d4852;border-radius:20px;font-size:13px;color:#9aa7b4;background:#1b222c;white-space:nowrap}
+.discovery-disk-tab.active{background:#32412c;color:#cef47c;border-color:#4a5a3d}
+
+/* RC43: per-row health dot (from the existing PanSou check pipeline) */
+.discovery-health-dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#6b7280;margin-right:8px;flex-shrink:0;vertical-align:middle}
+.discovery-health-dot[data-state="ok"]{background:#3ddc84}
+.discovery-health-dot[data-state="locked"]{background:#f5b942}
+.discovery-health-dot[data-state="uncertain"],.discovery-health-dot[data-state="limited"]{background:rgba(255,255,255,.45)}
+.discovery-health-dot[data-state="bad"]{background:#e5484d}
+.discovery-health-dot[data-state="unsupported"]{visibility:hidden}
+/* RC43: synopsis hidden until double-click (or the 简介 pill, for TV remote) */
+.discovery-detail .discovery-synopsis{display:none}
+.discovery-detail.show-synopsis .discovery-synopsis{display:block}
+
+/* RC44: delete dialog — translucent blurred backdrop, centered soft card (not a full-height slab) */
+.discovery-delete-layer{display:flex;align-items:center;justify-content:center;padding:20px;background:rgba(0,0,0,.45);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px)}
+.discovery-delete-layer .discovery-detail{width:100%;max-width:560px;min-height:0;margin:0;background:rgba(20,26,32,.88);border:1px solid rgba(255,255,255,.14);border-radius:16px;box-shadow:0 20px 60px rgba(0,0,0,.5);padding:22px}
+.discovery-delete-layer .discovery-delete-actions{display:flex;gap:12px;margin-top:16px}
+.discovery-delete-layer .discovery-delete-confirm{padding:10px 24px;color:#ff9a9a;background:rgba(229,72,77,.16);border:1px solid rgba(229,72,77,.55);border-radius:20px}
+.discovery-delete-layer .discovery-close{padding:10px 24px;border:1px solid #4b555e;border-radius:20px}
+.discovery-delete-layer button:focus{outline:2px solid #fff;outline-offset:2px}
+
+/* RC45: sources float transparently over the hero artwork (no dark panel) */
+.discovery-modal[aria-label="影片详情与找源"] .discovery-sources{background:transparent;border:0;box-shadow:none;text-shadow:0 1px 8px rgba(0,0,0,.75)}
+.discovery-modal[aria-label="影片详情与找源"] .discovery-resource{background:transparent;border-color:rgba(255,255,255,.16)}
+.discovery-modal[aria-label="影片详情与找源"] .discovery-resource:focus{background:#394650}
+.discovery-modal[aria-label="影片详情与找源"] .ref-auto-share{background:transparent;border-color:rgba(255,255,255,.16)}
+.discovery-modal[aria-label="影片详情与找源"] .discovery-disk-tab:not(.active){background:transparent}
+.gg-quality-badge{display:inline-block;margin-left:6px;padding:1px 7px;border:1px solid rgba(255,215,130,.55);border-radius:10px;font-size:11px;color:#ffd98a;white-space:nowrap;vertical-align:middle}
+.discovery-mode-tabs{display:flex;overflow-x:auto;margin:10px 0 4px;padding-bottom:2px}
+.discovery-mode-tab{flex-shrink:0;padding:8px 15px;margin-right:8px;border:1px solid #3d4852;border-radius:20px;font-size:13px;color:#9aa7b4;background:#1b222c;white-space:nowrap}
+.discovery-mode-tab.active{background:#32412c;color:#cef47c;border-color:#4a5a3d}
+.discovery-modal[aria-label="影片详情与找源"] .discovery-mode-tab:not(.active){background:transparent}
+.discovery-pan-mode .discovery-resource{display:flex;align-items:flex-start;text-align:left;width:100%}
+.discovery-resource-body{flex:1;min-width:0}
+.discovery-resource-url{display:block;font-size:11px;color:#9ca7b2;word-break:break-all;margin-top:2px}
+.discovery-modal[aria-label="影片详情与找源"] .discovery-sources-heading{justify-content:flex-start}
+.discovery-modal[aria-label="影片详情与找源"] .discovery-sources-heading>*+*{margin-left:10px}
+.discovery-modal[aria-label="影片详情与找源"] .discovery-detail-backdrop{transition:opacity .6s ease}
+.discovery-pan-mode .discovery-health-dot{margin-top:4px}
