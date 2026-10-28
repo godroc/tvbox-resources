@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "RC60",
+  "version": "rc60",
   "tag": "mirror-20261028-rc60-webhome",
   "files": {
     "docs/webhome/rc60-5923ac205e45/app.js": {

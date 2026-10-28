@@ -1,5 +1,5 @@
 {
-  "version": "RC60",
+  "version": "rc60",
   "tag": "mirror-20261028-rc60-webhome",
   "feature": "self-hosted-webhome",
   "device_keys_required": true,
