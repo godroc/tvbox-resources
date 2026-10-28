@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "version": "rc47",
+  "tag": "mirror-20261028-rc47-webhome",
+  "files": {
+    "docs/webhome/rc47-1f006cc61a54/app.js": {
+      "size": 58409,
+      "sha256": "1c026c221885debc0015bbf0771aea54845c471bdea0aa6064066ed8d2d1e99e"
+    },
+    "docs/webhome/rc47-1f006cc61a54/catalog.css": {
+      "size": 8253,
+      "sha256": "36165b48627594d0f7ff929845169a4b8561f9832a8ad46b341718488296faea"
+    },
+    "docs/webhome/rc47-1f006cc61a54/catalog.js": {
+      "size": 30965,
+      "sha256": "e6933d188bb7c243e09cfa93a781096e04dfa3d15712063288d816f9db87d5b1"
+    },
+    "docs/webhome/rc47-1f006cc61a54/core.js": {
+      "size": 39081,
+      "sha256": "f69a365eea6caab2db1141f4ba47b9feccc84e6d14e385a7d32adb4c52df89d6"
+    },
+    "docs/webhome/rc47-1f006cc61a54/discovery-data.js": {
+      "size": 21557,
+      "sha256": "2c0412812a9863fa83add11aeae8a160f55e0daee74034cf9c5e81e1406ea53a"
+    },
+    "docs/webhome/rc47-1f006cc61a54/discovery.css": {
+      "size": 25065,
+      "sha256": "55c9ad19277d1dbe24f0a1349108d7765e61e9fa0e6bfac48f662e5a382b2884"
+    },
+    "docs/webhome/rc47-1f006cc61a54/discovery.js": {
+      "size": 69822,
+      "sha256": "e5631a31071ca2bc4da0697017abce3f9d5b3440f0b7231471da7ec39a0d4cd8"
+    },
+    "docs/webhome/rc47-1f006cc61a54/index.html": {
+      "size": 13408,
+      "sha256": "8f8b11e480b628139e55b57b3cbd410eadbacf9981798e226525eb3823798225"
+    },
+    "docs/webhome/rc47-1f006cc61a54/navigation.js": {
+      "size": 19747,
+      "sha256": "bac524c024dbd10139a82a759f8851cfc8f50c11461e74489c0569ed4f87fbe1"
+    },
+    "docs/webhome/rc47-1f006cc61a54/overlay-history.js": {
+      "size": 8164,
+      "sha256": "b66f751a67c4d2828e7a44a1a92d910319c39a3974c3221ec551d880b0667190"
+    },
+    "docs/webhome/rc47-1f006cc61a54/providers.js": {
+      "size": 25309,
+      "sha256": "2edca18f5e2885a06b7089f5bf868a47845a43f1e4cd29590a34ec4816263244"
+    },
+    "docs/webhome/rc47-1f006cc61a54/reference-search.css": {
+      "size": 3284,
+      "sha256": "ea771d9182d2fba14c4cf6579d3cfdbc502a865cea2d64f9c2259684c50eead0"
+    },
+    "docs/webhome/rc47-1f006cc61a54/reference-search.js": {
+      "size": 18480,
+      "sha256": "7c492c14b2ad3b5088b5904c212e14205e34bbb092e367dfced11a36c769236a"
+    },
+    "docs/webhome/rc47-1f006cc61a54/styles.css": {
+      "size": 21596,
+      "sha256": "f11329e05b6c442f7347873a30e34d67bcfa9578f21969982eaf294459a9334c"
+    }
+  }
+}
