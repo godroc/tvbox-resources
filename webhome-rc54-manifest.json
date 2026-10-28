@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "version": "rc54",
+  "tag": "mirror-20261028-rc54-webhome",
+  "files": {
+    "docs/webhome/webhome-rc54-d4efa35c7ee3/app.js": {
+      "size": 60307,
+      "sha256": "280e20ead05fdecf86ecb00defa0a93612d2c8508b52d3f52b835427cfde2dab"
+    },
+    "docs/webhome/webhome-rc54-d4efa35c7ee3/catalog.css": {
+      "size": 8253,
+      "sha256": "36165b48627594d0f7ff929845169a4b8561f9832a8ad46b341718488296faea"
+    },
+    "docs/webhome/webhome-rc54-d4efa35c7ee3/catalog.js": {
+      "size": 30965,
+      "sha256": "e6933d188bb7c243e09cfa93a781096e04dfa3d15712063288d816f9db87d5b1"
+    },
+    "docs/webhome/webhome-rc54-d4efa35c7ee3/core.js": {
+      "size": 40543,
+      "sha256": "2f250010252319bef91c9cf91a47bdddc864360833ac322e850573fd0e87b85f"
+    },
+    "docs/webhome/webhome-rc54-d4efa35c7ee3/discovery-data.js": {
+      "size": 21557,
+      "sha256": "2c0412812a9863fa83add11aeae8a160f55e0daee74034cf9c5e81e1406ea53a"
+    },
+    "docs/webhome/webhome-rc54-d4efa35c7ee3/discovery.css": {
+      "size": 25139,
+      "sha256": "ea535acf57fc7134e827c63811e3c29109902cb42d9231e6557f3ab0c2e69843"
+    },
+    "docs/webhome/webhome-rc54-d4efa35c7ee3/discovery.js": {
+      "size": 68555,
+      "sha256": "81b8569cd7c4d68864e13636c673c96b4dd1ca4f23e308894768ff97bb47558a"
+    },
+    "docs/webhome/webhome-rc54-d4efa35c7ee3/index.html": {
+      "size": 13509,
+      "sha256": "26f823086ab11ae23f6b01bed3de33049014d4889bfd05cf105d9a4a438d1dc6"
+    },
+    "docs/webhome/webhome-rc54-d4efa35c7ee3/navigation.js": {
+      "size": 20024,
+      "sha256": "45270c7f12fdaf85cce43787e413a6e5dd4b43efc7d458ce7da5a222baf81ef1"
+    },
+    "docs/webhome/webhome-rc54-d4efa35c7ee3/overlay-history.js": {
+      "size": 8164,
+      "sha256": "b66f751a67c4d2828e7a44a1a92d910319c39a3974c3221ec551d880b0667190"
+    },
+    "docs/webhome/webhome-rc54-d4efa35c7ee3/providers.js": {
+      "size": 25309,
+      "sha256": "2edca18f5e2885a06b7089f5bf868a47845a43f1e4cd29590a34ec4816263244"
+    },
+    "docs/webhome/webhome-rc54-d4efa35c7ee3/reference-search.css": {
+      "size": 3284,
+      "sha256": "ea771d9182d2fba14c4cf6579d3cfdbc502a865cea2d64f9c2259684c50eead0"
+    },
+    "docs/webhome/webhome-rc54-d4efa35c7ee3/reference-search.js": {
+      "size": 18784,
+      "sha256": "bf653d29d28e603014569d7e7cfff7d55d9038fe377642fa508e04ddeeb837eb"
+    },
+    "docs/webhome/webhome-rc54-d4efa35c7ee3/styles.css": {
+      "size": 21657,
+      "sha256": "5b61d80fdaf2cb4ed62a49906ad8f8b73f4c670ca17a2cf918c60dbd44a0b297"
+    }
+  }
+}
