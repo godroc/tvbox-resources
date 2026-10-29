@@ -1,7 +1,7 @@
 {
   "version": "rc73",
-  "tag": "mirror-20261029-rc73-webhome",
-  "homePage": "https://godroc.github.io/tvbox-resources/webhome/rc73-d4f438fa2485/index.html",
+  "tag": "mirror-20261029-rc73-r1-webhome",
+  "homePage": "https://godroc.github.io/tvbox-resources/webhome/rc73-8fe9ac83ab24/index.html",
   "device_keys_required": true,
   "tv_tested": false,
   "static_sha256": {
@@ -21,7 +21,7 @@
     "providers.js": "2edca18f5e2885a06b7089f5bf868a47845a43f1e4cd29590a34ec4816263244",
     "reference-search.css": "ea771d9182d2fba14c4cf6579d3cfdbc502a865cea2d64f9c2259684c50eead0",
     "reference-search.js": "7a878615c0fccb82ed3461d03b561bd73efc6baecee1e1bea117148bd8875dec",
-    "search-input.js": "f07b88065bcea32f97ae9c145a00d5d77dcf2c969bd4071c4893e83232751e2e",
+    "search-input.js": "8b474f2c6e44a55fbf497803620f91fddd4744e70f99eceadc84b6eb930a83a8",
     "styles.css": "dfe0cc60d61b3c1cd10d40058b87b7e4e791d4ac5521f88c9c2529c49fecbe4c"
   }
 }
