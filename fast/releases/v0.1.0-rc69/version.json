@@ -1,0 +1,23 @@
+{
+  "version": "rc69",
+  "tag": "mirror-20261029-rc69-webhome",
+  "homePage": "https://godroc.github.io/tvbox-resources/webhome/rc69-42b9103a96f3/index.html",
+  "device_keys_required": true,
+  "tv_tested": false,
+  "static_sha256": {
+    "app.js": "fcd042e52f911971697c5165ada9a582d37447ce26f512bb52ea986c94b948ad",
+    "catalog.css": "36165b48627594d0f7ff929845169a4b8561f9832a8ad46b341718488296faea",
+    "catalog.js": "e6933d188bb7c243e09cfa93a781096e04dfa3d15712063288d816f9db87d5b1",
+    "core.js": "716fc4f8fb9660be22691134430068294e3f2293bff689ceca7bcb5cc3e5328d",
+    "discovery-data.js": "fcf66a5afebcc4075027bbf9cbf147080b5d8f40a8d7455cc26ac20efaf512d3",
+    "discovery.css": "72e4472c7ed14496ee716817e2561388bda0d4e7424755bcb13afe4bd246aa71",
+    "discovery.js": "e00e3a0e90dc47a6b76bed8578325bb77fdfd082923e1df83df3eafc2e83306a",
+    "index.html": "fccb8166c4c04d1a83991135a658a25e2057021a92e01d0901320127468d98bf",
+    "navigation.js": "a9c969e5238c8d8d9e516ccc3f2f6ecf698bf88bf059922cefe0bd9b83385392",
+    "overlay-history.js": "b66f751a67c4d2828e7a44a1a92d910319c39a3974c3221ec551d880b0667190",
+    "providers.js": "2edca18f5e2885a06b7089f5bf868a47845a43f1e4cd29590a34ec4816263244",
+    "reference-search.css": "ea771d9182d2fba14c4cf6579d3cfdbc502a865cea2d64f9c2259684c50eead0",
+    "reference-search.js": "ae788bae4daffef4db411dff695e4fe5a8362b135d7fb46b415502a93f57da19",
+    "styles.css": "dfe0cc60d61b3c1cd10d40058b87b7e4e791d4ac5521f88c9c2529c49fecbe4c"
+  }
+}
