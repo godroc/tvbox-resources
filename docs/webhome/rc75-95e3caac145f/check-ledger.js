@@ -1,0 +1,10 @@
+(function(root){'use strict';
+  var entries=Object.create(null);
+  function key(url){try{var u=new URL(url);u.hash='';u.searchParams.delete('pwd');u.searchParams.delete('password');return u.href;}catch(e){return String(url||'');}}
+  function time(v){if(typeof v==='number')return v<1e12?v*1000:v;var n=Date.parse(v);return isFinite(n)?n:0;}
+  function list(body){if(Array.isArray(body))return body;if(!body)return [];return body.results||(body.data&&(body.data.results||body.data))||[];}
+  function record(body,items,states,origin){var rows=list(body);if(!Array.isArray(rows))rows=[];var by={};rows.forEach(function(r){if(r&&r.url)by[key(r.url)]=r;});return items.map(function(it,i){var r=by[key(it.url)]||{},checked=time(r.checked_at),expires=time(r.expires_at),expired=!!expires&&expires<=Date.now();var value={state:expired?'unknown':states[i]||'unknown',reported:states[i]||'unknown',checked:checked,expires:expires,expired:expired,cache:r.cache_hit===true,origin:origin||'unknown'};entries[key(it.url)]=value;setTimeout(function(){root.dispatchEvent(new Event('gg-check-updated'));},0);return value.state;});}
+  function get(row){var v=entries[key(typeof row==='string'?row:row.url)];if(!v)return {state:'unknown',checked:0,origin:'未检测'};if(v.expires&&v.expires<=Date.now())v=Object.assign({},v,{state:'unknown',expired:true});return v;}
+  function label(row){var v=get(row),names={ok:'分享可访问',bad:'已失效',locked:'需密码或权限',unsupported:'暂不支持',unknown:'待确认',uncertain:'待确认',rate_limited:'请求受限'};return (names[v.state]||'待确认')+' · '+(v.expired?'检测已过期':v.checked?new Date(v.checked).toLocaleString()+(v.cache?'（缓存）':''):'检查时间未知');}
+  root.GGCheckLedger={record:record,get:get,label:label,key:key};
+}(window));
