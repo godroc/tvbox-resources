@@ -1,0 +1,6 @@
+/* One owner for webpage chrome. Keep focusable header mounted for keyboard/TV reveal. */
+body .topbar{position:fixed;top:var(--gg-safe-top,var(--fm-safe-top,0px));left:var(--gg-safe-left,0px);right:var(--gg-safe-right,0px);z-index:50;transition:transform .18s ease,opacity .18s ease;transform:translateY(0);opacity:1}
+body.gg-topbar-hidden .topbar,body.gg-topbar-collapsed .topbar{display:flex!important;transform:translateY(calc(-100% - var(--gg-safe-top,var(--fm-safe-top,0px)) - 2px));opacity:0;pointer-events:none}
+.gg-topbar-reveal{position:fixed;top:var(--gg-safe-top,var(--fm-safe-top,0px));left:var(--gg-safe-left,0px);right:var(--gg-safe-right,0px);height:14px;z-index:51;color:#b7cba8;background:linear-gradient(#0c121c70,transparent);font-size:15px;line-height:10px;padding:0;border:0;border-radius:0;opacity:.55}
+.gg-topbar-reveal:focus{opacity:1;outline:2px solid var(--accent);outline-offset:-2px}.gg-topbar-reveal:hover{opacity:1}
+@media(prefers-reduced-motion:reduce){body .topbar{transition:none}}
