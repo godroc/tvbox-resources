@@ -1,0 +1,24 @@
+{
+  "asset": "rc63-96185ff5bf38",
+  "tag": "mirror-20261029-rc63-native-sources",
+  "preview": "https://tv.godroc.dpdns.org/next/previews/webhome-rc63-96185ff5bf38/",
+  "jar_md5": "4ecfbf94c84bd1f889ceaebfe26a2bda",
+  "jar_sha256": "075e82e78f97c61c79c33b70e551b9a0f2140c7465f143364899ac23470195bd",
+  "archive_sha256": "1011adeeff9c2274df48341a64ae9546e1793d009f965089e8b58d89671a1921",
+  "files": {
+    "docs/webhome/rc63-96185ff5bf38/app.js": "0964fb8d50dae859ff3ab0615c454d23cb0a525874867b65f76cf31ba9d84fef",
+    "docs/webhome/rc63-96185ff5bf38/catalog.css": "36165b48627594d0f7ff929845169a4b8561f9832a8ad46b341718488296faea",
+    "docs/webhome/rc63-96185ff5bf38/catalog.js": "e6933d188bb7c243e09cfa93a781096e04dfa3d15712063288d816f9db87d5b1",
+    "docs/webhome/rc63-96185ff5bf38/core.js": "e72c9ce8581f9cb00e72c32228eb2192fe02c7e439b3e22b3cfd16a11b236ae0",
+    "docs/webhome/rc63-96185ff5bf38/discovery-data.js": "fcf66a5afebcc4075027bbf9cbf147080b5d8f40a8d7455cc26ac20efaf512d3",
+    "docs/webhome/rc63-96185ff5bf38/discovery.css": "72e4472c7ed14496ee716817e2561388bda0d4e7424755bcb13afe4bd246aa71",
+    "docs/webhome/rc63-96185ff5bf38/discovery.js": "d4514ced4d72e2b3b4c2e06666e5e6c63992df5d8b9cef280e9f826c5f593fb9",
+    "docs/webhome/rc63-96185ff5bf38/index.html": "919133bb0e48ed063d8ca1410b7c970f6629aeb52edaa254b9090d374e1da725",
+    "docs/webhome/rc63-96185ff5bf38/navigation.js": "bbd5ba57514a6ac3e2489a774734a6e77fbac6633b36708438500f98f5a580ef",
+    "docs/webhome/rc63-96185ff5bf38/overlay-history.js": "b66f751a67c4d2828e7a44a1a92d910319c39a3974c3221ec551d880b0667190",
+    "docs/webhome/rc63-96185ff5bf38/providers.js": "2edca18f5e2885a06b7089f5bf868a47845a43f1e4cd29590a34ec4816263244",
+    "docs/webhome/rc63-96185ff5bf38/reference-search.css": "ea771d9182d2fba14c4cf6579d3cfdbc502a865cea2d64f9c2259684c50eead0",
+    "docs/webhome/rc63-96185ff5bf38/reference-search.js": "bf653d29d28e603014569d7e7cfff7d55d9038fe377642fa508e04ddeeb837eb",
+    "docs/webhome/rc63-96185ff5bf38/styles.css": "6e4e4262430714a0528577bfb7bdf5755a1b0b2b598998970eafbda422d2e0e5"
+  }
+}
