@@ -1,7 +1,7 @@
 {
   "version": "rc72",
-  "tag": "mirror-20261029-rc72-webhome",
-  "homePage": "https://godroc.github.io/tvbox-resources/webhome/rc72-88c2c7b0f6c4/index.html",
+  "tag": "mirror-20261029-rc72-r1-webhome",
+  "homePage": "https://godroc.github.io/tvbox-resources/webhome/rc72-cad08b81505b/index.html",
   "device_keys_required": true,
   "tv_tested": false,
   "static_sha256": {
@@ -15,7 +15,7 @@
     "discovery.css": "72e4472c7ed14496ee716817e2561388bda0d4e7424755bcb13afe4bd246aa71",
     "discovery.js": "272faf1686a554f8d41aef8cebe08d02cc991f0f9e471ff9db0b5f0243b66f00",
     "index.html": "4711ba84c800351062bd6a62856d73068e2c156ffb12127ef10da249491046cf",
-    "navigation.js": "a9c969e5238c8d8d9e516ccc3f2f6ecf698bf88bf059922cefe0bd9b83385392",
+    "navigation.js": "7c74bcc05a4f7aa95c299e613caf430ba499c4cb04e354da93e95e2e6a7a9951",
     "overlay-history.js": "926eb3b5d61ecdc422a94b82e54bc3907c662c84e98abc55650bda79a681d40c",
     "poster-layout.css": "5dcdb07550297a753221f518aa347029c359e561ddf90659cc6c11c5865a0dc2",
     "providers.js": "2edca18f5e2885a06b7089f5bf868a47845a43f1e4cd29590a34ec4816263244",
