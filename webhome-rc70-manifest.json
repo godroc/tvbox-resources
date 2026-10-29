@@ -1,0 +1,23 @@
+{
+  "asset": "rc70-a63a69236500",
+  "tag": "mirror-20261029-rc70-webhome",
+  "preview": "https://tv.godroc.dpdns.org/next/previews/webhome-rc70-a63a69236500/",
+  "accelerated": "https://gh-proxy.com/https://raw.githubusercontent.com/godroc/tvbox-resources/mirror-20261029-rc70-webhome/rc70.json",
+  "archive_sha256": "707911cb6b4bb29a4afcc24cc3686efc75adc92a9fdea305c689f12a6fddbd79",
+  "files": {
+    "docs/webhome/rc70-a63a69236500/app.js": "094c82d02f725b280205572932c34cf994ba280be0da0f35a0863e545f193f4c",
+    "docs/webhome/rc70-a63a69236500/catalog.css": "36165b48627594d0f7ff929845169a4b8561f9832a8ad46b341718488296faea",
+    "docs/webhome/rc70-a63a69236500/catalog.js": "e6933d188bb7c243e09cfa93a781096e04dfa3d15712063288d816f9db87d5b1",
+    "docs/webhome/rc70-a63a69236500/core.js": "716fc4f8fb9660be22691134430068294e3f2293bff689ceca7bcb5cc3e5328d",
+    "docs/webhome/rc70-a63a69236500/discovery-data.js": "fcf66a5afebcc4075027bbf9cbf147080b5d8f40a8d7455cc26ac20efaf512d3",
+    "docs/webhome/rc70-a63a69236500/discovery.css": "72e4472c7ed14496ee716817e2561388bda0d4e7424755bcb13afe4bd246aa71",
+    "docs/webhome/rc70-a63a69236500/discovery.js": "6b35a38bf2eac1c805618c8d3733a231ff68a3ea4106b6d7449ba0818a08ffb3",
+    "docs/webhome/rc70-a63a69236500/index.html": "186e67c9f0e7d5308960abf600fa7e77929b0527add63638cf68565a2f7d0f4f",
+    "docs/webhome/rc70-a63a69236500/navigation.js": "a9c969e5238c8d8d9e516ccc3f2f6ecf698bf88bf059922cefe0bd9b83385392",
+    "docs/webhome/rc70-a63a69236500/overlay-history.js": "926eb3b5d61ecdc422a94b82e54bc3907c662c84e98abc55650bda79a681d40c",
+    "docs/webhome/rc70-a63a69236500/providers.js": "2edca18f5e2885a06b7089f5bf868a47845a43f1e4cd29590a34ec4816263244",
+    "docs/webhome/rc70-a63a69236500/reference-search.css": "ea771d9182d2fba14c4cf6579d3cfdbc502a865cea2d64f9c2259684c50eead0",
+    "docs/webhome/rc70-a63a69236500/reference-search.js": "ae788bae4daffef4db411dff695e4fe5a8362b135d7fb46b415502a93f57da19",
+    "docs/webhome/rc70-a63a69236500/styles.css": "dfe0cc60d61b3c1cd10d40058b87b7e4e791d4ac5521f88c9c2529c49fecbe4c"
+  }
+}
