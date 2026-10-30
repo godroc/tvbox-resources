@@ -48,10 +48,10 @@
   "sites": [
     {
       "key": "gg_webhome",
-      "name": "GG · 家庭资源库 [RC85]",
+      "name": "GG · 家庭资源库 [RC85R1]",
       "type": 3,
       "api": "csp_Builtin",
-      "homePage": "https://godroc.github.io/tvbox-resources/webhome/rc85-f64e268c2f4c/index.html",
+      "homePage": "https://godroc.github.io/tvbox-resources/webhome/rc85r1-c55ab39af6fa/index.html",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
