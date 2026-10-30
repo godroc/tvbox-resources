@@ -1,0 +1,32 @@
+{
+  "asset": "rc82-c87f07c86baf",
+  "tag": "mirror-20261030-rc82-webhome",
+  "preview": "https://tv.godroc.dpdns.org/next/previews/webhome-rc82-c87f07c86baf/",
+  "accelerated": "https://gh-proxy.com/https://raw.githubusercontent.com/godroc/tvbox-resources/refs/heads/main/rc82.json",
+  "archive_sha256": "d88052824119c1eedf4d0900101534c8ba2bad38d831366b3a83f5a75b9acf5c",
+  "files": {
+    "docs/webhome/rc82-c87f07c86baf/app.js": "63931e43ee2059a55d57e04e6503c65f4ff267adfaab72f0c7952b1ed2e93e07",
+    "docs/webhome/rc82-c87f07c86baf/catalog.css": "36165b48627594d0f7ff929845169a4b8561f9832a8ad46b341718488296faea",
+    "docs/webhome/rc82-c87f07c86baf/catalog.js": "5652dbcfc899eb14421fe21c1793946435e77098fc7860a262464a9b3be49d85",
+    "docs/webhome/rc82-c87f07c86baf/check-coordinator.js": "7be957280c97d92e86712b1b2700f486490e4c4c77c2bfe76dbb6662e20cb633",
+    "docs/webhome/rc82-c87f07c86baf/check-ledger.js": "3b8f83ec3f9d56d53d61f314b90f3001835617fc5e8fe4a0fb8c95ff7ea362db",
+    "docs/webhome/rc82-c87f07c86baf/chrome.css": "1fb9a87c4b2587d27e15de67446a8bdefdaca9faee4286e04e91f45f4aae2f1f",
+    "docs/webhome/rc82-c87f07c86baf/chrome.js": "a20ca4f515d8c7243a9e3a002855306d424a77a66839adaf79c6956fe891e0a9",
+    "docs/webhome/rc82-c87f07c86baf/core.js": "8a8ed098844b9825ecdc2fa86f53c098c32c4441e48f038bf7dbdd399a9a10ad",
+    "docs/webhome/rc82-c87f07c86baf/discovery-data.js": "fcf66a5afebcc4075027bbf9cbf147080b5d8f40a8d7455cc26ac20efaf512d3",
+    "docs/webhome/rc82-c87f07c86baf/discovery.css": "72e4472c7ed14496ee716817e2561388bda0d4e7424755bcb13afe4bd246aa71",
+    "docs/webhome/rc82-c87f07c86baf/discovery.js": "ac18ae9f7dac4e2d373e62b35ff2abbfc267bf85e00b8dd93412a217de632717",
+    "docs/webhome/rc82-c87f07c86baf/index.html": "f51b3eec8571c1d1494181ba2dc1384d63e3a499bbc47078de2636f50e89677e",
+    "docs/webhome/rc82-c87f07c86baf/navigation.js": "715cab9ced77a762a1a191e8ca83e74a13c7c1f03c3ef2c92d7d6b8463f422d3",
+    "docs/webhome/rc82-c87f07c86baf/overlay-history.js": "5dc1c2818516a18488383b7973d2fe2341d6f7a68e394b5d3d47d84acbd4ad9f",
+    "docs/webhome/rc82-c87f07c86baf/playback-return.js": "7464acdbb2df61b15640b6de6f3da0c9c00cd4cffec02adaf5f89e096e7da35d",
+    "docs/webhome/rc82-c87f07c86baf/poster-layout.css": "3a6280152fd505973e88ce741a741bf339201a40322778c37125a7fb582fb99d",
+    "docs/webhome/rc82-c87f07c86baf/providers.js": "2edca18f5e2885a06b7089f5bf868a47845a43f1e4cd29590a34ec4816263244",
+    "docs/webhome/rc82-c87f07c86baf/recommendations.js": "3b9935486739f49dfa68191e3fb4303ba2e2152342800f436c9911c0a818e2e9",
+    "docs/webhome/rc82-c87f07c86baf/reference-search.css": "ea771d9182d2fba14c4cf6579d3cfdbc502a865cea2d64f9c2259684c50eead0",
+    "docs/webhome/rc82-c87f07c86baf/reference-search.js": "658a0195b240ce6aafff083149d4d97a8c45e0cf6e0cfccdd20ae7858c59bf26",
+    "docs/webhome/rc82-c87f07c86baf/search-filters.js": "dec90144722fd586707611ed8e2a7890ae77b3075cdc4695cb8e16f0ac6e03e5",
+    "docs/webhome/rc82-c87f07c86baf/search-input.js": "de0486f1a7a45b5cab979ee9e01682cc888a80cbac5fa6f1fbd622d56ad79816",
+    "docs/webhome/rc82-c87f07c86baf/styles.css": "6f51b175525581832a721c8da6dad7798245a27d494bfef04d2186cf4502285d"
+  }
+}
