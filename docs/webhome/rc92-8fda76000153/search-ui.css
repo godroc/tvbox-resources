@@ -1,0 +1,13 @@
+/* Search is a text-resource view, separate from the shared poster grid. */
+body #searchGroups .resource-grid{display:flex!important;flex-direction:column;gap:0;padding:0;margin:0}
+body #searchGroups .search-result-row{display:flex!important;position:relative;width:100%;min-width:0;min-height:70px;gap:12px;margin:7px 0;padding:12px 16px;background:rgba(27,36,46,.92);border:1px solid #3b4753;border-radius:8px;text-align:left;overflow:visible}
+body #searchGroups .search-result-row .search-result-copy{display:block;flex:1;min-width:0}
+body #searchGroups .search-result-row .card-title{display:inline;white-space:normal;overflow-wrap:anywhere;font-size:19px;line-height:1.5}
+body #searchGroups .search-result-row .poster-source{position:static;display:inline;font-size:13px;background:none;color:#aebbc9;padding:0;margin-right:12px}
+body #searchGroups .search-result-row .card-date{display:inline;font-size:12px}
+body #searchGroups .search-result-row .check-caption{position:static;display:block;white-space:normal;font-size:12px;background:none;padding:3px 0 0}
+body #searchGroups .search-result-row .card-health-dot{position:static;flex:0 0 10px;width:10px;height:10px;margin:9px 0 0;border-radius:50%}
+body #searchGroups .search-result-tags{display:inline-flex;flex-wrap:wrap;gap:5px;margin:0 0 0 10px}
+body #searchGroups .search-result-row:focus{outline:3px solid var(--accent);outline-offset:2px;background:#283747}
+.search-result-backdrop{top:0;right:0;bottom:0;left:0}
+@media(max-width:600px){body #searchGroups .search-result-row{padding:10px 12px;gap:8px}body #searchGroups .search-result-row .card-title{font-size:16px}body #searchGroups .search-result-tags{display:flex;margin-left:0}body #searchGroups .search-result-row .poster-source{font-size:12px}}
