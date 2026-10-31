@@ -1,0 +1,16 @@
+.gg-source-group{margin:12px 0;border-top:1px solid rgba(215,226,236,.2);padding-top:8px}.gg-source-header{display:flex;align-items:center;flex-wrap:wrap;gap:8px 18px;width:100%;min-height:54px;padding:10px 12px;text-align:left;border-radius:9px}.gg-source-header strong{font-size:24px}.gg-source-header[aria-expanded="true"] strong:before{content:'▾ ';color:var(--accent)}.gg-source-header[aria-expanded="false"] strong:before{content:'▸ ';color:var(--accent)}.gg-source-count{font-size:16px;color:#c8d0d8}.gg-source-hint{margin-left:auto;font-size:15px;color:#c8d0d8}.gg-source-list{display:flex;flex-direction:column;gap:2px;overflow:visible}.gg-source-list[hidden],.gg-source-more[hidden]{display:none!important}.gg-source-more{margin:8px 0;min-height:46px;font-size:18px}.gg-source-list .gg-resource-row{width:100%;margin:0}.gg-source-list .resource-card{max-width:none}.gg-source-groups{overflow:visible!important;max-height:none!important}@media(max-width:760px){.gg-source-header strong{font-size:19px}.gg-source-count,.gg-source-hint{font-size:13px}.gg-source-header{gap:5px 10px}.gg-source-hint{margin-left:0}.gg-source-more{font-size:16px}}
+
+.gg-detail-sort-choices{display:flex;flex-wrap:wrap;gap:8px}.gg-detail-sort-choices[hidden]{display:none!important}
+
+.gg-source-more{width:100%;text-align:center}
+
+/* RC97: explicit edges work when old TV WebView ignores inset shorthand.
+   Fixed art is a root sibling of scroll content, never a child of result rows. */
+.gg-source-art-layer{position:fixed!important;top:0!important;right:0!important;bottom:0!important;left:0!important;width:100%!important;height:100%!important;overflow:hidden;pointer-events:none;z-index:0}
+.gg-source-art-layer .gg-source-art-image{position:absolute!important;top:0!important;right:0!important;bottom:0!important;left:0!important;width:100%!important;height:100%!important;max-width:none!important;max-height:none!important;object-fit:cover;object-position:center 32%;opacity:.88;filter:none!important;transform:none!important;z-index:0}
+.gg-source-art-shade{position:absolute;top:0;right:0;bottom:0;left:0;z-index:1;background:linear-gradient(180deg,rgba(6,11,17,.24),rgba(6,11,17,.35) 40%,rgba(6,11,17,.76));pointer-events:none}
+body.gg-search-fullscreen .workspace{position:relative;z-index:1;background:transparent}
+.gg-source-art-search{z-index:0}.gg-source-art-search[hidden]{display:none!important}
+body:not(.gg-search-fullscreen)>.gg-source-art-search{display:none!important}
+.discovery-modal[aria-label="影片详情与找源"]>.discovery-detail{position:relative;z-index:1;background:transparent!important;overflow:visible}
+.discovery-modal[aria-label="影片详情与找源"]>.gg-source-art-detail{z-index:0}
