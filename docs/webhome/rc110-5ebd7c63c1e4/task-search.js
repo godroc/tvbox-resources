@@ -1,0 +1,17 @@
+(function(root){'use strict';
+var BASE='http://192.168.50.252:8098/api/v1/search/tasks';
+function create(o){return {search:function(query,current,onRows){
+var id='',cursor=0,version=0,rows=[],seen={},ended=false,polling=false,timer,watch,filterKey='',updating=false,epoch=0,settled=false,resolve,reject;
+var result=new Promise(function(a,b){resolve=a;reject=b;});
+function filters(){return o.filters?o.filters():{status:'hide_bad',quality:[],keepUnknownQuality:true};}
+function active(){return !ended&&(!current||current());}
+function call(url,opts){return Promise.resolve(o.call(url,opts)).then(function(r){if(!r||!r.ok||Number(r.status)>=400){var e=new Error('本地搜索任务不可用');e.status=Number(r&&r.status)||0;throw e;}return typeof r.body==='string'?JSON.parse(r.body):r.body;});}
+function cancel(){if(ended)return;ended=true;clearTimeout(timer);clearInterval(watch);if(id)Promise.resolve(o.call(BASE+'/'+encodeURIComponent(id),{method:'DELETE',timeout:3,responseType:'json'})).catch(function(){});if(!settled){var e=new Error('搜索已取消');e.kind='cancelled';reject(e);}}
+function fail(e){if(!active()){cancel();return;}if(!settled){settled=true;if(rows.length)resolve({rows:rows,complete:false,error:'partial'});else reject(e);}cancel();}
+function poll(){if(!active()){cancel();return;}if(polling||updating)return;polling=true;var old=epoch;
+call(BASE+'/'+encodeURIComponent(id)+'?cursor='+cursor+'&limit=100'+(version?'&view_version='+version:''),{method:'GET',timeout:10,responseType:'json'}).then(function(body){polling=false;if(!active())return;if(old!==epoch){poll();return;}version=Number(body.view_version)||version;var batch=[];(body.rows||[]).forEach(function(row){var key=String(row.id||row.url||'')+'|'+String(row.password||'');if(!seen[key]){seen[key]=true;rows.push(row);batch.push(row);}});var next=Number(body.cursor);if(!isFinite(next)||next<cursor)throw new Error('搜索游标无效');cursor=next;if(batch.length&&onRows)onRows(batch,{done:!!body.done&&!body.has_more,progress:body.progress,total:body.total});if(body.cancelled){cancel();return;}if(body.done&&!body.has_more){if(!settled){settled=true;resolve({rows:rows,complete:true});}return;}timer=setTimeout(poll,body.has_more?0:200);}).catch(function(e){polling=false;if(old!==epoch)return;if(e.status===409){version=0;cursor=0;timer=setTimeout(poll,0);}else fail(e);});}
+function update(){if(!id||updating)return;var f=filters(),key=JSON.stringify(f);if(key===filterKey)return;filterKey=key;epoch++;clearTimeout(timer);updating=true;
+call(BASE+'/'+encodeURIComponent(id)+'/filters',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({filters:f}),timeout:8,responseType:'json'}).then(function(b){updating=false;if(!active())return;version=Number(b.view_version)||0;cursor=0;rows=[];seen={};if(onRows)onRows([],{reset:true});poll();}).catch(function(e){updating=false;fail(e);});}
+watch=setInterval(function(){if(!active())cancel();else update();},200);filterKey=JSON.stringify(filters());
+call(BASE,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({kw:query,filters:filters()}),timeout:8,responseType:'json'}).then(function(b){id=String(b.task_id||'');version=Number(b.view_version)||0;if(!id)throw new Error('缺少任务标识');if(!active()){cancel();return;}poll();}).catch(fail);result.cancel=cancel;return result;
+}};}root.GGTaskSearch={create:create};})(typeof window!=='undefined'?window:globalThis);
