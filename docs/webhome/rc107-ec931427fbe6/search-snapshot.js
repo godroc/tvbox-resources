@@ -1,0 +1,6 @@
+(function(root){'use strict';
+ function copy(groups){var out={};Object.keys(groups||{}).forEach(function(k){var g=groups[k];out[k]={rows:(g.rows||[]).slice(),status:g.status,error:g.error||'',elapsed:g.elapsed};});return out;}
+ function signature(groups){return Object.keys(groups||{}).sort().map(function(k){var g=groups[k];return k+':'+g.status+':'+g.error+':'+g.rows.map(function(r){return [r.id,r.url,r.title].join('~');}).join('|');}).join('\n');}
+ function create(){var latest={},frozen=null,version='',published='';return {reset:function(){latest={};frozen=null;version='';published='';},offer:function(groups,canFreeze){latest=copy(groups);version=signature(latest);if(!frozen&&canFreeze!==false&&Object.keys(latest).some(function(k){return latest[k].rows.length;})){frozen=copy(latest);published=version;return true;}return !frozen;},current:function(){return frozen||latest;},publish:function(){frozen=copy(latest);published=version;return frozen;},pending:function(){return !!frozen&&version!==published;},inspect:function(){return {frozen:!!frozen,pending:!!frozen&&version!==published,count:Object.keys(frozen||latest).reduce(function(n,k){return n+(frozen||latest)[k].rows.length;},0)};}};}
+ root.GGSearchSnapshot={create:create};
+}(this));

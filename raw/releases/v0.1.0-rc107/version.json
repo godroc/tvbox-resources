@@ -1,8 +1,8 @@
 {
   "version": "rc107",
   "baseline": "113447afab577fdec7c243c7a3adcf83718a77da",
-  "tag": "mirror-20261103-rc107-webhome",
-  "homePage": "https://godroc.github.io/tvbox-resources/webhome/rc107-9d776f6993bd/index.html",
+  "tag": "mirror-20261103-rc107.1-webhome",
+  "homePage": "https://godroc.github.io/tvbox-resources/webhome/rc107-ec931427fbe6/index.html",
   "device_keys_required": true,
   "tv_tested": false,
   "static_sha256": {
@@ -38,7 +38,7 @@
     "search-snapshot.js": "8a0de4f656232b5a514db4e28fd7fc49a8e73231fd93768479f194d4be4ed419",
     "search-ui.css": "8fbf0c0c7192e5b10999b70341037b4e7eadbd5f5aabff0b2855f47321995c75",
     "source-groups.css": "164affc6df7581e5e5c50a760d7267e37b75b394cd07fb0224c67122483a5284",
-    "source-groups.js": "8ab71ad0219eda542bcef9a8a05870d776d8ecf2b22aca113027f809c395c22a",
+    "source-groups.js": "a6ed71f709bc6dc6f0bd29a9b02d94bda953d321e270dfe8271a6d8f48075852",
     "styles.css": "6227bce4beae263555388c7b2386c0d6d1faa2287e9a29d39296c32e31b457ce",
     "task-search.js": "7c0e654edaa8146f2a5d08888cbb6b3ae8eb28cbab38d8c3c99ebc260139d085"
   }
