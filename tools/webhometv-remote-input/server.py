@@ -31,12 +31,9 @@ def expire(now):
     for code, item in list(SESSIONS.items()):
         if item['expires'] <= now:
             del SESSIONS[code]
-            for token in (item['tv'], item.get('phone'), (item.get('pending') or {}).get('token')):
+            for token in (item['tv'], item.get('phone')):
                 TOKENS.pop(token, None)
         else:
-            if item.get('pending') and item['pending']['expires'] <= now:
-                TOKENS.pop(item['pending']['token'], None)
-                item['pending'] = None
             if item.get('message') and item['message']['expires'] <= now:
                 item['message'] = None
             item['pushes'] = [push for push in item['pushes'] if push['expires'] > now]
@@ -71,7 +68,7 @@ def dispatch(path, data, token, secure):
             tv = secrets.token_urlsafe(32)
             number = next(n for n in range(1, 17) if all(item['number'] != n for item in SESSIONS.values()))
             item = {'tv': tv, 'number': number, 'expires': now + SESSION_TTL,
-                    'field': None, 'message': None, 'pushes': [], 'pending': None}
+                    'field': None, 'message': None, 'pushes': []}
             SESSIONS[ident] = item
             TOKENS[tv] = ('tv', item)
             address = PAIR_ORIGIN + '/k/'
@@ -83,32 +80,21 @@ def dispatch(path, data, token, secure):
         if path == '/discover':
             return 200, {'devices': [{'id': ident, 'number': item['number']}
                                      for ident, item in SESSIONS.items()
-                                     if not item.get('phone') and not item['pending']]}
+                                     if not item.get('phone')]}
         if path == '/join':
             ident = data.get('device')
             item = SESSIONS.get(ident) if isinstance(ident, str) else None
-            if not item or item.get('phone') or item['pending']:
+            if not item or item.get('phone'):
                 return 409, {'error': 'device_busy'}
             phone = secrets.token_urlsafe(32)
-            item['pending'] = {'token': phone, 'id': secrets.token_urlsafe(12), 'expires': now + 90}
-            TOKENS[phone] = ('pending', item)
-            return 202, {'token': phone}
+            item['phone'] = phone
+            TOKENS[phone] = ('phone', item)
+            return 200, {'token': phone}
         role, item = TOKENS.get(token, (None, None))
         if item is None:
             return 401, {'error': 'pair_expired'}
-        if path == '/connection' and role in ('pending', 'phone'):
-            return 200, {'connected': role == 'phone'}
-        if path == '/approve' and role == 'tv':
-            pending = item['pending']
-            if not pending or data.get('id') != pending['id']:
-                return 409, {'error': 'request_expired'}
-            item['pending'] = None
-            if data.get('allow') is True:
-                item['phone'] = pending['token']
-                TOKENS[pending['token']] = ('phone', item)
-            else:
-                TOKENS.pop(pending['token'], None)
-            return 200, {}
+        if path == '/connection' and role == 'phone':
+            return 200, {'connected': True}
         if path == '/close' and role == 'tv':
             item['expires'] = now
             expire(now)
@@ -127,7 +113,7 @@ def dispatch(path, data, token, secure):
             item['field'] = field
             item['expires'] = now + SESSION_TTL
             pushes = [{'id': p['id'], 'url': p['url']} for p in item['pushes']]
-            return 200, {'paired': bool(item.get('phone')), 'pushes': pushes, 'pending': item['pending']['id'] if item['pending'] else None}
+            return 200, {'paired': bool(item.get('phone')), 'pushes': pushes}
         if path == '/push' and role == 'phone':
             url = push_address(data.get('url'))
             if url is None:

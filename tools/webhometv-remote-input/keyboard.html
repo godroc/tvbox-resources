@@ -112,21 +112,6 @@ button{cursor:pointer}
     pushForm.hidden = false;
     poll();
   }
-  async function waitForTV() {
-    try {
-      const result = await post('/connection');
-      if (result.connected) { connected(); return; }
-    } catch (error) {
-      if (error.message === '401') {
-        token = '';
-        joining = false;
-        status.textContent = '连接请求已结束';
-        showRetry();
-        return;
-      }
-    }
-    setTimeout(waitForTV, 750);
-  }
   async function join(device) {
     if (joining) return;
     joining = true;
@@ -134,15 +119,13 @@ button{cursor:pointer}
     try {
       const result = await post('/join', {device});
       token = result.token;
-      status.textContent = '请在电视 ' + deviceNumber + ' 上按「允许手机连接」';
-      waitForTV();
+      connected();
     } catch (error) {
       joining = false;
       status.textContent = '电视暂不可连接，请重试';
       showRetry();
     }
   }
-  let deviceNumber = '';
   function showRetry() {
     devices.textContent = '';
     const button = document.createElement('button');
@@ -156,14 +139,13 @@ button{cursor:pointer}
     try {
       const result = await post('/discover');
       if (result.devices.length === 1) {
-        deviceNumber = result.devices[0].number;
         join(result.devices[0].id);
       } else if (result.devices.length) {
         status.textContent = '选择要连接的电视';
         result.devices.forEach(device => {
           const button = document.createElement('button');
           button.textContent = '电视 ' + device.number;
-          button.onclick = () => { deviceNumber = device.number; join(device.id); };
+          button.onclick = () => join(device.id);
           devices.appendChild(button);
         });
       } else {
