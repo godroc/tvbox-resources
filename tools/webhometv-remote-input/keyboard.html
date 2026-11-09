@@ -13,11 +13,7 @@ button{cursor:pointer}
 <body>
 <h1>WebHomeTV 手机键盘</h1>
 <p id="status" role="status">正在配对</p>
-<form id="pair-code" hidden>
-  <label for="code">电视上的 6 位配对码</label>
-  <input id="code" inputmode="numeric" maxlength="6" autocomplete="off" pattern="[0-9]{6}" required>
-  <button>连接电视</button>
-</form>
+<div id="devices"></div>
 <form id="keyboard" hidden>
   <label for="draft" id="target">请在电视选中输入框</label>
   <input id="draft" type="text" maxlength="4000" autocomplete="off" spellcheck="false" disabled>
@@ -108,38 +104,78 @@ button{cursor:pointer}
       sendShare.disabled = false;
     }
   };
-  const pairForm = document.getElementById('pair-code');
-  async function join(code) {
-    if (!/^[0-9]{6}$/.test(code)) return;
-    const button = pairForm.querySelector('button');
-    button.disabled = true;
+  const devices = document.getElementById('devices');
+  let joining = false;
+  function connected() {
+    status.textContent = '已连接电视';
+    form.hidden = false;
+    pushForm.hidden = false;
+    poll();
+  }
+  async function waitForTV() {
     try {
-      const result = await post('/join', {code});
-      token = result.token;
-      status.textContent = '已连接电视';
-      pairForm.hidden = true;
-      form.hidden = false;
-      pushForm.hidden = false;
-      poll();
+      const result = await post('/connection');
+      if (result.connected) { connected(); return; }
     } catch (error) {
-      status.textContent = error.message === '429' ? '尝试太多，请稍后再试' : '配对码不可用，请核对电视显示的号码';
-      pairForm.hidden = false;
-    } finally {
-      button.disabled = false;
+      if (error.message === '401') {
+        token = '';
+        joining = false;
+        status.textContent = '连接请求已结束';
+        showRetry();
+        return;
+      }
+    }
+    setTimeout(waitForTV, 750);
+  }
+  async function join(device) {
+    if (joining) return;
+    joining = true;
+    devices.textContent = '';
+    try {
+      const result = await post('/join', {device});
+      token = result.token;
+      status.textContent = '请在电视 ' + deviceNumber + ' 上按「允许手机连接」';
+      waitForTV();
+    } catch (error) {
+      joining = false;
+      status.textContent = '电视暂不可连接，请重试';
+      showRetry();
     }
   }
-  pairForm.onsubmit = event => {
-    event.preventDefault();
-    join(document.getElementById('code').value.trim());
-  };
-  const code = location.hash.slice(1);
-  history.replaceState(null, '', location.pathname);
-  if (/^[0-9]{6}$/.test(code)) {
-    join(code);
-  } else {
-    status.textContent = '请输入电视上显示的配对码';
-    pairForm.hidden = false;
+  let deviceNumber = '';
+  function showRetry() {
+    devices.textContent = '';
+    const button = document.createElement('button');
+    button.textContent = '查找电视';
+    button.onclick = discover;
+    devices.appendChild(button);
   }
+  async function discover() {
+    if (joining) return;
+    devices.textContent = '';
+    try {
+      const result = await post('/discover');
+      if (result.devices.length === 1) {
+        deviceNumber = result.devices[0].number;
+        join(result.devices[0].id);
+      } else if (result.devices.length) {
+        status.textContent = '选择要连接的电视';
+        result.devices.forEach(device => {
+          const button = document.createElement('button');
+          button.textContent = '电视 ' + device.number;
+          button.onclick = () => { deviceNumber = device.number; join(device.id); };
+          devices.appendChild(button);
+        });
+      } else {
+        status.textContent = '请先在电视设置里打开「连接手机键盘」';
+        showRetry();
+      }
+    } catch (error) {
+      status.textContent = '连接暂不可用';
+      showRetry();
+    }
+  }
+  discover();
 })();
 </script>
 </body>

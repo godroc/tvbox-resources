@@ -3,7 +3,7 @@
   var doc = root.document;
   var endpoint = '/webhometv/input-api';
   var token = '', timer = null, target = null, revision = '', busy = false, session = 0;
-  var status, link, qr, pairButton, inbox;
+  var status, link, qr, pairButton, inbox, allow, reject, pending, displayNumber;
   var inboxSignature = '', lastPushCount = 0;
   var editableTypes = /^(text|search|password|url|tel|email|number|date|datetime-local|month|time|week)$/;
 
@@ -124,7 +124,12 @@
     busy = true;
     call('/target', {field: field}, auth).then(function (r) {
       if (currentSession !== session) return;
-      status.textContent = r.paired ? '手机已连接。用遥控器选中要输入的框。' : '请用手机相机扫码';
+      status.textContent = r.paired ? '手机已连接。用遥控器选中要输入的框。'
+        : r.pending ? '手机申请连接，请在电视上确认'
+          : '扫码或打开固定地址 · 电视 ' + displayNumber;
+      if (!r.pending && (doc.activeElement === allow || doc.activeElement === reject)) pairButton.focus();
+      pending = r.pending;
+      allow.hidden = reject.hidden = !pending;
       showInbox(Array.isArray(r.pushes) ? r.pushes : []);
       qr.hidden = r.paired;
       link.hidden = r.paired;
@@ -149,6 +154,8 @@
     link.hidden = true;
     qr.hidden = true;
     qr.removeAttribute('src');
+    pending = null;
+    allow.hidden = reject.hidden = true;
     status.textContent = message || '手机未连接';
     pairButton.textContent = '连接手机键盘';
     showInbox([]);
@@ -188,6 +195,25 @@
     section.appendChild(status);
     section.appendChild(qr);
     section.appendChild(link);
+    allow = doc.createElement('button');
+    reject = doc.createElement('button');
+    allow.type = reject.type = 'button';
+    allow.className = 'primary';
+    reject.className = 'subbutton';
+    allow.textContent = '允许手机连接';
+    reject.textContent = '拒绝连接';
+    allow.hidden = reject.hidden = true;
+    section.appendChild(allow);
+    section.appendChild(reject);
+    function decide(grant) {
+      if (!token || !pending || allow.disabled) return;
+      var id = pending;
+      allow.disabled = reject.disabled = true;
+      call('/approve', {id: id, allow: grant}, token).catch(function () {})
+        .then(function () { allow.disabled = reject.disabled = false; tick(); });
+    }
+    allow.onclick = function () { decide(true); };
+    reject.onclick = function () { decide(false); };
     host.appendChild(section);
     pairButton.onclick = function () {
       if (token) { end(); return; }
@@ -196,10 +222,11 @@
         session++;
         token = r.token;
         pairButton.textContent = '断开手机键盘';
-        status.textContent = '请用手机相机扫码';
+        displayNumber = r.number;
+        status.textContent = '扫码或打开固定地址 · 电视 ' + displayNumber;
         qr.src = r.qr;
         qr.hidden = false;
-        link.textContent = '备用：' + r.address + '　配对码：' + r.code;
+        link.textContent = r.address;
         link.hidden = false;
         timer = setInterval(tick, 650);
         tick();
