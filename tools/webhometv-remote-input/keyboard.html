@@ -53,10 +53,9 @@ button{cursor:pointer}
       const result = await post('/state'), next = result.field;
       if ((next && next.id) !== (field && field.id)) draft.value = '';
       field = next;
-      allowed = !!field && (!field.sensitive || result.secure && location.protocol === 'https:');
+      allowed = !!field;
       draft.type = field && field.sensitive ? 'password' : 'text';
       target.textContent = field ? field.label : '请在电视选中输入框';
-      if (field && field.sensitive && !allowed) status.textContent = '密码和密钥请使用 HTTPS 输入入口';
       update();
     } catch (error) {
       allowed = false;

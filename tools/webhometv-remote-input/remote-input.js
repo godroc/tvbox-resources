@@ -47,7 +47,7 @@
 
   function apply(message) {
     var node = activeField();
-    if (!node || !message || message.id !== revision || (node.type === 'password' && location.protocol !== 'https:')) return;
+    if (!node || !message || message.id !== revision) return;
     var limit = node.maxLength;
     node.value = limit >= 0 ? message.text.slice(0, limit) : message.text;
     node.dispatchEvent(new Event('input', {bubbles: true}));
@@ -129,7 +129,7 @@
       showInbox(Array.isArray(r.pushes) ? r.pushes : []);
       qr.hidden = r.paired;
       link.hidden = r.paired;
-      if (r.paired && field && (!field.sensitive || location.protocol === 'https:')) {
+      if (r.paired && field) {
         return call('/pull', {}, auth).then(function (r) { if (currentSession === session) apply(r.message); });
       }
     }).catch(function (error) {

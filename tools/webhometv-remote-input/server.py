@@ -133,16 +133,12 @@ def dispatch(path, data, token, secure):
             field, text = item['field'], data.get('text')
             if not field or data.get('id') != field['id']:
                 return 409, {'error': 'focus_changed'}
-            if field['sensitive'] and not secure:
-                return 403, {'error': 'https_required'}
             if not isinstance(text, str) or len(text) > 4000:
                 return 400, {'error': 'invalid_text'}
             item['message'] = {'id': field['id'], 'text': text, 'expires': now + MESSAGE_TTL}
             return 202, {'queued': True}
         if path == '/pull' and role == 'tv':
             message = item['message']
-            if item['field'] and item['field']['sensitive'] and not secure:
-                return 403, {'error': 'https_required'}
             item['message'] = None
             return 200, {'message': {'id': message['id'], 'text': message['text']} if message else None}
         return 404, {'error': 'not_found'}
