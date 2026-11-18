@@ -1,0 +1,14 @@
+diff --git a/app.js b/app.js
+--- a/app.js
++++ b/app.js
+@@ -141,0 +142 @@
++  var searchTiming=null;
+@@ -143,0 +145 @@
++    searchTiming={startedAt:Date.now(),firstCardMs:null,firstValidCardMs:null,lastCheckBatchMs:null};
+@@ -268,0 +271 @@
++    if(searchTiming&&viewMode==='search'&&searchTiming.firstCardMs===null)searchTiming.firstCardMs=Date.now()-searchTiming.startedAt;
+@@ -280,0 +284 @@
++      if(searchTiming&&viewMode==='search'&&searchTiming.firstValidCardMs===null&&card.__ggPanShare&&checkCategory(card.__ggPanShare)==='valid')searchTiming.firstValidCardMs=Date.now()-searchTiming.startedAt;
+@@ -925 +929 @@
+-  window.GGApp={version:'RC119-r3',inspect:function(){return {query:state.query,count:state.favorites?state.rows.length:searchTotal,source:state.source,disk:state.disk,page:state.page,providers:state.active,keyPresent:!!credential,mode:viewMode,chromeRequest:chromeRequest,chrome:chromeUI&&chromeUI.inspect(),inputGate:inputGate&&inputGate.inspect(),searchInput:searchInput&&searchInput.inspect(),posters:posterQueue&&posterQueue.inspect(),sourceGroups:sharedSearchGroups&&sharedSearchGroups.inspect(),checkStats:checkCoordinator&&checkCoordinator.stats(),navigation:navigation&&navigation.inspect()};}};
++  window.GGApp={version:'RC119-r3',searchTiming:function(){if(!searchTiming)return null;var stats=checkCoordinator&&checkCoordinator.stats();return {firstCardMs:searchTiming.firstCardMs,firstValidCardMs:searchTiming.firstValidCardMs,lastCheckBatchMs:stats&&stats.lastDurationMs||null};},inspect:function(){return {query:state.query,count:state.favorites?state.rows.length:searchTotal,source:state.source,disk:state.disk,page:state.page,providers:state.active,keyPresent:!!credential,mode:viewMode,chromeRequest:chromeRequest,chrome:chromeUI&&chromeUI.inspect(),inputGate:inputGate&&inputGate.inspect(),searchInput:searchInput&&searchInput.inspect(),posters:posterQueue&&posterQueue.inspect(),sourceGroups:sharedSearchGroups&&sharedSearchGroups.inspect(),checkStats:checkCoordinator&&checkCoordinator.stats(),navigation:navigation&&navigation.inspect()};}};
