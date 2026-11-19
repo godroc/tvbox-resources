@@ -1,0 +1,472 @@
+/*
+ * GG Apple TV inspired theme candidate.
+ * Load after the existing WebHome stylesheets. This file is intentionally
+ * isolated from the RC119-r5 source until the candidate is reviewed.
+ */
+
+:root {
+  --apple-bg: #090b10;
+  --apple-panel: rgba(24, 28, 36, .78);
+  --apple-panel-strong: #191e27;
+  --apple-line: rgba(235, 240, 248, .14);
+  --apple-text: #f5f6f8;
+  --apple-muted: #aab1bd;
+  --apple-focus: #f6f7f9;
+}
+
+html,
+body {
+  background-color: var(--apple-bg);
+  color: var(--apple-text);
+}
+
+body {
+  background-image:
+    linear-gradient(180deg, rgba(8, 10, 15, .12), rgba(8, 10, 15, .94)),
+    radial-gradient(ellipse at 50% -18%, rgba(111, 129, 166, .18), transparent 56%);
+}
+
+/* Prevent the focus indicator from being drawn around the whole navigation row. */
+#pageNavigationHost,
+#pageNavigationHost:focus,
+#pageNavigationHost .discovery-types,
+#pageNavigationHost .discovery-types:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+@supports selector(:focus-within) {
+  #pageNavigationHost:focus-within,
+  #pageNavigationHost .discovery-types:focus-within,
+  button:focus-within,
+  label:focus-within,
+  fieldset:focus-within,
+  .filters:focus-within,
+  .filter-controls:focus-within,
+  .quality-options:focus-within,
+  .status-options:focus-within {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+
+#pageNavigationHost {
+  position: relative;
+  z-index: 5;
+  margin: 0 0 14px;
+  border-bottom: 1px solid var(--apple-line);
+  background: linear-gradient(180deg, rgba(12, 15, 21, .96), rgba(12, 15, 21, .72));
+}
+
+#pageNavigationHost .discovery-types {
+  gap: 5px;
+  min-height: 62px;
+  padding: 7px 10px 8px;
+  margin: 0;
+  border: 0;
+  scrollbar-width: none;
+}
+
+#pageNavigationHost .discovery-types::-webkit-scrollbar { display: none; }
+
+#pageNavigationHost .discovery-type {
+  min-height: 44px;
+  padding: 9px 16px;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  color: var(--apple-muted);
+  background: transparent;
+  font-size: 20px;
+  line-height: 1.25;
+  transition: background-color .16s ease, color .16s ease, transform .16s ease;
+}
+
+#pageNavigationHost .discovery-type:hover,
+#pageNavigationHost .discovery-type:focus {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  background: rgba(246, 248, 252, .12);
+  outline: 2px solid var(--apple-focus) !important;
+  outline-offset: 1px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, .28);
+  transform: scale(1.035);
+}
+
+#pageNavigationHost .discovery-type.active {
+  color: #fff;
+  font-weight: 600;
+}
+
+#pageNavigationHost .discovery-type.active:after {
+  right: 17px;
+  bottom: 2px;
+  left: 17px;
+  height: 2px;
+  border-radius: 2px;
+  background: #f5f6f8;
+}
+
+/* Keep focus local to the control; never style a whole row as focused. */
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  outline-color: var(--apple-focus);
+}
+
+/* Apple TV style: restrained glass panels, generous cards, simple focus lift. */
+.discovery-content,
+.catalog-root,
+#searchArea,
+#resultsSection {
+  color: var(--apple-text);
+}
+
+.discovery-rail-heading h2,
+.discovery-browse-title,
+.search-results-title,
+.catalog-title {
+  color: #fff;
+  letter-spacing: .01em;
+}
+
+.discovery-card,
+.catalog-card,
+.resource-card {
+  border-color: rgba(235, 240, 248, .13);
+  border-radius: 12px;
+  background: rgba(21, 25, 33, .72);
+  transition: transform .16s ease, box-shadow .16s ease, border-color .16s ease;
+}
+
+.discovery-card:focus,
+.catalog-card:focus,
+.resource-card:focus {
+  position: relative;
+  z-index: 3;
+  outline: 2px solid var(--apple-focus) !important;
+  outline-offset: 3px;
+  box-shadow: 0 12px 34px rgba(0, 0, 0, .48);
+  transform: scale(1.035);
+}
+
+.discovery-poster,
+.poster,
+.catalog-poster {
+  border-radius: 10px 10px 0 0;
+  background-color: #202530;
+}
+
+.discovery-title,
+.card-title,
+.catalog-card-title {
+  color: #f4f5f7;
+}
+
+.discovery-year,
+.card-meta,
+.catalog-card-meta,
+.discovery-status {
+  color: var(--apple-muted);
+}
+
+.discovery-filter-open,
+.discovery-filter-chip,
+.discovery-resource,
+.subbutton,
+.filter-chip,
+.disk-chip,
+.pagination button {
+  border: 1px solid var(--apple-line);
+  border-radius: 10px;
+  background: rgba(29, 34, 44, .72);
+  color: #eceff3;
+}
+
+.discovery-filter-open:focus,
+.discovery-filter-chip:focus,
+.discovery-resource:focus,
+.subbutton:focus,
+.filter-chip:focus,
+.disk-chip:focus,
+.pagination button:focus {
+  outline: 2px solid var(--apple-focus) !important;
+  outline-offset: 2px;
+  background: rgba(246, 248, 252, .15);
+}
+
+.searchbox,
+.filters,
+.modal-panel,
+.discovery-detail,
+.discovery-filter-panel {
+  border-color: var(--apple-line);
+  border-radius: 16px;
+  background: var(--apple-panel);
+
+}
+
+.searchbox input,
+.field input,
+.field select,
+textarea {
+  color: var(--apple-text);
+  background: rgba(11, 14, 20, .72);
+  border-color: var(--apple-line);
+  border-radius: 10px;
+}
+
+.empty-state { color: var(--apple-muted); }
+
+@media (min-width: 1000px) {
+  .gg-tv #pageNavigationHost .discovery-types { min-height: 68px; }
+  .gg-tv #pageNavigationHost .discovery-type { min-height: 48px; font-size: 22px; }
+  .gg-tv .discovery-title,
+  .gg-tv .card-title { font-size: 20px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *:before, *:after { transition-duration: .01ms !important; }
+}
+.gg-featured { position:relative; overflow:hidden; min-height:330px; height:43vh; margin:0 0 28px; border-radius:18px; background:#151820; }
+.gg-featured-art { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center 33%; }
+.gg-featured:after { content:""; position:absolute; inset:0; background:linear-gradient(90deg,#090b10 0%,rgba(9,11,16,.86) 27%,transparent 76%),linear-gradient(0deg,rgba(9,11,16,.88),transparent 48%); pointer-events:none; }
+.gg-featured-copy { position:absolute; z-index:1; left:5%; bottom:13%; max-width:54%; }
+.gg-featured-copy h2 { font-size:52px; line-height:1.12; margin:0 0 12px; }
+.gg-featured-copy p { color:#ddd; margin:0 0 20px; }
+.gg-featured .gg-featured-action { display:inline-block; width:auto; min-height:48px; padding:10px 26px; border-radius:999px; color:#111; background:#f7f7f8; font-weight:700; }
+.discovery-detail .discovery-detail-head { min-height:34vh; padding:7vh 4vw 3vh; align-items:flex-end; }
+.discovery-detail .discovery-detail-copy h2 { font-size:46px; line-height:1.1; }
+.discovery-detail .discovery-sources { padding:18px 4vw 40px; background:linear-gradient(180deg,rgba(10,12,17,.56),rgba(10,12,17,.94)); }
+.gg-featured-art,.gg-featured:after { top:0;left:0;right:0;bottom:0; }
+.gg-featured {height:36vh;min-height:250px;background:linear-gradient(115deg,#101218,#222a3a);}
+.gg-featured-art {left:auto;width:76%;object-position:center;}
+.gg-featured-poster .gg-featured-art {width:42%;height:90%;top:5%;right:4%;bottom:auto;object-fit:contain;}
+.gg-featured-poster:after {background:linear-gradient(90deg,#101218,rgba(16,18,24,.25) 52%,transparent 65%);}
+.gg-featured .gg-featured-action, .gg-featured .gg-featured-action:focus {background:#fafafa!important;color:#12141a!important;opacity:1;}
+.gg-featured {height:44vh;min-height:280px;background:#101218;}
+.gg-featured .gg-featured-art {left:0;right:0;top:0;bottom:0;width:100%;height:100%;object-fit:cover;object-position:center 30%;}
+.gg-featured.gg-featured-poster .gg-featured-art {object-position:center 40%;}
+.gg-featured.gg-featured-poster:after,.gg-featured:after {background:linear-gradient(0deg,#090b10 0%,rgba(9,11,16,.76) 20%,rgba(9,11,16,.18) 60%,transparent 83%),linear-gradient(90deg,rgba(9,11,16,.75),transparent 68%);}
+.gg-featured-soft {display:none;}
+@supports ((-webkit-mask-image:linear-gradient(transparent,black)) and (filter:blur(1px))) {
+ .gg-featured .gg-featured-soft {display:block;filter:blur(7px);transform:scale(1.025);-webkit-mask-image:linear-gradient(to bottom,transparent 48%,rgba(0,0,0,.45) 74%,black 100%);}
+}
+.gg-search-fullscreen .search-result-row .gg-resource-copy {display:flex;flex-wrap:wrap;align-items:center;min-width:0;}
+.gg-search-fullscreen .search-result-row .gg-resource-title {flex:1 1 52%;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin-right:12px;}
+.gg-search-fullscreen .search-result-row .gg-resource-tags,.gg-search-fullscreen .search-result-row .gg-resource-origin {flex:0 0 auto;margin-right:10px;}
+.gg-search-fullscreen .search-result-row .check-caption {flex:0 0 100%;margin-top:4px;}
+.gg-source-art-search .gg-source-art-image {filter:none!important;opacity:.94;}
+.gg-source-art-search .gg-source-art-shade {background:linear-gradient(180deg,rgba(6,11,17,.16),rgba(6,11,17,.40) 50%,rgba(6,11,17,.77));}
+.gg-search-fullscreen .search-result-row {backdrop-filter:none!important;-webkit-backdrop-filter:none!important;background-color:rgba(10,14,20,.48);}
+
+/* Detail opened from search also uses the discovery backdrop. */
+body .discovery-modal[aria-label="影片详情与找源"] .discovery-detail-backdrop,
+body .gg-source-art-layer .gg-source-art-image,
+body.gg-search-fullscreen .search-art-image {
+  filter:none!important;
+  -webkit-filter:none!important;
+  transform:none!important;
+}
+body .discovery-modal[aria-label="影片详情与找源"] .poster-only .discovery-detail-backdrop {
+  opacity:.36;
+}
+
+body .gg-source-art-layer .gg-source-art-shade, body.gg-search-fullscreen .search-result-backdrop:after {background:rgba(6,11,17,.35)!important;}
+
+body.gg-search-fullscreen .search-result-row, body .discovery-sources .gg-resource-row {background-color:rgba(10,14,20,.66);color:#f5f6f8;}
+
+body .discovery-modal[aria-label="影片详情与找源"] .discovery-sources {
+  background:linear-gradient(180deg,rgba(35,42,54,.44),rgba(22,29,41,.59))!important;
+  color:#f5f6f8;
+  border-radius:14px;
+}
+body .discovery-modal[aria-label="影片详情与找源"] .discovery-sources .discovery-dot-legend,
+body .discovery-modal[aria-label="影片详情与找源"] .discovery-sources .field-note,
+body .discovery-modal[aria-label="影片详情与找源"] .discovery-sources small {color:#d5dee9!important;}
+body .discovery-modal[aria-label="影片详情与找源"] .discovery-sources button {color:#f5f6f8;}
+
+@supports ((backdrop-filter:blur(3px)) or (-webkit-backdrop-filter:blur(3px))) {
+  body .discovery-modal[aria-label="影片详情与找源"] .discovery-sources {
+    background:linear-gradient(180deg,rgba(49,58,72,.28),rgba(28,36,49,.46))!important;
+    -webkit-backdrop-filter:blur(3px);
+    backdrop-filter:blur(3px);
+  }
+}
+
+body .discovery-modal[aria-label="影片详情与找源"] .discovery-sources {box-shadow:inset 0 0 0 1px rgba(234,242,255,.20);}
+
+body.gg-search-fullscreen #searchGroups {
+  background:linear-gradient(180deg,rgba(35,42,54,.44),rgba(22,29,41,.59));
+  border-radius:14px;
+  box-shadow:inset 0 0 0 1px rgba(234,242,255,.20);
+}
+body.gg-search-fullscreen #searchGroups .search-result-row {
+  background-color:rgba(28,36,49,.20);
+}
+@supports ((backdrop-filter:blur(3px)) or (-webkit-backdrop-filter:blur(3px))) {
+  body.gg-search-fullscreen #searchGroups {
+    background:linear-gradient(180deg,rgba(49,58,72,.28),rgba(28,36,49,.46));
+    -webkit-backdrop-filter:blur(3px);
+    backdrop-filter:blur(3px);
+  }
+}
+
+@media(min-width:900px){
+  body.gg-search-fullscreen #searchGroups .gg-resource-copy,
+  body .discovery-sources .gg-resource-row .gg-resource-copy {
+    display:grid;
+    grid-template-columns:minmax(0,1fr) auto auto;
+    grid-template-areas:"title tags tags" "origin date check";
+    align-items:center;
+    gap:4px 12px;
+    min-width:0;
+  }
+  .gg-resource-row .gg-resource-title {grid-area:title;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .gg-resource-row .gg-resource-tags {grid-area:tags;white-space:nowrap;}
+  .gg-resource-row .gg-resource-origin {grid-area:origin;}
+  .gg-resource-row .card-date {grid-area:date;}
+  .gg-resource-row .check-caption {grid-area:check;margin:0;color:#e1e7ef;}
+  .gg-resource-row .gg-resource-origin,.gg-resource-row .card-date,.gg-resource-row .check-caption {font-size:14px;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+}
+
+body.gg-search-fullscreen #searchGroups {
+  background:linear-gradient(180deg,rgba(28,35,47,.55),rgba(18,24,35,.68));
+}
+@supports ((backdrop-filter:blur(3px)) or (-webkit-backdrop-filter:blur(3px))) {
+  body.gg-search-fullscreen #searchGroups {
+    background:linear-gradient(180deg,rgba(32,40,53,.40),rgba(22,29,41,.57));
+  }
+}
+
+body.gg-search-fullscreen .apple-search-controls {
+  padding:14px 20px;
+  margin:12px 0;
+  border:1px solid rgba(234,242,255,.18);
+  border-radius:14px;
+  background:linear-gradient(180deg,rgba(28,35,47,.64),rgba(18,24,35,.76));
+}
+body.gg-search-fullscreen .apple-search-controls .results-meta,
+body.gg-search-fullscreen .apple-search-controls .metadata-note,
+body.gg-search-fullscreen .apple-search-controls #resultSummary,
+body.gg-search-fullscreen .apple-search-controls .source-selection-summary,
+body.gg-search-fullscreen .apple-search-controls .check-progress {color:#e0e8f2;}
+
+@supports ((backdrop-filter:blur(3px)) or (-webkit-backdrop-filter:blur(3px))) {
+  body.gg-search-fullscreen #searchGroups,
+  body .discovery-modal[aria-label="影片详情与找源"] .discovery-sources {
+    background:linear-gradient(180deg,rgba(32,40,53,.40),rgba(22,29,41,.57))!important;
+  }
+}
+
+.apple-resume-track {position:absolute;left:9px;right:9px;bottom:9px;height:5px;border-radius:6px;background:rgba(7,9,13,.78);overflow:hidden;z-index:2;pointer-events:none;}
+.apple-resume-progress {display:block;height:100%;border-radius:6px;background:#f5f7fa;}
+
+
+
+
+
+@media(min-width:900px) {
+  .discovery-content .gg-featured {
+    height:58vh;min-height:320px;
+    margin:0 -2vw 12px;
+    border-radius:0;
+    background:#090b10;
+  }
+  .gg-featured .gg-featured-art {object-position:center 36%;}
+  .gg-featured.gg-featured-poster .gg-featured-art {
+    left:auto;right:8%;width:44%;object-fit:contain;object-position:center;
+  }
+  .gg-featured:after,.gg-featured.gg-featured-poster:after {
+    background:linear-gradient(0deg,#090b10,rgba(9,11,16,.64) 22%,transparent 68%),
+      linear-gradient(90deg,rgba(9,11,16,.95),rgba(9,11,16,.55) 32%,transparent 75%);
+  }
+  .gg-featured .gg-featured-copy {left:5vw;bottom:14%;max-width:55%;}
+  .gg-featured .gg-featured-copy h2 {font-size:56px;line-height:1.08;}
+  .gg-featured + .discovery-rail {margin-top:12px;}
+}
+
+.gg-featured-copy .gg-featured-summary {max-width:32em;color:#f0f2f6;font-size:clamp(16px,1.2vw,23px);line-height:1.45;max-height:4.35em;overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;text-shadow:0 1px 5px #000;}
+.gg-featured-copy .gg-featured-summary[hidden]{display:none;}
+.gg-featured-kind {display:inline-block;margin-bottom:10px;padding:4px 12px;border:1px solid rgba(255,255,255,.25);border-radius:20px;background:rgba(12,16,24,.52);color:#fff;font-size:15px;}
+.gg-featured-copy .gg-featured-credits {font-size:16px;line-height:1.35;margin:0 0 12px;color:#e2e8f1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-shadow:0 1px 5px #000;}
+.gg-featured-copy .gg-featured-credits[hidden] {display:none;}
+.gg-featured .gg-featured-resources {margin-left:12px;min-height:48px;padding:10px 22px;border-radius:999px;background:rgba(28,36,49,.66);color:#fff;}
+.gg-featured .gg-featured-resources[hidden] {display:none;}
+body .discovery-content .gg-featured-wide .discovery-rail-track {display:grid;grid-template-columns:repeat(4,minmax(0,1fr));}
+body .discovery-content .gg-featured-wide .discovery-poster {height:0;padding-top:56.25%;}
+body .discovery-content .gg-featured-wide .discovery-image {object-fit:cover;}
+
+@media(min-width:900px) {
+  .discovery-content .gg-featured {height:60vh;min-height:340px;margin-bottom:16px;}
+  .gg-featured .gg-featured-art {object-position:center center;}
+  .gg-featured .gg-featured-copy {bottom:10%;max-width:44%;}
+  .gg-featured .gg-featured-copy h2 {font-size:4vw;}
+  .gg-featured-copy .gg-featured-summary {max-height:5.8em;-webkit-line-clamp:4;}
+  .gg-featured:after,.gg-featured.gg-featured-poster:after {
+    background:linear-gradient(0deg,#090b10 0%,rgba(9,11,16,.42) 23%,transparent 59%),
+      linear-gradient(90deg,rgba(9,11,16,.91),rgba(9,11,16,.48) 34%,transparent 68%);
+  }
+  .gg-featured-indicators {position:absolute;right:5vw;bottom:8%;z-index:2;display:flex;align-items:center;}
+  .gg-featured-indicators span {width:7px;height:7px;border-radius:10px;margin-left:8px;background:rgba(255,255,255,.48);}
+  .gg-featured-indicators span.active {width:21px;background:#fff;}
+}
+
+
+body .discovery-content .discovery-rail-track {
+  display:grid;
+  grid-template-columns:repeat(6,minmax(0,1fr));
+}
+.apple-history-episode {display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#c7d0de;}
+
+@media(min-width:900px) {
+  body .discovery-modal[aria-label="影片详情与找源"] .discovery-detail-head {
+    min-height:43vh; padding:8vh 5vw 4vh;
+    display:flex; align-items:flex-end; justify-content:flex-start;
+    text-align:left;
+  }
+  body .discovery-modal[aria-label="影片详情与找源"] .discovery-detail-copy {
+    margin:0; max-width:55%; text-align:left;
+  }
+  body .discovery-modal[aria-label="影片详情与找源"] .discovery-detail-copy h2 {
+    font-size:clamp(42px,4vw,76px);
+    margin:8px 0 12px;
+  }
+  body .discovery-modal[aria-label="影片详情与找源"] .gg-source-art-detail .gg-source-art-shade {
+    background:linear-gradient(90deg,rgba(8,11,17,.85),rgba(8,11,17,.25) 62%,transparent),
+      linear-gradient(0deg,rgba(8,11,17,.68),transparent 62%)!important;
+  }
+  body .discovery-modal[aria-label="影片详情与找源"] .discovery-sources {
+    margin:0 auto 24px;width:92%;box-sizing:border-box;
+  }
+}
+
+.gg-featured-video[hidden]{display:none!important;}
+.apple-detail-gallery{width:92%;margin:26px auto;color:#f5f7fa;}
+.apple-detail-gallery-track{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-gap:12px;}
+.apple-detail-still{display:block;width:100%;border-radius:10px;}
+
+.apple-detail-gallery-track {display:flex;overflow-x:auto;padding:6px 5px 10px;}
+.apple-detail-still-button {flex:0 0 32%;margin-right:1.4%;padding:0;min-width:0;background:#151925;border:0;border-radius:10px;overflow:hidden;}
+.apple-detail-still-button:focus {outline:3px solid #fff;outline-offset:2px;}
+.apple-detail-still-button .apple-detail-still {height:14vw;object-fit:cover;}
+
+.gg-featured.gg-featured-playing .gg-featured-art:not(.gg-featured-video) {visibility:hidden;}
+.gg-featured .gg-featured-art.gg-featured-video,
+.gg-featured.gg-featured-poster .gg-featured-art.gg-featured-video {
+  top:0;right:0;bottom:0;left:0;width:100%;height:100%;
+  object-fit:cover;object-position:center;
+}
+
+body .apple-detail-gallery-track .apple-detail-still-button:focus {outline:3px solid #fff!important;outline-offset:0!important;box-shadow:inset 0 0 0 4px #fff,0 0 12px rgba(255,255,255,.55)!important;position:relative;z-index:1;}
+body .apple-detail-gallery-track .apple-detail-still-button:focus .apple-detail-still {opacity:.82;}
+.apple-still-preview {position:fixed;inset:0;top:0;right:0;bottom:0;left:0;z-index:5;background:#080b10;display:flex;align-items:center;justify-content:center;}
+.apple-still-preview .apple-still-full {width:94vw;height:88vh;object-fit:contain;}
+.apple-still-preview button {position:absolute;top:24px;right:32px;}
+
+/* Detail modal: other sources for the same film, so a failed play can switch. */
+.detail-alt-sources{margin:20px 0 4px;}
+.detail-alt-title{font-size:16px;color:var(--apple-muted);margin:0 0 10px;}
+.detail-alt-sources .detail-alt-item{display:block;width:100%;text-align:left;min-height:50px;padding:11px 16px;margin:0 0 8px;border:1px solid var(--apple-line);border-radius:12px;background:rgba(29,34,44,.72);color:#eceff3;font-size:18px;line-height:1.3;}
+.detail-alt-sources .detail-alt-item:focus{outline:2px solid var(--apple-focus)!important;outline-offset:2px;background:rgba(246,248,252,.15);box-shadow:0 8px 24px rgba(0,0,0,.4);transform:scale(1.02);}
